@@ -13,7 +13,7 @@ ABCM2PS := abcm2ps
 all: $(OUTPUT_DIR)/$(TITLE).ps
 
 $(OUTPUT_DIR)/$(TITLE).ps: $(SRC_DIR)/$(TITLE)-all-tunes.abc
-	$(ABCM2PS) -O $(OUTPUT_DIR)/$(TITLE).ps $(SRC_DIR)/$(TITLE)-all-tunes.abc
+	$(ABCM2PS) -O $@ $<
 
 clean:
 	rm -f $(OUTPUT_DIR)/$(TITLE).ps
