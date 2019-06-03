@@ -6,18 +6,24 @@ TITLE := carp-celtic-jam-tunebook
 # File locations
 SRC_DIR := ./src
 OUTPUT_DIR := ./output
+PUBLISH_DIR := ./publish
 
 # Tools
 ABCM2PS := abcm2ps
 PS2PDF := ps2pdf
 
-all: $(OUTPUT_DIR)/$(TITLE).pdf
+all: $(PUBLISH_DIR)/$(TITLE).pdf
+
+$(PUBLISH_DIR)/$(TITLE).pdf: $(OUTPUT_DIR)/$(TITLE).pdf
+	mkdir $(PUBLISH_DIR)
+	cp -f $< $@
 
 $(OUTPUT_DIR)/$(TITLE).pdf: $(OUTPUT_DIR)/$(TITLE).ps
 	$(PS2PDF) $< $@
 
 $(OUTPUT_DIR)/$(TITLE).ps: $(SRC_DIR)/$(TITLE).abc
+	mkdir $(OUTPUT_DIR)
 	-$(ABCM2PS) -O $@ $<
 
 clean:
-	rm -f $(OUTPUT_DIR)/*
+	rm -rf $(OUTPUT_DIR) $(PUBLISH_DIR)
