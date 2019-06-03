@@ -74,10 +74,6 @@ Seymour Shlien (seymour.shlien@crc.ca)
 %%header  Volume I Background
 %%%footer "Ottawa Celtic Slow Jam - Volume I - 2013/07 edition"
 
-%make the notes a bit smaller
-%%scale 0.8
-
-
 %%vskip 3in
 %%textfont Helvetica 20
 %%textspace 20
@@ -562,7 +558,6 @@ A|"D"dAF DFA|"D"ded "A7"cBA|"D"dcd "A/c#"efg|"Bm"fdf "A7"ecA| "D"dAF DFA|
 "D"AFD DFA|"D"dcd "A7"efg|"D"fdc d2:|
 
 %%newpage
-%%scale 0.75
 
 X: 28
 T:Tripping up the Stairs
@@ -619,7 +614,6 @@ K:D
 "G"GBB Bdd| dee "Em"edB| "Em"e2e "C"efg| "Bm"fed "Em"edB:|
 
 %%newpage
-%%scale 0.8
 
 
 X: 31
@@ -884,7 +878,7 @@ K: D
 "D"f2df "A7" ecA2|"G"d2 d2 "A7" efge|"D"f2d2d2:|
 
 %%newpage
-%%scale 0.75
+%%scale 0.7
 
 X: 47
 T:Brown Chest
@@ -935,7 +929,7 @@ Afed cABc|"D"df"A"ec"D" d2:: ag|"D"(3fgf "A" (3efe "D"(3ded "A"(3cdc|\
 "G"(3BcB "A"(3ABA "G"(3GAG "D"(3FGF|"G"Efed "A"cABc|"D"dfec d2:|
 
 %%newpage
-%%scale 0.8
+%%scale 0.75
 
 
 X: 50
@@ -2236,7 +2230,7 @@ K:A
 "A"ef/e/ ce|fe Bc|A>B c/B/A|FA "E"E2:|
 
 
-%%scale 0.70
+%%scale 0.65
 
 
 X:125
@@ -2303,6 +2297,7 @@ B/A/ |"Em" GF EB/A/ | GF EB |"Am" cB Ad/c/ |"Em" B/c/B/A/ GB |\
 "Am"A/G/G/F/ "Em"E/G/F/E/ | DC B,B/A/ | GF/E/ "D"G/F/E/D/ |"Em" E2 E :|
 
 %%newpage
+%%scale 0.7
 
 X: 128
 T:O'Carolan's Draught
@@ -2358,7 +2353,7 @@ D2| "G"D2G2 G2AB| cBAG "Em"Bcd2| "Am"e2A2 "A7"A2G2| "D7"GFEF D2EF|\
     "C"E2C2 C2GD| E2C2 C2AE| "D"F2D2 D2DE| "D7"FED2 d2Bc|\
     "G"d3B "C"edcB|"Am" cBAG "D"FGAF| "G"D2G2 "D7"BAGF| "G"G6 |]
 
-%%scale 0.8
+%%scale 0.75
 
 X: 131
 T:Give Me Your Hand
@@ -2420,7 +2415,6 @@ K: G
  "G"d2c | B>AG| "D"B2A | "G"G3| G2 :|
 
 %%newpage
-%%scale 0.75
 
 X: 134
 T:Planxty Hewlett
@@ -2478,7 +2472,6 @@ A2 ||"A"ABcd e2| e2 d2 e2|"D"f2 d2 f2|"A"e4 fe|\
 "D"d2 edcB|A d3 F2|"A7"E3F D2|"D"D4 :|
 
 %%newpage
-%%scale 0.8
 
 
 X: 137
@@ -2584,7 +2577,6 @@ D/B,/|"D"A,>B,D "Bm"D>ED|"Em"E>FA "G"{A}B2{c}d|"D"A>FD "Em"E>DE|"Bm"{DE}F>DB, "G
 "D"A,>B,D "Bm"D>ED|"Em"EFA "G"Hd2c/B/|"D"A>FD "G"{=C}B,2A,|"G"B,<DD "D"D2|]
 
 %%newpage
-%%scale 0.75
 
 X: 143
 T: Crossing to Ireland
@@ -2826,6 +2818,7 @@ B>A G>A B>^c|"D"d d/^c/ defd|
 
 
 
+%%scale 0.7
 
 X: 155
 T:Lark in the Morning 
@@ -2863,7 +2856,6 @@ f |"Em"gfe "D"fed |  "C"ege  "D"dBA | "Em"Bee  "D"fed |"Em"Bee    e2f \
    "Em"gfe "D"fed |  "C"ege  "D"dBA | "Em"Bee  "D"fed |"Em"Bee "C"e2f \
   | "G"~g3 "D"aga |  "C"bge "D7"dBA |  "G"BAB     GAB |"D7"AGF "G"G2 |]
 
-
 X: 157
 T: Cliffs of Moher
 N: page 51
@@ -2877,6 +2869,8 @@ K: Ador
 "Am"efe dBA| efe dBA|  "G"GAB dBG| "Em"EFG "Am"A3| 
 ~e3 dBA|~e3 dBA|"G"~G3 dBA|GAB dBd|\
 "Am"efe dee|cee Bee|"G"EFG BAG|EDB, "Am" A,3|
+
+%%scale 0.65
 
 X: 158
 T:Blarney Pilgrim, The
@@ -2954,6 +2948,7 @@ D|"G"GBA G2B|"D7"def "G"gdB|GBA G2B|"D7"AFD AFD|\
 d|"Em"efe edB|"D"def "G"gfg|"Em"efe edB|"Bm"dBA ABd|\
 "Em"efe edB|"D"def "G"gfg|"C"edB "D7"dBA|"G"BGG G2:|
 
+%%scale 0.7
 
 X: 163
 T:Whelan's Fancy
@@ -3021,7 +3016,8 @@ gf|"Am"eAA fAA|gfg age|"G"dBA G3|BGB dBd|\
 efg a3| aba age|"G"dBd g3|gba ged|\
 "Am"efg a2 b|c'2 b age|"G"dBg dBG|"Am"EAA A2||
 %%newpage
-%%scale 0.8
+
+%%scale 0.75
 
 X: 167
 T:Garrett Barry's
@@ -3206,7 +3202,8 @@ K: G
 
 %%newpage
 %*************************** SLIP JIGS ******************************
-%%scale 0.7
+
+%%scale 0.70
 
 X: 177
 T:The Foxhunter's Jig
@@ -3262,7 +3259,6 @@ K:Emin
 |:"Em"eBB e2f ~g3|eBB efg "D"afd|"Em"eBB e2f g2a|"G"bag "D"fag fed:|
 |:"G"edB "D"dBA "G"G2D|GAB dge "D"dBd|"G"edB "D"dBA "G"G2A|"Em"BAG "D"FAG FED:|
 %********************************** REELS *****************************
-%%scale 0.80
 
 
 X: 180
@@ -3924,6 +3920,13 @@ Q:1/4=60
 "D"fgfe d3B|A2D2 F2A2|"G7"G2E2 e3f|"D"e2d2  d3:|
 B|"D"A2f2 fef2|A2g2 gfg2|A2f2 fef2|"G7"efed B2A2 |"D"A2f2 fef2|A2g2 g3a|"G7"b2a2 g2c2|"D"e2d2 d3:|
 
+%%newpage
+
+%%center This page intentionally blank to maintain legacy page numbering
+
+%%newpage
+
+%%scale 0.65
 
 X: 217
 T:Haste to the Wedding
@@ -4234,7 +4237,7 @@ B|"D"ABA ~D3|"C"d=cA AGE|"D"ABA ABc|"A"dAB cde|\
 e|fed edc|"A"AdB cde|"D"fed edc|"A"ABc "D"def|\
 "C"~g3 age|"G"ed=c AGE|"D"GFG "A"Ade|"D"fdc d2:|
 
-%%scale 0.70
+%%scale 0.65
 
 X: 235
 T:The Pipe on the Hob
@@ -4673,7 +4676,7 @@ K:ADor
 "G"(3.g.fe dB "Am"BA~A2|"Am"agef "G"~g3 e|dedB GABd|\
 "Am"cA~A2 "G"(3.B.^cd ef|gedB "Am"BA~A2:|
 
-%%scale 0.8
+%%scale 0.75
 %%newpage
 
 
@@ -4929,7 +4932,7 @@ fa ~a2 (3bag af|"G"~g3a gfdf|gaba gf d2|\
 "D7"defg agfd|cAFA "G"G4:|
 
 %%newpage
-%%scale 0.8
+%%scale 0.75
 
 
 X: 271
@@ -5099,7 +5102,7 @@ BE ~E2 BAFA|"D"A2 Bc dfec|dBAF "Em"E3 z:|\
 "D"A2Bc dfec|dBAF "Em"E3 z:|
 
 %%newpage
-%%scale 0.7
+%%scale 0.65
 
 X: 280
 T:The Fox Hunter's Reel
@@ -5276,6 +5279,7 @@ Bc|"G"dggf "C"g2fe|"Bm"dedc "Em"B2AG|
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%newpage
+%%scale 0.75
 
 X: 288
 T:The Dark Girl
@@ -5351,7 +5355,6 @@ ABG FED|"G"GDG BGB|"D"c2A F2D|"G"~G3 BGB|d2B G3|\
 "Em"cec A3|"D"BdB G3|"C"EcB "D"AGF|"G"~G3 G2:|
 
 %%newpage
-%%scale 0.75
 
 X: 292
 T:Poll Ha'penny
@@ -5422,6 +5425,7 @@ f2e2 e2dc|B2A2 d2A2|B2A2 d2A2|B2A2 Bcde|\
 f2e2 e2dc|B2A2 d2A2|AGFA d2AG|F2E2 E4:|
 
 %%newpage
+%%scale 0.7
 
 
 X: 296
@@ -5489,7 +5493,6 @@ de|f3 e d2|"A7"ed ef a2|"G"b4a2|"D"f4 ed|"A7"e4 a2|
 
 
 %%newpage
-%%scale 0.7
 
 X: 299
 T:Planxty Irwin
@@ -5549,6 +5552,8 @@ A|"D"d2b2 agfe|d2a2 c2g2|"G"B2e2 "A7"ABcd|
 "D"edcB "A7"caaa|"G"Bggg bgbg|"D"afaf "Em"edcB|
 "a"cABG "f#"AFGE|"D"DAFA DAFA|"Em"(3GFE BE "A7"(3GFE BA|\
 "D"FAdc BAGF|"Em"EFGA "A7"BcdB|"D"A2 "A7"d2 fedc|"D"d4||
+
+%%scale 0.80
 
 X:302
 T:A Fig For A Kiss
@@ -6544,7 +6549,6 @@ K:A
 "E"G3A B2c2|d2e2 f2g2|"A"a4 "D"a3a|1"A"a4"E7"c3d:|2"A"a2A2 d2f2||
 
 
-%%scale 0.8
 %%newpage
 
 %TODO: Add words;
@@ -7247,6 +7251,7 @@ DG B>B| "C"cB "G"B>B|"D7"BA A>B|"G"AG G2||
 
 %%newpage
 %%scale 0.7
+
 X:414
 T:Irish Rover
 O:Newfoundland
@@ -7601,7 +7606,6 @@ K:G
  "C"E2 D | E G2 | "G"D2 B, | D G2 | "G"B2 c | "D"B2 A|"G"(G3 |G) z2 ||
 
 %%newpage
-%%scale 0.8
 
 X:442
 T:Valse Gisele
@@ -7629,6 +7633,8 @@ K:D major
 "G"BGBd gfed | [1 "A"c2 A2 A2 cd :| [2 "A"c2 A2 A2 "^D.S. al Fine"((3ABc) |
 
 %newpage
+%%scale 0.8
+
 X:444
 T:My Mother (harmony for pg 104)
 M:6/8
@@ -7981,7 +7987,7 @@ A|:"D"BAF "A"AFE|FED "A"EFA|BAF "A"AFE|"Em"FEE E2A|
 "D"def d2B|"A"ABA AFA|"D"def d2d|"Em"ede "D"fdB|
 "D"def edB|dBA "A"ABc|"G"dcB "A"AFE|"D"FDD D2A:||
 
-%%scale 0.8
+%%scale 0.75
 %%newpage
 
 X:471
@@ -8020,6 +8026,7 @@ K:D
 "Em"E2 E|B2 B|"D"F>G F|"Em"E3|"G"z B d|"Em"e2 d|"A"B c A|"B"B3-|B z e|
 "Em"e2 e|"G"d2 B|B A G|"D"F D2-|D2 z|"Em"E2 B|A2 G|"D"F E D|"Em"E3-|E2 z||
 
+%%scale 0.80
 X:475
 T:Tam Lin / Howling Wind
 R:Reel
@@ -8140,7 +8147,7 @@ M:4/4
 "D"DFAF DFAF|"G"DGBG DGBG|"D"AB AG FAdf|"G"g2fa "A"ec "D"d2:|
 
 %%newpage
-%%scale 0.7
+%%scale 0.65
 
 X:484
 T:The Nine Points of Roguery
@@ -8197,6 +8204,7 @@ K: D
 "D"fdA "Em"gec|"D"a2 a "G"bge|"A"~a3 bge|"A"edc "D"d2 |]
 
 %%newpage
+%%scale 0.75
 
 X:488
 T:Lucy Farr's Polka
@@ -8234,7 +8242,7 @@ E|"G"DBB "C"Dcc|"G"DBB "C"c2e|"G"dBG "D"FGA|"G"BGB "D"AFD|
 %%center "Flee Like a Bird" has flown to bottom of page 204
 
 %%newpage
-%%scale 0.7
+%%scale 0.65
 
 X:491
 T:Chanter's Song
@@ -8506,7 +8514,9 @@ K:A
 E|:"A"A>B c>B AA,CE|A/G/A/B/ c/A/d/c/ "E"B3 E|"A"A>B c>B "D"Acdf|[1"E"e/d/e/f/ eG "A"A3 E:|[2"E"e/d/e/f/ eG "A"A3 e||
 "A"a>g fe "D"fe dc|"A"c/B/A/B/ c/A/d/c/ "E"B3 g|"A"a>g fe "D"d/c/B/c/ d/e/f/d/|"E"e/d/e/f/ eG "A"A3 g|
 "A"a>g fe "D"fe dc|"A"c/B/A/B/ d/A/d/c/ "E"B3 c|"A"A,/C/E/A/ c/e/a/g/ a/e/c/A/ G/A/E/G/|"D"F/D/F/A/ "E"G/f/e/g/ "A"a4||
+
 %%newpage
+%%scale 0.65
 
 X:512
 T:Little Pickle
@@ -8539,7 +8549,9 @@ E|:"A" A3 cBA |ecA "F#m" aec |"A" A3 cBA |"E" GFE dcB|
 |"A" A3 cBA |ecA aec |"D" fga "A"ecA |"E" dBG "A"A2 e:|
 |"A" aga "D"fga |"E" fba gfe |"D" aga fga |"E" bag "A" a2 (3(efg) |
 |"D" agf "A"edc |"D" fed "A"cBA |"D" fga "A"ecA |"E" dBG "A"A3:|
+
 %%newpage
+%%scale 0.8
 
 X:515
 T:Wedding Gift Waltz
@@ -8836,8 +8848,8 @@ K:C
 |:"A"agea- ag e2|agea- ag e2|"D"dcAd- dc A2|dcAd- dcAc|
 "G"BdBG- G2A^A|BdBG- GABd|1g2g^f afg2|"C"e4- e2g^g:||2g2 fg ec d2|"C"c4- z4|]
 
-%%scale 0.8
 %%newpage
+%%scale 0.75
 
 X: 536
 T:Ragtime Annie
@@ -8871,6 +8883,7 @@ a|: "D"a^ga bag | afd Ade | f2f fgf | "G"e2B Bcd | "A"efe dcB | Ace a2a |
 | "G"g3- gef | "Em"gba gfe | "A"dcB A2a |1"A7" a^ga ba=g | "D"f3- f2e :|2 "A7"a^ga b2c | "D"d3- d3 |]
 
 %%newpage
+%%scale 0.8
 
 X: 538
 T:Tears
@@ -8983,6 +8996,8 @@ e4 c2| A4 g2| "D"f3=f ^fe|d6| "G"d4 c2| B4 d2| "D"A4 d2|"B7" f6|
  "A7"e3^d e=d|c6|e4 c2| A4 g2| "D"f3=f ^fe|d6|
 "G"d4 c2| B4 d2| "D"A4 d2|"B7" f6|"E7"e4 B2| "Em7"d4 "A7"c2|
 [1 "D" d6| "A7"A3/2B1/2 c3/2d1/2 e3/2=f|]|[2((3dcd)(A2F2)|H[D6A6]|]
+
+%%newpage
 
 X:545
 T: Johnny Muise's Reel
