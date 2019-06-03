@@ -25,7 +25,7 @@ def get_title(title_line):
 
 def adjusted_title(title):
     if title.startswith("The "):
-        return title[4:] + ", The"
+        return title[4:]
     else:
         return title
 
