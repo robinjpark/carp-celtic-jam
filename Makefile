@@ -1,7 +1,7 @@
 # Makefile to build Carp Celtic Jam tunebooks from abc source.
 #
 
-TITLE := carp-celtic-jam
+TITLE := carp-celtic-jam-tunebook
 
 # File locations
 SRC_DIR := ./src
@@ -16,7 +16,7 @@ all: $(OUTPUT_DIR)/$(TITLE).pdf
 $(OUTPUT_DIR)/$(TITLE).pdf: $(OUTPUT_DIR)/$(TITLE).ps
 	$(PS2PDF) $< $@
 
-$(OUTPUT_DIR)/$(TITLE).ps: $(SRC_DIR)/$(TITLE)-all-tunes.abc
+$(OUTPUT_DIR)/$(TITLE).ps: $(SRC_DIR)/$(TITLE).abc
 	-$(ABCM2PS) -O $@ $<
 
 clean:
