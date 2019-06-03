@@ -17,7 +17,7 @@ $(OUTPUT_DIR)/$(TITLE).pdf: $(OUTPUT_DIR)/$(TITLE).ps
 	$(PS2PDF) $< $@
 
 $(OUTPUT_DIR)/$(TITLE).ps: $(SRC_DIR)/$(TITLE)-all-tunes.abc
-	!$(ABCM2PS) -O $@ $<
+	-$(ABCM2PS) -O $@ $<
 
 clean:
 	rm -f $(OUTPUT_DIR)/*
