@@ -15,14 +15,14 @@ PS2PDF := ps2pdf
 all: $(PUBLISH_DIR)/$(TITLE).pdf
 
 $(PUBLISH_DIR)/$(TITLE).pdf: $(OUTPUT_DIR)/$(TITLE).pdf
-	mkdir $(PUBLISH_DIR)
+	mkdir -p $(PUBLISH_DIR)
 	cp -f $< $@
 
 $(OUTPUT_DIR)/$(TITLE).pdf: $(OUTPUT_DIR)/$(TITLE).ps
 	$(PS2PDF) $< $@
 
 $(OUTPUT_DIR)/$(TITLE).ps: $(SRC_DIR)/$(TITLE).abc
-	mkdir $(OUTPUT_DIR)
+	mkdir -p $(OUTPUT_DIR)
 	-$(ABCM2PS) -O $@ $<
 
 clean:
