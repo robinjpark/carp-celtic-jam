@@ -29,13 +29,34 @@ def adjusted_title(title):
     else:
         return title
 
+def is_newpage_line(aline):
+    return aline.startswith("%%newpage")
+
+def page_number(newpage_line, current_page_number):
+    tokens = newpage_line.split()
+    if len(tokens) == 1:
+        return int(current_page_number) + 1
+    else:
+        return tokens[1];
+
 def generate_toc(abc_file):
+    current_page = 1
+    title_pages = {}
+    titles = []
     for aline in abc_file:
+        if is_newpage_line(aline):
+            current_page = page_number(aline, current_page)
+
         if is_title_line(aline):
             original_title = get_title(aline)
-            #print (original_title)
             toc_title = adjusted_title(original_title)
-            print (toc_title)
+            print('title "{}", page {}'.format(toc_title, current_page))
+            titles.append(toc_title)
+            title_pages[toc_title] = current_page
+
+    titles.sort()
+    for title in titles:
+        print('"{}": page {}'.format(title, title_pages[title]))
 
 def main():
     check_usage()
