@@ -63,15 +63,20 @@ def extract_index(abc_file):
 
 def generate_tex_beginning():
     print('''
-\\documentclass[11pt,fleqn]{article}
+\\documentclass[10pt,fleqn]{article}
+\\usepackage{multicol}
+\\setlength{\\columnsep}{1cm}
+\\usepackage[margin=0.5in]{geometry}
 
 \\begin{document}
+\\begin{multicols}{3}
 \\setlength{\\parindent}{0pt}
 ''')
 
 def generate_tex_end():
     print('''
-\end{document}
+\\end{multicols}
+\\end{document}
     ''')
 def generate_index(abc_file):
     generate_tex_beginning()
