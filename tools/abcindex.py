@@ -77,7 +77,12 @@ def generate_index(abc_file):
     generate_tex_beginning()
     title_pages = extract_index(abc_file)
 
+    current_letter = " "
     for title in sorted(title_pages.keys()):
+        first_letter = title[0]
+        if first_letter != current_letter:
+            print('\\textbf{{{}}}\\newline'.format(first_letter))
+            current_letter = first_letter
         print('{}\\dotfill{}\\newline'.format(title, title_pages[title]))
 
     generate_tex_end()
