@@ -25,9 +25,10 @@ $(OUTPUT_DIR)/$(TITLE).ps: $(SRC_DIR)/$(TITLE).abc
 	mkdir -p $(OUTPUT_DIR)
 	-$(ABCM2PS) -O $@ $<
 
-$(OUTPUT_DIR)/index.pdf: $(SRC_DIR)/$(TITLE).abc
+$(OUTPUT_DIR)/index.pdf: $(SRC_DIR)/$(TITLE).abc tools/abcindex.py
 	./tools/abcindex.py $< > $(OUTPUT_DIR)/index.tex
 	-pdflatex $(OUTPUT_DIR)/index.tex
+	rm -f index.log index.aux
 	mv -f index.pdf $(OUTPUT_DIR)/index.pdf
 
 clean:
