@@ -12,7 +12,7 @@ PUBLISH_DIR := ./publish
 ABCM2PS := abcm2ps
 PS2PDF := ps2pdf
 
-all: $(PUBLISH_DIR)/$(TITLE).pdf
+all: $(PUBLISH_DIR)/$(TITLE).pdf $(OUTPUT_DIR)/index.pdf
 
 $(PUBLISH_DIR)/$(TITLE).pdf: $(OUTPUT_DIR)/$(TITLE).pdf
 	mkdir -p $(PUBLISH_DIR)
@@ -24,6 +24,11 @@ $(OUTPUT_DIR)/$(TITLE).pdf: $(OUTPUT_DIR)/$(TITLE).ps
 $(OUTPUT_DIR)/$(TITLE).ps: $(SRC_DIR)/$(TITLE).abc
 	mkdir -p $(OUTPUT_DIR)
 	-$(ABCM2PS) -O $@ $<
+
+$(OUTPUT_DIR)/index.pdf: $(SRC_DIR)/$(TITLE).abc
+	./tools/abcindex.py $< > $(OUTPUT_DIR)/index.tex
+	-pdflatex $(OUTPUT_DIR)/index.tex
+	mv -f index.pdf $(OUTPUT_DIR)/index.pdf
 
 clean:
 	rm -rf $(OUTPUT_DIR) $(PUBLISH_DIR)
