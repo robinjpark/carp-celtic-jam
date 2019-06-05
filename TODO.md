@@ -1,0 +1,6 @@
+- [ ] Create printable and tablet-friendly output files
+- [ ] Add title page
+- [ ] Figure out best way to publish outputs
+- [ ] Figure out best way to number published versions
+- [ ] Figure out best way to acknowledge others' contributions
+- [ ] Figure out best way to provide "release notes" 
