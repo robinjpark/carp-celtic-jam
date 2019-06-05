@@ -1,3 +1,4 @@
+- [ ] Document everything!
 - [ ] Create printable and tablet-friendly output files
 - [ ] Add title page
 - [ ] Figure out best way to publish outputs
