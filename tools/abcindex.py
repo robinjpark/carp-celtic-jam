@@ -61,10 +61,26 @@ def extract_index(abc_file):
 
     return title_pages
 
+def generate_tex_beginning():
+    print('''
+\\documentclass[11pt,fleqn]{article}
+
+\\begin{document}
+\\setlength{\\parindent}{0pt}
+''')
+
+def generate_tex_end():
+    print('''
+\end{document}
+    ''')
 def generate_index(abc_file):
+    generate_tex_beginning()
     title_pages = extract_index(abc_file)
+
     for title in sorted(title_pages.keys()):
-        print('"{}": page {}'.format(title, title_pages[title]))
+        print('{}\\dotfill{}\\newline'.format(title, title_pages[title]))
+
+    generate_tex_end()
 
 def main():
     check_usage()
