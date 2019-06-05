@@ -2006,7 +2006,7 @@ d3e d2B2|"Am" A6 BA|"C" G2g2 "D7"fgaf|g6|
 %%newpage
 
 X: 112
-T: Ballyoran Polka #1
+T: Ballyoran Polka \#1
 N: page 38
 N: heptatonic
 R: polka
@@ -2021,7 +2021,7 @@ BA|"G"G2DG B2d2|"D"c2A2 ABAG|F2DF A2c2|"G"B2A2 "D"GcBA|\
 
 
 X: 113
-T: Ballyoran Polka 2
+T: Ballyoran Polka \#2
 N: page 38
 N: heptatonic
 R: polka
@@ -2197,7 +2197,7 @@ A2|d4 f2d2|e2f2 d2B2|A2F2 A2B2|\
 
 
 X: 123
-T:Kevin Burke Polka #2
+T:Kevin Burke Polka \#2
 N: page 40
 N: hexatonic
 M:4/4
@@ -6700,7 +6700,7 @@ E4 AG | "D"F2 G2 A2 | "A"G2 E2 C2 | "D"E2 D4- | "D7"D4 A2 | "G"B3 G B2 |
 %%newpage
 
 X:379
-T:The Wild Rose of the Mountain #1
+T:The Wild Rose of the Mountain \#1
 M:3/4
 L:1/8
 K:G major
@@ -6740,7 +6740,7 @@ D3 E F2 | G3 A B2 | (uc3 d) vHe2 | vB3 uG vD2 | uC4 D2 | vC6 | uB,4 |]
 %%newpage
 
 X:380
-T:Wild Rose of the Mountain #2
+T:Wild Rose of the Mountain \#2
 M:3/4
 L:1/4
 C:Trad.
@@ -7060,7 +7060,7 @@ A,2 ^C2 D4|d4 f4|b4 g2 =f2|e2 g2 a4|[g4b4] [g4b4]||
 %%newpage
 
 X:399
-T:Ye Banks & Braes (in G)
+T:Ye Banks \& Braes (in G)
 M:3/4
 L:1/4
 K:G
@@ -7517,7 +7517,7 @@ gf|:"A"TeAA {fa}"D"fed|"A"eAA "G"(g2f)|"A"TeAA T"D7"fed|"G"BGG (g2 f)|
 %%newpage
 
 X:431
-T:Running the Goat #1
+T:Running the Goat \#1
 M:2/4
 L:1/8
 C:Newfoundland
@@ -7529,7 +7529,7 @@ K:G
 
 
 X:432
-T:Running the Goat #2
+T:Running the Goat \#2
 M:2/4
 L:1/8
 C:Newfoundland
@@ -7542,7 +7542,7 @@ K:C
 %%newpage
 
 X:433
-T:Running the Goat #3
+T:Running the Goat \#3
 M:2/4
 L:1/8
 C:Newfoundland
@@ -7554,7 +7554,7 @@ K:G
 
 
 X:434
-T:Running the Goat #4
+T:Running the Goat \#4
 M:2/4
 L:1/8
 C:Geoff Panting (Newfoundland)
