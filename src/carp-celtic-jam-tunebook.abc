@@ -104,7 +104,6 @@ Seymour Shlien (seymour.shlien@crc.ca)
 %%rightmargin 0.35in
 
 %%stretchstaff yes
-%%stretchlast yes
 %%printtempo 0  % ignore tempo markings
 
 %%header  $P
@@ -5696,7 +5695,7 @@ K:G
 "G"GG G2 "D"A2 Bc|"Bm"d2 B2 "G"G2 GA|B3 B "Am"A2 GE|"G"D G2 E D4:||
 
 %%newpage
-%%stretchlast no
+%%stretchlast 0
 
 X:313
 T:The Legacy Jig
@@ -5721,7 +5720,7 @@ K:A
 "A"A,2 CE FECE|"E"AEcB Aceg| "A"agfe fgaf|[1 "E"ecBa "C#m"cAAc :|[2 "E"ecBc "A"A4||
 
 %%newpage
-%%stretchlast yes
+%%stretchlast 0.25
 
 
 X:315
@@ -5948,7 +5947,7 @@ K:G major
 
 
 %%newpage
-%%stretchlast no
+%%stretchlast 0
 
 X:331
 T:Scotch Mist
@@ -5963,7 +5962,7 @@ F>G | "D"A>F A<d B>G B<d | "A"c>d e<c "D"d2 f2 | "G"g>f g<b "D"a>f e<d |
 "D"A>F A<d "G"B>G B<d | "A"c>d e<c "D"d2 f2 | "G"g>f g<b "D"a>f d<A |\
 "Em"B>g "A"fedc "D"d2|]
 
-%%stretchlast yes
+%%stretchlast 0.25
 X:332
 T:Bonnie Dundee
 M:6/8
@@ -6863,7 +6862,7 @@ a>f df | "A"ef A(e/f/) | "A7"g>e ce | "D"{/c}d2 {/d}d :|
 "D"a/f/d/f/ a/f/d/f/ | "A7"ef A(e/f/) | "A7"g>e ce | "D"{/c}d2 {/d}d :|
 
 %%newpage
-%%stretchlast no
+%%stretchlast 0
 
 X:387
 T:Meeting of the Waters
@@ -6910,7 +6909,7 @@ e/d/ B | "A"A2 A B | A G G A | c> d e c | "D"d2 e f/g/ |
 "A"A> A A B | "G"A G G A | "A"c> d e c | "G"d2 e f/g/ |
 "A"a> g e d | "G"e d B G | "A"A2 A> A | "A"A2 |]
 
-%%stretchlast yes
+%%stretchlast 0.25
 
 
 X:390
