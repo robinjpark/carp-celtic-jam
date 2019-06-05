@@ -40,7 +40,7 @@ def page_number(newpage_line, current_page_number):
     else:
         return tokens[1];
 
-def generate_index(abc_file):
+def extract_index(abc_file):
     current_page = 1
     title_pages = {}
     titles = []
@@ -56,6 +56,10 @@ def generate_index(abc_file):
             title_pages[index_title] = current_page
 
     titles.sort()
+    return titles, title_pages
+
+def generate_index(abc_file):
+    titles, title_pages = extract_index(abc_file)
     for title in titles:
         print('"{}": page {}'.format(title, title_pages[title]))
 
