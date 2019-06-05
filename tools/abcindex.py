@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-# A python script for generating a table of contents from an abc file.
+# A python script for generating an index file from an abc file.
+# The index file is output in .tex format.
 
 import os
 import sys
@@ -39,7 +40,7 @@ def page_number(newpage_line, current_page_number):
     else:
         return tokens[1];
 
-def generate_toc(abc_file):
+def generate_index(abc_file):
     current_page = 1
     title_pages = {}
     titles = []
@@ -49,10 +50,10 @@ def generate_toc(abc_file):
 
         if is_title_line(aline):
             original_title = get_title(aline)
-            toc_title = adjusted_title(original_title)
-            print('title "{}", page {}'.format(toc_title, current_page))
-            titles.append(toc_title)
-            title_pages[toc_title] = current_page
+            index_title = adjusted_title(original_title)
+            print('title "{}", page {}'.format(index_title, current_page))
+            titles.append(index_title)
+            title_pages[index_title] = current_page
 
     titles.sort()
     for title in titles:
@@ -63,7 +64,7 @@ def main():
     input_filename = get_input_filename()
 
     abc_file = open(input_filename, encoding="latin-1")
-    generate_toc(abc_file)
+    generate_index(abc_file)
 
 main()
 
