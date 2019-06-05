@@ -12,11 +12,13 @@ PUBLISH_DIR := ./publish
 ABCM2PS := abcm2ps
 PS2PDF := ps2pdf
 
-all: $(PUBLISH_DIR)/$(TITLE).pdf $(OUTPUT_DIR)/index.pdf
+all: $(PUBLISH_DIR)/$(TITLE).pdf
+
+$(PUBLISH_DIR)/$(TITLE).pdf: $(OUTPUT_DIR)/$(TITLE).pdf $(OUTPUT_DIR)/index.pdf
+	mkdir -p $(PUBLISH_DIR)
+	pdftk $(OUTPUT_DIR)/$(TITLE).pdf $(OUTPUT_DIR)/index.pdf cat output $(PUBLISH_DIR)/$(TITLE).pdf
 
 $(PUBLISH_DIR)/$(TITLE).pdf: $(OUTPUT_DIR)/$(TITLE).pdf
-	mkdir -p $(PUBLISH_DIR)
-	cp -f $< $@
 
 $(OUTPUT_DIR)/$(TITLE).pdf: $(OUTPUT_DIR)/$(TITLE).ps
 	$(PS2PDF) $< $@
