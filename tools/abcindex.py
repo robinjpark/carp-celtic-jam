@@ -31,6 +31,8 @@ def adjusted_title(title):
         return title[0:-5]
     elif title.startswith("A "):
         return title[2:]
+    elif title.startswith("'"):
+        return title[1:]
     else:
         return title
 
