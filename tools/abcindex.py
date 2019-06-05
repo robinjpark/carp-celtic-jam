@@ -73,8 +73,14 @@ def generate_tex_beginning():
 \\usepackage[margin=0.5in]{geometry}
 
 \\begin{document}
-\\begin{multicols}{3}
+\\pagestyle{empty}
 \\setlength{\\parindent}{0pt}
+\\begin{center}
+\\LARGE
+\\textbf{Tune Index}
+\\normalsize
+\\end{center}
+\\begin{multicols}{3}
 ''')
 
 def generate_tex_end():
@@ -90,7 +96,7 @@ def generate_index(abc_file):
     for title in sorted(title_pages.keys()):
         first_letter = title[0]
         if first_letter != current_letter:
-            print('\\textbf{{{}}}\\newline'.format(first_letter))
+            print('\\vskip 5mm \\textbf{{{}}}\\newline'.format(first_letter))
             current_letter = first_letter
         print('{}\\dotfill{}\\newline'.format(title, title_pages[title]))
 
