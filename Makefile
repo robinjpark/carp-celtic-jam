@@ -24,6 +24,7 @@ $(OUTPUT_DIR)/$(TITLE).pdf: $(OUTPUT_DIR)/$(TITLE).ps
 $(OUTPUT_DIR)/$(TITLE).ps: $(SRC_DIR)/$(TITLE).abc
 	mkdir -p $(OUTPUT_DIR)
 	-$(ABCM2PS) -O $@ $<
+	sed -i 's/src\/carp-celtic-jam-tunebook.abc/Carp Celtic Jam Tune Book/' $@
 
 $(OUTPUT_DIR)/index.pdf: $(SRC_DIR)/$(TITLE).abc tools/abcindex.py
 	./tools/abcindex.py $< > $(OUTPUT_DIR)/index.tex
