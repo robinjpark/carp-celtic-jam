@@ -27,6 +27,8 @@ def get_title(title_line):
 def adjusted_title(title):
     if title.startswith("The "):
         return title[4:]
+    elif title.endswith(", The"):
+        return title[0:-5]
     else:
         return title
 
@@ -43,7 +45,6 @@ def page_number(newpage_line, current_page_number):
 def extract_index(abc_file):
     current_page = 1
     title_pages = {}
-    titles = []
     for aline in abc_file:
         if is_newpage_line(aline):
             current_page = page_number(aline, current_page)
@@ -52,15 +53,13 @@ def extract_index(abc_file):
             original_title = get_title(aline)
             index_title = adjusted_title(original_title)
             print('title "{}", page {}'.format(index_title, current_page))
-            titles.append(index_title)
             title_pages[index_title] = current_page
 
-    titles.sort()
-    return titles, title_pages
+    return title_pages
 
 def generate_index(abc_file):
-    titles, title_pages = extract_index(abc_file)
-    for title in titles:
+    title_pages = extract_index(abc_file)
+    for title in title_pages:
         print('"{}": page {}'.format(title, title_pages[title]))
 
 def main():
