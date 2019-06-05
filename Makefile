@@ -11,11 +11,15 @@ PUBLISH_DIR := ./publish
 ABCM2PS := abcm2ps
 PS2PDF := ps2pdf
 
-all: $(PUBLISH_DIR)/$(CCJTB).pdf
+all: $(PUBLISH_DIR)/$(CCJTB)-printable.pdf $(PUBLISH_DIR)/$(CCJTB)-tablet.pdf
 
-$(PUBLISH_DIR)/$(CCJTB).pdf: $(OUTPUT_DIR)/$(CCJTB).pdf $(OUTPUT_DIR)/index.pdf
+$(PUBLISH_DIR)/$(CCJTB)-printable.pdf: $(SRC_DIR)/cover-page.pdf $(OUTPUT_DIR)/$(CCJTB).pdf $(OUTPUT_DIR)/index.pdf
 	mkdir -p $(PUBLISH_DIR)
-	pdftk $(OUTPUT_DIR)/$(CCJTB).pdf $(OUTPUT_DIR)/index.pdf cat output $(PUBLISH_DIR)/$(CCJTB).pdf
+	pdftk $^ cat output $@
+
+$(PUBLISH_DIR)/$(CCJTB)-tablet.pdf: $(OUTPUT_DIR)/$(CCJTB).pdf $(OUTPUT_DIR)/index.pdf
+	mkdir -p $(PUBLISH_DIR)
+	pdftk $^ cat output $@
 
 $(OUTPUT_DIR)/$(CCJTB).pdf: $(OUTPUT_DIR)/$(CCJTB).ps
 	$(PS2PDF) $< $@
@@ -29,7 +33,7 @@ $(OUTPUT_DIR)/index.pdf: $(SRC_DIR)/$(CCJTB).abc tools/abcindex.py
 	./tools/abcindex.py $< > $(OUTPUT_DIR)/index.tex
 	-pdflatex $(OUTPUT_DIR)/index.tex
 	rm -f index.log index.aux
-	mv -f index.pdf $(OUTPUT_DIR)/index.pdf
+	mv -f index.pdf $@
 
 clean:
 	rm -rf $(OUTPUT_DIR) $(PUBLISH_DIR)
