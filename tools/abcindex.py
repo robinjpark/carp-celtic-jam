@@ -52,14 +52,18 @@ def extract_index(abc_file):
         if is_title_line(aline):
             original_title = get_title(aline)
             index_title = adjusted_title(original_title)
-            print('title "{}", page {}'.format(index_title, current_page))
-            title_pages[index_title] = current_page
+            if index_title in title_pages:
+                existing_page_number = title_pages[index_title]
+                new_pages = "{0},{1}".format(existing_page_number,current_page)
+                title_pages[index_title] = new_pages
+            else:
+                title_pages[index_title] = current_page
 
     return title_pages
 
 def generate_index(abc_file):
     title_pages = extract_index(abc_file)
-    for title in title_pages:
+    for title in sorted(title_pages.keys()):
         print('"{}": page {}'.format(title, title_pages[title]))
 
 def main():
