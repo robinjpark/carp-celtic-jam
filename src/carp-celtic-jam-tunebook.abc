@@ -61,8 +61,6 @@ Seymour Shlien (seymour.shlien@crc.ca)
 %%botmargin    0.25in
 %%staffwidth   7.80in
 
-%withxrefs yes  % print the X: number in the title
-
 %%gchordfont Helvetica 12
 %%titlefont Times-Roman 14
 %%subtitlefont Times-Roman 12
@@ -71,36 +69,9 @@ Seymour Shlien (seymour.shlien@crc.ca)
 %%topspace 0
 
 %%headerfont Helvetica-Bold 10
-%%header  Volume I Background
-%%%footer "Ottawa Celtic Slow Jam - Volume I - 2013/07 edition"
 
-%%vskip 3in
-%%textfont Helvetica 20
 %%textspace 20
-%%center Carp Celtic Jam - ALL TUNES thru 4-April-2017
-%%center 
-%%center Version 1.5
 %%textfont Helvetica 12
-%%center updated August 17, 2016*
-%%vskip 10cm
-%%center 
-%%center 
-%%center 
-%%center The Carp Celtic Jam Tune Book can be downloaded from:
-%%center https://carpcelticjam.wixsite.com/carpjam
-%%vskip 1cm
-%%center Disclaimer
-%%center This package of tunes was created for informal, jamming purposes only and is not to be sold.
-%%center Some of these tunes are copyrighted, but may not indicate the composer's name.
-%%center The fact that a tune appears without a composer name does not imply that it is in the
-%%center public domain. Therefore, if you intend to perform, record or publish any of these tunes,
-%%center it is your responsibility to acquire the necessary permissions, if applicable.
-
-%%%leftmargin  0in
-%%%rightmargin 0in
-%%%EPS index1.eps
-%%leftmargin  0.35in
-%%rightmargin 0.35in
 
 %%stretchstaff yes
 %%printtempo 0  % ignore tempo markings
@@ -8873,13 +8844,6 @@ K:Amix
 
 % Beginning of new tunes added in Version 1.1 28-Oct-2015
 %%newpage
-% Increase page number and title font sizes for improved readability.
-%%headerfont Helvetica-Bold 10
-%%titlefont Times-Roman 14
-%%titlecaps
-%%titlespace 10
-%%topspace   0
-
 %%scale 0.75
 
 X: 534
