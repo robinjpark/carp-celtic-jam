@@ -112,7 +112,7 @@ def create_tex_file(title_pages):
 def check_title_pages(index_dict):
     # Sanity check on the index
     expectations = {
-        "Kesh Jig": 1,
+        "Blackthorne Stick": 1,
         "Ashokan Farewell": 48,
         "Ash Grove": 100,
         "Roddy McCorley": 162,

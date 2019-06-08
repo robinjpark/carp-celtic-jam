@@ -112,7 +112,8 @@ d|"G"edd gdd|edd gdd|ede gfg|"Em"edB "D"A2d|\
 
 
 X: 3
-T: Out on the Ocean / The Portroe Jig
+T: Out on the Ocean
+T: The Portroe Jig
 N: page 1
 N: hexatonic
 C: F. O'Neill.
@@ -176,7 +177,8 @@ a|"Am"age a2b|age edB|"G"AGE G2A|"Em"BAB "D"GED|\
 
 
 X: 7
-T:The Lilting Banshee / The Miller of Glanmire
+T:The Lilting Banshee
+T:The Miller of Glanmire
 N: page 2
 N: hexatonic
 R: Jig
@@ -352,7 +354,7 @@ K:Edor
 
 
 X: 18
-T:Morrison's Jig
+T:Morrison's
 N: page 5
 N: hexatonic
 N: matches 164
@@ -387,7 +389,7 @@ GEE B2c|"G"ded "D"=cAF|"Em"GEE E3:||:"G"Bcd "Em"e2f|e2f edB|
 %%newpage
 
 X: 20
-T:The Frost is all Over
+T:The Frost is All Over
 N: page 6
 N: heptatonic
 R:Jig
@@ -514,7 +516,8 @@ A|~d3 fed|afd fed|"G"~B3 ~g3|"A"ece gfe|\
 
 
 X: 27
-T:The Top of the Cork Road (Father O'Flynn)
+T:The Top of the Cork Road
+T:Father O'Flynn
 N: page 8
 N: heptatonic
 N: matches 170
@@ -712,7 +715,8 @@ K:D
 
 
 X: 38
-T:Drops of Brandy (Braonta Brannda)
+T:Drops of Brandy
+T:Braonta Brannda
 N: page 12
 N: heptatonic
 N: matches 244
@@ -882,7 +886,8 @@ dfed "G"BcdB|"D"A3B "A"AFDE|"D"F2D2 D2:| AB|"D"d3c defg|"Bm"afbf "D"afed|
 
 
 X: 49
-T:The Belfast Hornpipe / Sweep's Hornpipe
+T: The Belfast Hornpipe
+T: Sweep's Hornpipe
 N: page 16
 N: heptatonic
 R:hornpipe
@@ -988,7 +993,8 @@ fded dcAG|FEFD "Em"GBAG|"D"F2D2 D2::DE|"F"=F2FE FGAB|cAdB cAGB|
 
 
 X: 55
-T:Bonaparte's March / Crossing the Rhine
+T:Bonaparte's March
+T:Crossing the Rhine
 N:Bonaparte Crossing the Rhine
 N:Napoleon Crossing the Rhine
 N:Listowel
@@ -1180,7 +1186,7 @@ ABde "A7"fedB|"D"dFEF D2:|
 
 
 X:66
-T:The Maid Behind The Bar
+T:The Maid Behind the Bar
 R: Reel
 N:page 22
 N: heptatonic
@@ -1355,7 +1361,8 @@ K: Amix
 %%newpage
 
 X: 76
-T:The Banshee / Monahan's Reel
+T: The Banshee
+T: Monahan's Reel
 N: page 26
 N: heptatonic
 N: matches 1147
@@ -1386,7 +1393,7 @@ GA|"G"B2GB "C" AGEG|"G"DGGF GABd|"Am"c2AB cBAG|"C"EAAG "D"ABcA|"G"B2GB "C"AGEG|
 
 
 X: 78
-T:Ships Are Sailing
+T:Ships are Sailing
 N: page 26
 N: heptatonic
 N: matches 192
@@ -1648,7 +1655,10 @@ K:Ador
 
 X: 93
 T:Croppies' March
-T:Freedom for Ireland; Heather on the Hill, Lark's Neck, Ireland Forever
+T:Freedom for Ireland
+T:Heather on the Hill
+T:Lark's Neck
+T:Ireland Forever
 N: page 31
 N: heptatonic
 M:2/4
@@ -1806,7 +1816,7 @@ dB|"D"AFDF AFDF|A2d2 "G"d2cB|"D"AFDF AFDF|\
 
 
 X: 102
-T:Holland Is A Fine Place
+T:Holland is a Fine Place
 N: page 34
 N: heptatonic
 M:4/4
@@ -1862,7 +1872,8 @@ K:Bmin
 %%newpage
 
 X: 105
-T:March of the Kings of Laoise : Mairseail Ri Laoise (Slow March)
+T:March of the Kings of Laoise
+T:Mairseail Ri Laoise
 N: page 36
 N: heptatonic
 R:March
@@ -2045,7 +2056,8 @@ g/f/ \
 %%newpage
 
 X: 116
-T:The Ballydesmond Polkas No 2/ Maurice Manley's
+T:The Ballydesmond Polka \#2
+T:Maurice Manley's
 N: page 39
 N: heptatonic
 N: matches 211
@@ -2113,7 +2125,8 @@ B/c/|"G"dB gB|dB BB/c/|dB gf/g/|"D"aA AG/A/|\
 %%scale 0.73
 
 X: 120
-T:Egan's Polka /Pegg Ryan's Polka
+T:Egan's Polka
+T:Pegg Ryan's Polka
 N: page 40
 N: pentatonic
 M:2/4
@@ -2130,7 +2143,7 @@ K:Dmix
 
 
 X: 121
-T: Oh The Breeches Full of Stitches
+T: The Britches Full of Stitches
 N: page 40
 N: pentatonic
 C: R-126
@@ -2182,7 +2195,7 @@ K:Bmin
 
 
 X: 124
-T:Jessica's Polka
+T:Jessica's
 N: page 40
 N: pentatonic
 N: matches 290
@@ -2362,7 +2375,7 @@ d2| "G"g4 g2  |g3f e2 |"D"d4 d2 |"D"d4 c2|\
 
 
 X: 133
-T: Planxty Fanny Powers
+T: Planxty Fanny Power
 T: Fannuidh de Paor
 T: Mrs. Trench
 N: page 43
@@ -2404,7 +2417,7 @@ A2F2F2 |"G" G2GABG |"D" AF"A7"D2D2|[1"D" D4 DD:|[2 "D" D6|
 
 
 X: 135
-T: Si beag, si mhor
+T: Si Bheag Si Mhor
 N: page 44
 N: hexatonic
 N: matches 1072
@@ -2491,7 +2504,7 @@ K: Edor
 
 
 X: 140
-T:Star Of The County Down, The
+T:Star of the County Down, The
 N: page 45
 N: pentatonic
 N: matches 335
@@ -2530,8 +2543,8 @@ d|"G"g2g dcB|"D7"ABc def|"G"g2g "Am"dBd|"D"ecA A2f|\
 
 
 X: 142
-T:Niel Gow's Lament For The Death Of His Second Wife
-N:Niel Gow's Lament For His Second Wife
+T:Niel Gow's Lament for the Death of His Second Wife
+N:Niel Gow's Lament for His Second Wife
 N: page 46
 N: hexatonic
 M:6/8
@@ -2858,7 +2871,8 @@ K:G
 
 
 X: 159
-T:Scatter the Mud (The Maid of Tranmore)
+T:Scatter the Mud
+T:The Maid of Tranmore
 N: page 52
 N: hexatonic
 N:anon.
@@ -2875,7 +2889,7 @@ K:Ador
 
 
 X: 160
-T:Tripping Up the Stairs
+T:Tripping up the Stairs
 N: page 52
 N: heptatonic
 N: matches 28
@@ -2890,7 +2904,8 @@ c|"Bm"dBB fBB   |fgf fed   |"A"cAA eAA|efe edc|\
 
 
 X: 161
-T:Kesh Jig, The (Kerrigan's Jig)
+T:Kesh Jig
+T:Kerrigan's Jig
 N: page 52
 N: hexatonic
 N: matches 1
@@ -2905,7 +2920,7 @@ A|"G"~B3 dBd|"C"ege "G"dBG|"G"~B3 dBG|"Am"ABA "D7"AGA|\
 
 
 X: 162
-T:Saddle The Pony
+T:Saddle the Pony
 N: page 52
 N: hexatonic
 R: Jig
@@ -2936,7 +2951,7 @@ K:Edor
 
 
 X: 164
-T:Morrison's Jig
+T:Morrison's
 N: page 53
 N: hexatonic
 N: matches 18
@@ -2970,7 +2985,7 @@ fef def|"Em"gfe dfe|"Bm"dBB B2:|
 
 
 X: 166
-T:The Clare Jig ( Mug of Brown Ale )
+T:The Clare Jig
 T:The Mug of Brown Ale
 N: page 53
 N: hexatonic
@@ -3250,7 +3265,7 @@ FAAB A2 de|"Bm"fBBA "G"BcdB|"A"AFEF "D"D3:| e|"D"fgag fdde|fdad fd d2|
 
 
 X: 181
-T:Miss McLeod's 
+T:Miss McLeod's Reel
 T:Mrs. MacLeod of Raasay
 N: page 59
 N: heptatonic
@@ -3427,7 +3442,7 @@ Bc|dggf g2 dg| ~g2 bg aged|
 
 
 X: 191
-T:Ships Are Sailing
+T:Ships are Sailing
 N: page 62
 N: heptatonic
 M:C|
@@ -4043,7 +4058,7 @@ B|"D"d2e f2g|a2g fed|"C"cAG "D"FGA|"G"BGB AFD|\
 
 
 X: 225
-T:Swallowtail Jig
+T:Swallowtail
 N: page 74
 N: heptatonic
 N: matches 19
@@ -5531,7 +5546,7 @@ A|"D"d2b2 agfe|d2a2 c2g2|"G"B2e2 "A7"ABcd|
 %%scale 0.80
 
 X:302
-T:A Fig For A Kiss
+T:A Fig For a Kiss
 M:9/8
 L:1/8
 K:G
@@ -5642,7 +5657,8 @@ dA|:"D"F2 AF "A7"E2 AF|"D"D2D2 D2 FA|"G"d2 cd "E7"e2d2|"A7"cdec A2 dA |
 "D"D2 fd A2 af|"Em"g2 gf edcB|"A7"A2 ec Agec|"D"d4 d2 dA:|
 
 X:311
-T:My Mother (Mo Mhathair)
+T:My Mother
+T:Mo Mhathair
 M:6/8
 L:1/8
 C:Neil MacLean
@@ -5754,7 +5770,7 @@ d2d2 "G"BcdB | "D"A2F2 A2de | f2d2 "A7"e2c2 | "D"d4 d3 :|
 %%newpage
 
 X:320
-T:Riding On A Load of Hay
+T:Riding an a Load of Hay
 M:4/4
 L:1/8
 K:D Major
@@ -6073,7 +6089,8 @@ D2 | "G"G2 GA B2 AG | "D"A2 AG "C"E2 D2 | "G"G2 G2 G2 Bd | "C"e4 "D"d2 d2 |
 "C"e2 ge "G"d2 Bd | "C"cBAG "D"E2 DE | "G"GGBd "C"e2 dB | "D"A4 "G"G2 |]
 
 X:342
-T:Highlander's Jig/Forest Glen/
+T:Highlander's Jig
+T:Forest Glen
 T:Cold Winds from Ben Wyviss
 M:6/8
 L:1/8
@@ -6148,7 +6165,7 @@ A,3 D F2 A2 | _B4 F2 D2 | G,4 A,3 C | A,6 |]
 
 X:346
 T:Buachaill on Eirne
-T:Come By the Hills
+T:Come by the Hills
 M:6/4
 L:1/8
 K:G major
@@ -6327,7 +6344,8 @@ B |: "Am"A2 BA GAAB | A2 Bd eddB | "G"G2 BA BGGB | c2 BA BGGB |
 [2"Am"A2 BA GAAB | A2 Bd edda | "G"gedB GABd | "(Em)"e2 dB "Am"eA A2 |]
 
 X:355
-T:It is an Island (Marquis of Huntly's Strathspey)
+T:It is an Island
+T:Marquis of Huntly's Strathspey
 M:C
 L:1/8
 K:D
@@ -6403,7 +6421,7 @@ BFAF ABde | "G"f2 ef "Em"dBAG | "A"FG EF "D"D4 :|\
 
 
 X:361
-T:Swinging on a Gate
+T:Swinging on the Gate
 M:4/4
 L:1/8
 K:G major
@@ -6457,7 +6475,7 @@ D |: "G"G2 GBdB | G2 GBdB | d2 b3 a | "C"~g2 fgef | "G"G2 GBdB | G2 GBdB |
 "G"d g3 Bc | "D"cd dc AF | "G"G2 B2 BA | [1 "G"G3 gfg :| [2 "G"G4 z |]
 
 X:365
-T:On The Road To Boston
+T:On the Road to Boston
 M:2/4
 L:1/4
 S:via PR
@@ -6754,7 +6772,7 @@ uE2 | "Am"A3 E A2 | "Em"G3 A G2 | "C"(E3 D) C2 | "G"D4 (GA) | \
 "G"B3 (D dB) | "D7"A3 (D BA) | "G C"G6 | "G"G4 |]
 
 X: 382
-T:Put Me In the Big Chest
+T:Put Me in the Big Chest
 L:1/8
 M:4/4
 K:A
@@ -7047,7 +7065,7 @@ B,2D| F3/2 E/2 F| GBG| F2D|G2 D| CB,A,| D2 A,| B,2 z||
 %%newpage
 
 X:400
-T:Ye Banks and Braes (in D)
+T:Ye Banks \& Braes (in D)
 M:3/4
 L:1/4
 K:D
@@ -7116,7 +7134,7 @@ FE |:"D"D3 F A2|"D7"d6|"G"B3 c d2|"D"(A2 F4)|D2 (F2 A2)|
 "D"A2 .d3 d|"A7"(c2 d2 e2)|"D"d6|[1 "A7"(AB) (cd) e=f:|[2 "D"d6||
 
 X: 404
-T: I Rowed Up In A Dory
+T: I Rowed Up in a Dory
 R: reel
 M: 4/4
 L: 1/8
@@ -7199,7 +7217,7 @@ f|"A"ed ~c2 "G"(dcB)d|"A"cA A/A/A "G"~g2 fa|"A"ed ~c2 "G"(dB)Bd|"Em"egdB "A"A3  
 
 
 X:410
-T:Planxty Fanny Powers (with harmony)
+T:Planxty Fanny Power
 C:Turlough O'Carolan
 M:3/4
 L:1/4
@@ -7333,7 +7351,8 @@ K: D
 "D"Tf>e d<f "A"A3 A|"D"d>f "G"e>g "A"f<a "G"g<f|1 {gf}"A"[e4A4] "D"d4:|2 "A"{gf}e4 "D"[d4F4A,4]|
 
 X: 419
-T: Highlander's Return/Lord Lovat's Lament
+T: Highlander's Return
+T: Lord Lovat's Lament
 R: Air, March
 M:4/4
 L:1/8
@@ -7481,7 +7500,8 @@ K:D
 
 
 X:430
-T:The Rover's Return (O'Reilly's Jig)
+T:The Rover's Return
+T:O'Reilly's Jig
 M:6/8
 L:1/8
 K:D
@@ -7595,7 +7615,8 @@ K:A
 
 
 X:439
-T: Chase Me Charlie/Cock of the North
+T:Chase Me Charlie
+T:Cock of the North
 M:6/8
 K:A
 ((3e/2f/2g/2)|"A"a2e "D"f2e|"A"a2e "D"f2e|"A"c2c cBA|"Bm"BcB "E7"B2e|
@@ -7765,7 +7786,7 @@ AB||"A"c4 cd|"A7"e3 f g2|"D"f3 e d2|"A"c A3 AB|"A"c4 cd|"F#m"e c3 A2|
 "A"c'3 b af|e c3 Bc|"D"d3 e f2|"A"e c3 EF|"G"G3 A B2|"Em"d B3 G2|"D"A4 AB|"A"A6||
 
 X:452
-T:Drops of Brandy (Métis style)
+T:Drops of Brandy (Metis style)
 R: Polka
 M:2/4
 L:1/8
@@ -7949,7 +7970,7 @@ K:Dmaj
 %%newpage
 
 X: 466
-T: Jenny Dang The Weaver
+T: Jenny Dang the Weaver
 M: 4/4
 L: 1/8
 R: reel
@@ -7958,7 +7979,7 @@ fe|"D" dA A/2A/2A AFAB | "D" dA AA/2A/2 "D7" f2ef | "G" dB BB/2B/2 BABd | "Em" A
 |:"D" defd "G" efge | "D" defd "A"e2dB | "D" defd "G" efge |[1 "A" aA AA/2A/2 "A7" f2ef:|[2  "A7"abag faef]|
 
 X: 467
-T: Mouse In The Mug, The
+T: Mouse in the Mug, The
 M: 6/8
 L: 1/8
 R: jig
@@ -8054,7 +8075,8 @@ K:D
 %%newpage
 %%scale 0.80
 X:475
-T:Tam Lin / Howling Wind
+T:Tam Lin
+T:Howling Wind
 R:Reel
 M:2/2
 C:Davey Arthur
@@ -8560,7 +8582,8 @@ E|"A" A3 "E7" cBA|"A" EAB cBA|"D" dcB "Bm" fdB|"E7" bge efg|
 |"A" A2 a "D" aga|"A" Acd ecA|"D" dcd "E7" efg|"A" aec A3:|]
 
 X:513
-T:Rosewood Jig (or Rosebush Jig)
+T:Rosewood Jig
+T:Rosebush Jig
 M:6/8
 L:1/8
 C:J. Scott Skinner
@@ -8678,7 +8701,7 @@ K:Bm
 "Bm"d2B BAB | F2B Bcd | "G"efg "A"fef | "Bm"dBB B2 B :|
 
 X:521
-T:Trip To Bantry
+T:Trip to Bantry
 R: Jig
 M:6/8
 L:1/8
@@ -9007,7 +9030,7 @@ K:D
 
 X: 544
 T: Smile the While
-T: 'Til we meet again
+T: 'Til We Meet Again
 M:3/4
 R:waltz
 L:1/8
@@ -9192,7 +9215,7 @@ K: Amaj
 
 X: 556
 T:Tam Lin
-T:The Howling wind
+T:The Howling Wind
 R:Reel
 S:1 Session in Sligo 1991
 Z:1 Transcription:?, Chords:Mike Long
