@@ -11,23 +11,26 @@ PUBLISH_DIR := ./publish
 
 # Tools
 ABCM2PS := abcm2ps
-PS2PDF := ps2pdf
+PS2PDF  := ps2pdf
+PDFTK   := pdftk
+PDFLATEX := pdflatex
 
 all: $(PUBLISHED_FILES)
 
 $(PUBLISH_DIR)/$(CCJTB)-printable.pdf: $(SRC_DIR)/cover-page.pdf $(OUTPUT_DIR)/$(CCJTB).pdf $(OUTPUT_DIR)/index.pdf
 	@mkdir -p $(PUBLISH_DIR)
-	@pdftk $^ cat output $@
+	@$(PDFTK) $^ cat output $@
 	@echo "Printer-friendly tunebook at $@"
 
 $(PUBLISH_DIR)/$(CCJTB)-tablet.pdf: $(OUTPUT_DIR)/$(CCJTB).pdf $(OUTPUT_DIR)/index.pdf
 	@mkdir -p $(PUBLISH_DIR)
-	@pdftk $^ cat output $@
+	@$(PDFTK) $^ cat output $@
 	@echo "Tablet-friendly tunebook at $@"
 
 $(OUTPUT_DIR)/$(CCJTB).pdf: $(OUTPUT_DIR)/$(CCJTB).ps
 	@echo "Converting $(notdir $<) to pdf"
 	@$(PS2PDF) $< $@
+	@$(PDFTK) $@ dump_data | grep NumberOfPages
 
 $(OUTPUT_DIR)/$(CCJTB).ps: $(SRC_DIR)/$(CCJTB).abc
 	@mkdir -p $(OUTPUT_DIR)
@@ -40,7 +43,7 @@ $(OUTPUT_DIR)/index.pdf: $(SRC_DIR)/$(CCJTB).abc tools/abcindex.py
 	@echo "Extracting tune index information from $(notdir $<)"
 	@./tools/abcindex.py $< > $(OUTPUT_DIR)/index.tex
 	@echo "Creating pdf of tune index"
-	@pdflatex --interaction=batchmode $(OUTPUT_DIR)/index.tex > /dev/null
+	@$(PDFLATEX) --interaction=batchmode $(OUTPUT_DIR)/index.tex > /dev/null
 	@rm -f index.log index.aux
 	@mv -f index.pdf $@
 
