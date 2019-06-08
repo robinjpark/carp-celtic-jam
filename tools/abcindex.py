@@ -5,11 +5,15 @@
 import os
 import sys
 
+def eprint(*args, **kwargs):
+    print(*args, file=sys.stderr, **kwargs)
+
 def print_usage():
     script_name = os.path.basename(sys.argv[0])
     print("usage: {0} [ABC_FILE]".format(script_name))
 
 def check_usage():
+    # ensures that script is called with exactly one parameter
     arg_count = len(sys.argv) - 1
     if arg_count != 1:
         print_usage()
@@ -47,6 +51,7 @@ def page_number(newpage_line, current_page_number):
         return tokens[1];
 
 def extract_index(abc_file):
+    # Extracts an index dictionary {title, pages} from an abc file
     current_page = 1
     title_pages = {}
     for aline in abc_file:
@@ -84,15 +89,7 @@ def generate_tex_beginning():
 \\hbadness=99999 % suppress warnings on letter headings
 ''')
 
-def generate_tex_end():
-    print('''
-\\end{multicols}
-\\end{document}
-    ''')
-def generate_index(abc_file):
-    generate_tex_beginning()
-    title_pages = extract_index(abc_file)
-
+def generate_tex_body(title_pages):
     current_letter = " "
     for title in sorted(title_pages.keys()):
         first_letter = title[0]
@@ -101,7 +98,47 @@ def generate_index(abc_file):
             current_letter = first_letter
         print('{}\\dotfill{}\\newline'.format(title, title_pages[title]))
 
+def generate_tex_end():
+    print('''
+\\end{multicols}
+\\end{document}
+    ''')
+
+def create_tex_file(title_pages):
+    generate_tex_beginning()
+    generate_tex_body(title_pages)
     generate_tex_end()
+
+def check_title_pages(index_dict):
+    # Sanity check on the index
+    expectations = {
+        "Kesh Jig": 1,
+        "Ashokan Farewell": 48,
+        "Ash Grove": 100,
+        "Roddy McCorley": 162,
+        "Joys of Quebec": 167,
+        "Margaret Ann Robertson": 168,
+        "Memories of St. Paul Island": 169,
+        "Nancy March": 170,
+        "Sherbrooke Reel": 171,
+        "Log Driver's Waltz": 200,
+        "Johnny Muise's Reel": 225,
+        "Dying Year": 231,
+    }
+    for tune, page in expectations.items():
+        #eprint('Checking "{}"...'.format(tune))
+        if not tune in index_dict:
+            sys.exit('{} is not in index'.format(tune))
+        actual_page = index_dict[tune]
+        if int(actual_page) != int(page):
+            sys.exit('{} is on page {}--it should be on page {}!'.format(
+                tune, actual_page, page))
+
+def generate_index(abc_file):
+    # generate an index.tex file from the abc file
+    title_pages = extract_index(abc_file)
+    check_title_pages(title_pages)
+    create_tex_file(title_pages)
 
 def main():
     check_usage()
