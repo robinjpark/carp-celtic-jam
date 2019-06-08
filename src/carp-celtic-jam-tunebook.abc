@@ -76,7 +76,8 @@ Seymour Shlien (seymour.shlien@crc.ca)
 %%stretchstaff yes
 %%printtempo 0  % ignore tempo markings
 
-%%header  $P
+%%dateformat "%B %e, %Y"
+%%header "Carp Celtic Jam Tune Book	$P	$D"
 %%newpage 1
 
 
