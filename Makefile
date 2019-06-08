@@ -2,6 +2,8 @@
 
 CCJTB := carp-celtic-jam-tunebook
 
+PUBLISHED_FILES = $(PUBLISH_DIR)/$(CCJTB)-printable.pdf $(PUBLISH_DIR)/$(CCJTB)-tablet.pdf
+
 # File locations
 SRC_DIR := ./src
 OUTPUT_DIR := ./output
@@ -11,7 +13,7 @@ PUBLISH_DIR := ./publish
 ABCM2PS := abcm2ps
 PS2PDF := ps2pdf
 
-all: $(PUBLISH_DIR)/$(CCJTB)-printable.pdf $(PUBLISH_DIR)/$(CCJTB)-tablet.pdf
+all: $(PUBLISHED_FILES)
 
 $(PUBLISH_DIR)/$(CCJTB)-printable.pdf: $(SRC_DIR)/cover-page.pdf $(OUTPUT_DIR)/$(CCJTB).pdf $(OUTPUT_DIR)/index.pdf
 	@mkdir -p $(PUBLISH_DIR)
