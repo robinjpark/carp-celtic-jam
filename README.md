@@ -1,5 +1,5 @@
 # Carp Celtic Jam
-This repository contains the book of tunes for the Carp Celtic Jam (https://carpcelticjam.wixsite/carpjam).
+This repository contains the book of tunes for the Carp Celtic Jam (https://carpcelticjam.wixsite.com/carpjam).
 
 This repository contains the complete tunebook in .abc format, and instructions and tools for converting the tunes into useful .pdf files for printing or viewing on a tablet or computer.
 
