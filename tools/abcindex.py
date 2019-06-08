@@ -81,6 +81,7 @@ def generate_tex_beginning():
 \\normalsize
 \\end{center}
 \\begin{multicols}{3}
+\\hbadness=99999 % suppress warnings on letter headings
 ''')
 
 def generate_tex_end():

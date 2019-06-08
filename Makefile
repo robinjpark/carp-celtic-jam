@@ -31,7 +31,7 @@ $(OUTPUT_DIR)/$(CCJTB).ps: $(SRC_DIR)/$(CCJTB).abc
 
 $(OUTPUT_DIR)/index.pdf: $(SRC_DIR)/$(CCJTB).abc tools/abcindex.py
 	./tools/abcindex.py $< > $(OUTPUT_DIR)/index.tex
-	-pdflatex $(OUTPUT_DIR)/index.tex
+	pdflatex $(OUTPUT_DIR)/index.tex
 	rm -f index.log index.aux
 	mv -f index.pdf $@
 
