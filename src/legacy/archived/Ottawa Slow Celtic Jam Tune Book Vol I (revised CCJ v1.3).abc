@@ -1,0 +1,2881 @@
+This is a reconstruction of the abc file used to generate volume 1
+of the music played by the Ottawa Slow (Celtic) Jam and the Carp
+Celtic Jam (see http://www.siegelproductions.ca/slowjam/ and
+http://ww3.sympatico.ca/hhtuner/carp/ ). The purpose for creating
+this reconstruction was in order to produce a collection of midi
+files matching the music in the volume. Many of the musicians find
+it easier to learn the music by ear rather than sight reading.
+
+The pdf file for volume 1 is available on a few web sites including
+the Carp Celtic Jam web page; however, I was unable to find the
+abc file used to generate this volume. To save some time, I collected
+the abc representations of the in volume 1. The tunes were located
+using John Chamber's tune finder.
+(http://trillian.mit.edu/~jc/music/abc/ ) 
+When several versions of the same tune were found, I tended to pick the
+one containing guitar chords. In a few cases I could not find
+an abc transcription and it was necessary to enter the music note
+by note from the pdf file.
+
+Due to the many variations in how the music is played, the abc
+representation did not match the music in the book exactly. I made
+several passes through the abc collection fixing all the discrepancies
+so that there would be a perfect match with only minor exceptions. Furthermore,
+I ensured that the abc music would convert with the same format and
+page numbering as in the book. The new edition of the book now has
+the guitar chords which were missing in many of the tunes of the original
+volume. Furthermore missing beats were added or subtracted during transitions
+into repeats or into different parts. 
+
+I intentionally removed identifications or attributions to the
+original transcriber or web site, since the tunes were modified
+to conform with the original pdf file and I did not wish the
+originator to be blamed for my changes (in event that this abc
+file is posted on the internet).
+
+Though the tempo is not normally specified for most of the tunes,
+it was necessary to preset the tempo to 1/4=60 on a few of the
+tunes (eg. Whiskey Before Breakfast) so that they would be played
+at slow speed for beginners. You should remove these tempo markings
+(Q:1/4=60), from this file when this no longer necessary.
+
+
+The creation of this abc file was a big job; however, it provided
+me an opportunity to become more familiar with the music.
+
+Seymour Shlien (seymour.shlien@crc.ca)
+
+----------------------
+%Carp Celtic Jam Note
+%There is a change in two tunes (Swallowtail & Tam Lin) between the original OSCJ Volume 1 (circa 2004) and the July 2013 version.
+%CCJ has revised the 2013 version to revert The Swallowtail on Page 5 to the version in the circa 2004 book.
+%See also CCJ Tune Book Change Log on http://www3.sympatico.ca/hhtuner/carp/
+%R. Anderson, Carp (rdacan@gmail.com)
+%
+
+%%pageheight  11.00in
+%%pagewidth    8.50in
+%%leftmargin   0.35in
+%%rightmargin  0.35in
+%%topmargin    0.35in
+%%botmargin    0.25in
+%%staffwidth   7.80in
+
+%withxrefs yes  % print the X: number in the title
+
+%%gchordfont Helvetica 12
+%%titlefont Times-Roman 14
+%%subtitlefont Times-Roman 12
+%%titlecaps
+%%titlespace 8
+%%topspace 0
+
+%%headerfont Helvetica-Bold 10
+%%header  Volume I Background
+%%%footer "Ottawa Celtic Slow Jam - Volume I - 2013/07 edition"
+
+%make the notes a bit smaller
+%%scale 0.8
+
+
+%%vskip 3in
+%%textfont Helvetica 20
+%%textspace 20
+%%center Ottawa Slow Celtic Jam - Volume I
+%%center (adapted by the Carp Celtic Jam*)
+%%center Version 1.4
+%%textfont Helvetica 12
+%%center updated July 08, 2013
+%%vskip 10cm
+%%Carp Celtic Jam Note
+%%center *There is a change in Swallowtail between the original OSCJ Volume 1 (circa 2004) and the July 2013 version.
+%%center  CCJ has revised the 2013 version to revert The Swallowtail on Page 5 to the version in the circa 2004 book.
+%%center 
+%%center 
+%%center 
+%%center CCJ Tune Book can be downloaded from:
+%%center i.  Carp Celtic Jam Facebook Group page
+%%center ii. http://www3.sympatico.ca/hhtuner/carp/
+%%vskip 1cm
+%%center Disclaimer
+%%center This package of tunes was created for informal, jamming purposes only and is not to be sold.
+%%center Some of these tunes are copyrighted, but may not indicate the composer's name.
+%%center The fact that a tune appears without a composer name does not imply that it is in the
+%%center public domain. Therefore, if you intend to perform, record or publish any of these tunes,
+%%center it is your responsibility to acquire the necessary permissions, if applicable.
+
+%%%leftmargin  0in
+%%%rightmargin 0in
+%%%EPS index1.eps
+%%leftmargin  0.35in
+%%rightmargin 0.35in
+
+%%stretchstaff yes
+%%stretchlast yes
+%%printtempo 0  % ignore tempo markings
+
+%%header  $P
+%%newpage 1
+
+
+X: 1
+T: The Kesh Jig
+N: page 1
+N: hexatonic
+N: matches 161
+R: jig
+M: 6/8
+L: 1/8
+K: G
+D | "G"G2 G GAB | "D"A2 A ABd | "G"edd gdd | "Em"edB "G"dBA  |\
+G2 G GAB |"D"A2 A ABd | "G"edd gdB | "D"AGF "G"G2 ::
+ A |"G"B2 B dBd | ege "G"dBG | B2 B dBG | "D"ABA AGA  |\
+ "G"B2 B dBd| "Em"ege "G"dBd | gfg "D"aga | "G"bgf g2 :|
+
+
+X: 2
+T:Blackthorne Stick
+N: page 1
+N: hexatonic
+% Nottingham Music Database
+S:Kevin Briggs, via EF
+R: jig
+M:6/8
+K:G
+d|"G"gfg ege|dBG AGE|DGG FGA|BGB "D"A2d|\
+"G"gfg age|dBG AGE|DGG FGA|"D"BGF "G"G2:|
+d|"G"edd gdd|edd gdd|ede gfg|"Em"edB "D"A2d|\
+"G"gfg age|dBG AGE|DGG FGA|"D"BGG "G"G2:|
+
+
+X: 3
+T: Out on the Ocean / The Portroe Jig
+N: page 1
+N: hexatonic
+C: F. O'Neill.
+B: O'Neill's Music of Ireland
+N: O'Neill's - 795
+R: Jig
+M: 6/8
+K: G
+"G"~B3 BAG|BdB "D"~A3|"C"GED G2 A|"A7"BdB "D" AGA|"G"~B3 BAG|BdB "D"~A3|
+"C"GED G2 A|[1"D"BGF G2A:|[2 "D"BGF "G"GBd|: "Em"ege edB|ege edB|"D"d3 def|
+"C"gfe "D"dBA| "G"G2A B2d|"Em"ege dBA|"C"GED G2 A|[1"D"BGF "G"GBd:|[2"D"BGF G3|
+
+
+X: 4
+T:The Geese in the Bog
+N: page 1
+N: hexatonic
+R: Jig
+M:6/8
+L:1/8
+K:C
+B|"C"cEE GEE|"Am"cEE "G"GAB|"C"cEE "G"GED|"Am"EAA A2 B|\
+"C"cEE GEE|cEE "G"GAB|"Am"cBA "G"GED|"Am"EAA A2::
+B|"C"cde ged|"Am"eaa "G"ged|"C"cde "G"ged|"Am"eaa a2B|\
+"C"cde ged|"Am"eaa "G" ged|"Am"cBA "G"GED|EAA A2:|
+
+%%newpage
+
+X: 5
+T:The Mug of Brown Ale
+% Nottingham Music Database
+N: page 2
+N: hexatonic
+N: matches 166
+S:Trad, arr Phil Rowe
+R: Jig
+M:6/8
+K:Ador
+"Am"eAA fAA|gfg age|"G"dBA GFG|"G"BAB dBd|\
+"Am"eAA fAA|gfg age|"G"dBd gdB|"Em"BAG "Am" A3::
+"Am"efg aba|aba age|"D"dBd "G"g3|gba "Em"ged|\
+"Am"efg aba|aba age|"G"dBd gdB|"Em"BAG A3:|
+
+
+X: 6
+T:Mist Covered Mountains
+N: page 2
+N: pentatonic
+C:Junior Crehan
+R:jig
+E:10
+I:speed 300
+M:6/8
+K:Ador
+G|"Am"EAA ABd|edB AGE|"G"~G3 GAB|"D"dBA "G"GED|\
+"Am"EAA ABd|edB AGE|efg "Em"dBG|"G"BAG "Am"A2:|
+a|"Am"age a2b|age edB|"G"AGE G2A|"Em"BAB "D"GED|\
+  "Am"age a2b|age edB|"G"AGE "Em"G2A|"G"BAG "Am"A3|
+  "Am"age a2b|age edB|AGE "G"G2A|"D"BAB "Em"GED|\
+"D"EDE "G"G2A|BAG ABd|"D"efg "G"dBG|"Em"BAG "Am"A2||
+
+
+X: 7
+T:The Lilting Banshee / The Miller of Glanmire
+N: page 2
+N: hexatonic
+R: Jig
+M:6/8
+R:Jig
+K:Ador
+"Am"EAA EAA|"Em"BAB G2A|"Em"Bee edB|"G"def "Em"gfg|\
+"Am"eAA eAA|"Em"BAB G2A|Bee edB|"G"dBA "D"A3::
+"Am"eaa "Em"age|"G"dBA G2A|Bee edB|"D"def "Em"gfg|\
+"Am"eaa "Em"age|"G"dBA "Em"G2A|Bee edB|"G"dBA "D"A3:|
+
+
+X: 8
+T: Garryowen
+N: page 2
+N: heptatonic
+R: jig
+M: 6/8
+L: 1/8
+K: G
+g/f/ \
+| "G"edc BAG | B>cB Bgf | edc BAG | "D7"ABA Agf | "G"edc BAG |
+ B>cB B2B/c/ | def gdB | "D7"A>BA A2 :: B/c/ | "G"d2B d2B | dec dgf |
+"C"e2c e2c| efd e2f |"G"g2a b2a | gfe edB | def gdB | "D7"A>BA A2:|
+
+%%newpage
+
+X: 9
+T:Jockey to the fair
+N: page 3
+N: heptatonic
+R: Jig
+S:McCuskers
+M:6/8
+K:G
+D|"G"G2A B2c|d2g d2c|BdB GFG|"D"cBc A2^c|\
+d^cd "A7"efg|"D"f/2g/2af d2g|fed "A7"AB^c|
+"D7"d3-d2:|f/2g/2|"D"afd afd|"D7"c2c "G"B2c|\
+dgd dgd|"D7"c2c "G"B2d|"C"e2f gfe|"D7"d2c "G"B2d|
+"C"edc "D7"BcA|"G"B2G "C"E2F|"G"GAG GBd|"C"e2"D"f"G"g2e|\
+"G"dBG A2B|"C"E2"D"F "G"G2A|Bgd "D7"B2A|"G"G3-G2:|
+
+
+X: 10
+T: Merrily Kiss the Quaker's Wife
+N: page 3
+N: matches 176
+N: hexatonic
+R: Jig
+O: Eire
+M: 6/8
+L: 1/8
+K: G
+|: D | "G"GAB D2B | "Am"c2A "Em"AGE | "G"GAB DEG | "D"~A3 "Am"AGE \
+     | "G"GAB D2B | "Am"c2A "Em"AGE | "G"GAB D2E | G3  G2 ::
+   c | "G"BGG AGG | BGG "Am"AGE | "G"GAB DEG | "D"A3 AGA \
+     | "G"BGG AGG | BGG "Am"AGE | "G"GAB D2E | G3  G2 :|
+|:d  | "G"~g3 "D"aga | "Em"bge "G"dBd |~g3 gab | "D"~a3 aba \
+     | "G"gbg "D"faf | "Em"ege "G"dBA | "G"GAB D2E | G3 G2 :|
+
+
+X: 11
+T:Saddle the Pony
+N: page 3
+N: hexatonic
+N: matches 162
+R: Jig
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:G
+D|\
+"G"GBA G2B|"Bm"def "G"gdB|GBA G2B|"D"AFD AFD|\
+"G"GBA G2B|"Bm"def "G"gfg|"Em"edB dBA|"D"BGG "G"G2::
+d|"Em"efe edB|"Bm"def "G"gfg|"Em"efe edB|"G"dBA "D"ABd|\
+"Em"efe edB|"Bm"def "G"gfg|"Em"edB "G"dBA|"G"BGG G2:|
+
+
+X: 12
+T:Old Hag You Have Killed Me
+N: page 3
+N: heptatonic
+R:Jig
+M:6/8
+L:1/8
+K:G
+G|"D"FED "Am"c2A|"G"ded "Am"cAG|ABA ABG|ABA A2G|\
+"D"FED "Am"c2A|"G"ded "D"cAF|GAF GcA|GAF "G"G2::
+e|"D"fef "G"gfg|"D"afd "Am"cAG|ABA A2G|ABA Ade|\
+"D"fef "G"gfg|"D"afd "Am"cAF|GAF GcA|"G"GAG G2:|
+
+
+
+
+
+X: 13
+T:Banish Misfortune
+N: page 4
+N: heptatonic
+R:jig
+D:Tommy Keane & Jacqueline McCarthy: The Wind among the Reeds
+D:Chieftains Live.
+M:6/8
+K:Dmix
+"D"fed cAG|A2d "C" cAG|"D"F2D DED|FEF GFG|"D"A3 "Am"cAG|"D"AGA "C"cde|"D"fed "C"cAG|"Am"Add "D" d3:|
+|:"D"f2d d^cd|f2g agf|"C"e2c cBc|e2f gfe|"D"f2g agf|"C"e2f gfe|"D"fed "C"cAG|"Am"Add "D"d3:|
+|:"D"fgf "C"efe|"D"ded "C"cdc|"D"A2A "Am" BAG|"D"FAF GED|"Am"c3 cAG|AGA cde|"D" fed "C"cAG|"Am"Add "D"d3:|
+
+
+X: 14
+T:Blarney Pilgrim
+N: page 4
+N: hexatonic
+N: matches 158
+S:Alistair Anderson, via EF
+R: Jig
+M:6/8
+K:Dmix
+|:"G"D2D DEG|"D"A2A ABc|"G"BAG AGE|"C"GEA GED|\
+"G"D2D DEG|"D"A2A ABc|"G"BAG AGE|"C"GED "G"D3::
+"G"d2d dBG|"C"AGA BGE|"G"d2d dBG|"D"AGA GBd|\
+"G"g2e dBG|"Am"AGA BGE|"C"B2G AGE|"D"DED "G"D2D::
+"D"ADD BDD|ADD ABc|"G"BAG AGE|"Am"GEA GED|\
+"D"ADD BDD|ADD ABc|"G"BAG AGE|"C"GED "G"D3:|
+
+
+X: 15
+T:Sweets of May
+N: page 4
+N: hexatonic
+R: Jig
+C:Kevin Briggs, via EF
+M:6/8
+L:1/8
+K:G
+d/2c/2|"G"BAG "D7"AFD|"G"GAG "D7"G2d/c/| "G"BAG GAB| "C"c3 "D7"d2c|\
+"G"BAG "D7"AFD| "G"GAG "D7"G2d/c/| "G"BAG "D7"AFD| "G"G3 G2:|
+A| "Am"AAA A2G| "Em"E2F G3| "Am"AAA c2d| "Dm"e2d "E7"c2B|\
+"Am"ABA A2G| "Em"E2F G3| "Am"ABA "G"BAG| "Am"A3 A2:|
+(3A/2B/2c/2| "D"d3 d3|"D" D3 D3 |"Am"c3 c3| "Am"D3 D2D|\
+ "G"GD "D7"G3A| "G"BA "C"B3c| "D7"d2d DEF| "G"G3  G2:|
+
+
+X: 16
+T: The Cow that Ate the Blanket
+N: page 5
+N: hepatatonic
+S: "Treoir"
+R: jig
+M: 6/8
+L: 1/8
+K: G
+A |"G" B2 A BGD | GAG GBd |"C" ege "G"dBG |"D" ABA ABc |\
+"G"B2 A BGD | GAG GBd |"C" ege "G"dBA | BGF G2 :|
+d | gfg "C"efg | eag "D"fed |"G" gfg edB | BAG ABc |\
+B2 A BGD | GAG GBd |"C" ege "G"dBA | BGF G2 :|
+
+
+
+
+
+X: 17
+T:The Road to Lisdoonvarna
+N: page 5
+N: heptatonic
+R: Jig
+S:Trad, arr Phil Rowe
+M:6/8
+K:Edor
+"Em"E2B B2A|B2c d3|"D"F2A ABA|D2E FED|"Em"E2B B2A|"G"B2c d3|\
+"A"cdc "Bm"B2A|"Em"B2E E3::
+"Em"e2f gfe|"G"d2B Bcd|"A"c2A ABc|"Bm"d2B B3|\
+"Em"e2f gfe|"G"d2B Bcd|"A"cdc "Bm"B2A|"Em"B2E E3:|
+
+
+X: 18
+T:Morrison's Jig
+N: page 5
+N: hexatonic
+N: matches 164
+M:6/8
+R:Jig
+A:Ireland
+K:Edor
+|"Em"~E3 BEB|EBE "D"AFD|"Em"~E3 BEB|"Bm"dcB "D"AFD|\
+"Em"~E3 BEB|EBE "D"AFD|"Em"~G3 "D"FGA|BAG "Bm"FED:|
+"Em"Bee fee|"A"aee "Bm"fed|"Em"Bee fee|"D"fag "Bm"fed|\
+"Em"Bee fee|"A"aee "Bm"fed|"Em"gfe d2A|"Em"BAG "D"FED|
+"Em"Bee fee|"A"aee "Bm"fed|"Em"Bee fee|"D"faf "Bm"def|\
+"Em"~g3 gfe|"Bm"def "G"g2 d|"A"edc "D"d2 A|"Em"BAG "Bm"FED||
+
+
+
+X: 19
+T:The Swallowtail
+N: page 5
+N: heptatonic
+R:Jig
+C:Trad.
+O:Ireland
+M:6/8
+L:1/8
+Q:1/4=110
+K:EDor
+|EF|:"Em"GEE BEE|GEE BAG|"Bm"FDD "D"ADD|"G"ded "D"=cAF|"Em"GEE BEE|
+GEE B2c|"G"ded "D"=cAF|"Em"GEE E3:||:"G"Bcd "Em"e2f|e2f edB|
+"G"Bcd "Em"e2f|edB "D"d3|"G"Bcd "Em"efe|efe edB|"G"ded "D"=cAF|"Em"GEE E3:|
+
+%%newpage
+
+X: 20
+T:The Frost is all Over
+N: page 6
+N: heptatonic
+R:Jig
+C:Trad.
+M:6/8
+L:1/8
+K:D
+A|"D"def "G"edB|"D"AFD "A"E2D|"D"FAA AFA|"G"Bee "A"edB|"D"def "G"edB|
+"D"AFD "A"E2D|"D"FAA AFA|"G"Bdc "D"d2::g|"D"fef afd|"G"gfg "Em"bag|
+"D"fef afd|"Em"gfg "A7"efg|"D"fef afd|"G"gfg "Em"bag|"D"fga "A7"efg|"D"fdc d2:|
+
+
+X: 21
+T: Calliope House
+N: page 6
+N: hexatonic
+R: Jig
+C: D.Richardson
+N: Originally in E, which works well on fiddle, but others might prefer D.
+N: Calliope House is a folk center in Pittsburgh.
+M: 6/8
+L: 1/8
+K: D
+|: A| "D"dAA fAA | "A7"eAA "D"fAA | "Em"Bee e2d |\
+ "D"efd "Bm" BdB | "D"ABA A2F |
+ A2B d2e |[1 "D"f2a fed | "Em"e3 "A"e2 :|2 "D"faf "Em"edB |\
+ "D"d3 d2f |:"D"a3 faa |"A"eaa "D"faa |
+ "Em"g3 "D"fgf |"Em"efe edB | "D"ABA A2F |\
+ A2B d2e |1 "D"f2a fed | "Em"e3 efg :|2 "D"faf "Em"edB | "D"d3 d2 |]
+
+
+X: 22
+T:The Connaughtman's Rambles
+N: page 6
+N: hexatonic
+N: matches 165
+M:6/8
+R:jig
+A:Ireland
+K:Bmin
+A/G/|"D"FAA dAA|"G"BAB dAG|"D"FAA dfe|"G"dBB BAG|"D"FAA dAA|
+"G"BAB "D"def|"Em"gfe "Bm" dfe|"G"dBB B2:| e|"Bm"fbb faa|fef d2e|
+fbb faa|fed "A"ede| "Bm"fbb afe|"D"dBc def|"Em"gfe "Bm"dfe|"G"dBB B2:|
+
+
+X: 23
+T:Haste to the Wedding
+N: page 7
+N: hexatonic
+R: Jig
+M:6/8
+K:D
+A|"D"AFA Agf|"G"ede "A7"fdB|"D"AFA "Bm"AGF|"Em"GFG "A7"EFG| "D"AFA Agf|
+"G"ede "A7"fdB|"D"AFA "A7"faf|"D"ded d2:| a|"D"afa afa|"G"bgb bgb|
+"D"afa "Bm"afa| "Em"gfg "A7"efg|"D"a3 "Bm"~f3|\
+"Em"ede "A7"fdB|"D"AFA "A7"faf|"D"ded d2:|
+
+
+X: 24
+T: Smash the Windows
+R: Jig
+N: page 7
+N: heptatonic
+N: "Collected by J.O'Neill"
+B: O'Neill's 965
+M: 6/8
+L: 1/8
+K: D
+A|"D"DED F2A|def "A"ecA|"G"G2B "D/f+" F2A|"Em"E2F "A7"GFE|\
+"D"DED "c#"F2A|"Bm"def "A"ecA|"G"Bgf "A7"edc|"D"d3 d2:|
+f/g/|"D"a2f d2f|A2a agf|"Em"g2e e2c|"A7"A2a gfe|\
+"D"f2d "A7/e"g2e|"D/f+"a2f "G"bag|"D/a"fed "A7"edc|"D"d3 "A7"dfg|
+"D"agf fed|Adf agf|"Em"gfe edc|"A7"Ace gfe|\
+"D"fed "A7/e"gfe|"D/f+"agf "G"bag|"D/a"fed "A7"edc|"D"d3 d2|]
+
+
+X: 25
+T: Tobin's Favorite
+N: page 7
+N: hexatonic
+N: matches 1175
+C: anon.
+O: Ireland
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) no. 52
+R: Double jig
+M: 6/8
+L: 1/8
+K: D
+A/F/|"D"DFA dcd|"A"ecA cde|"D"fdf "Em"{a}gfg|"A7"ecA GFE|"D"DFA dcd|
+"A"ecA "A7"efg|"D"(f/g/a)f "A7"gec|"A7"edc "D"d2::d|\
+"D"dfa agf|"A7"(e/f/g)e efg|
+"D"fdf "Em"{a}gfg|"A7"ecA GFE|"D"DFA dcd|"A"ecA "A7"efg|\
+"D"(f/g/a)f "A7"gec|edc "D" d2:|
+
+
+X: 26
+T: Cherish the Ladies
+N: page 8
+N: heptatonic
+N: matches 241
+C: anon.
+O: Ireland
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) no. 29
+R: Double jig
+M: 6/8
+L: 1/8
+K: D
+"D"dFF AFF|DFA AFA|"A"BEE CEE|FEF AGc|\
+"D"dFF AFF|DFA AFA|"G"Bcd efg|"D"fdc d3 ::
+"D"dfd "A"cec|"D"dcd AFA|"A"BEE CEE|FEF ABc|\
+"D"dfd "A"cec|"D"dcd AFA|"G"Bcd efg|"D"fdc d3:|
+A|~d3 fed|afd fed|"G"~B3 ~g3|"A"ece gfe|\
+"D"dcd fed|afd "G"gbg|"D"fdB AGF|"G"GEF GFE|
+"D"~d3 fed|afd fed|"G"~B3 ~g3|"A"ece gfe|\
+~a3 "G"bgb|"D"afa "G"g2e|"G"fdB AGF|GEF GFE|:
+"D"ADD AGF|ADD AdB|ADD AGF|"G"GEF GFE|"D"ADD AGF|ADD "A"AB=c|
+"G"BGB "D"AFA|"G"GEF GFE:: "D"DFA dAF|DFA "G"BGE|"D"DFA dAF|
+"G"GAG GFE|"D"DFA ~d3|"A"~c3 AB=c|"G"BGB "D"AFA|"G"GEF GFE:|
+
+
+
+
+
+X: 27
+T:The Top of the Cork Road (Father O'Flynn)
+N: page 8
+N: heptatonic
+N: matches 170
+R: Jig
+S:EF
+M:6/8
+K:D
+A|"D"dAF DFA|"D"ded "A7"cBA|"D"dcd "A/c#"efg|"Bm"fdf "A7"ecA| "D"dAF DFA|
+"D"ded "A/c#"cBA|"Bm"dcd "A7"efg|"D"fdc d2:|\
+ g|"D"fdf fga|"A"ecA ABc|
+"Bm"dcd "E7"Bed|"A7"cBA "D7"A2c|"G"BGB B cd|\
+"D"AFD DFA|"D"dcd "A7"efg|"D"fdc d2:|
+
+%%newpage
+%%scale 0.75
+
+X: 28
+T:Tripping up the Stairs
+N: page 9
+N: heptatonic
+N: matches 160
+R:jig
+N:Ireland
+M:6/8
+L:1/8
+K:D
+A | "D" FAA "G" GBB | "D" FAd "Bm"fed | "A" cBc ABc |\
+ "D" dfe  d2A |  FAA "G" GBB |
+ "D" Fdd fed | "A" cBc ABc | "D" dfe "D" d2  :|\
+c | "Bm" dBB    fBB |"D" fgf     fed |
+ "A" cAA eAA | efe         edc | "Bm" dBB    fBB |\
+ "D"fgf     fed | "A" cBc ABc | "D" dfe "D" d2  :|
+
+
+X: 29
+T:Haymaker's Jig
+N: page 9
+N: heptatonic
+R:Jig
+M:6/8
+L:1/8
+K:D
+"D"{ag}fdd "A"cAA|"G"BGG A2G|"D"FAd def|"A7"gfg e3|\
+{ag}"D"fdd "A"cAA|"G"BGG "A"A2G|
+"D"FAd def|1 "A7"gec "D"d3:|2 "A7"gec "D"d2A\ 
+|:"D"FAA Add|"A"FAA B2G|"D"FAA def|
+"A7"gfg e3| "D"{ag}fdd "A"cAA|"G"BGG A2G|\
+"D"FAd def|"A7"gec "D"d3:|
+
+
+X: 30
+T:Jig of Slurs
+N: page 9
+N: heptatonic
+R:jig
+N:G. S. MacLellan
+N:D & E Dorian
+M:6/8
+K:D
+ "D"Add dcd| "G"Bdd "D"Add| "G"Bdd "D"Add|\
+ "Em"Bee "A7"edB| "D"Add dcd|
+ "G"Bdd "D"Add| "G"Bdd "A7"cde| "D"fdd d2B::\
+ "D"A2f fef|"D"a2f fed|
+"G"B2e ede|"A"f2f edB| "D"A2f fef|\
+"D"a2f fed|"G"Bdd "A"cde|"D"fdc d2B::
+"G"G2g gfg| "Em"age "G"gdB| "G"G2g gfg| "Em"agf "G"gab|\
+   "G"G2g gfg| "Em"age "G"gdB| "Em"e2e "C"efg|"Bm" fed "Em"edB::
+"G"GBB Bdd| dee "Em"edB| "G"GBB Bdd|"Em" dee efg|\
+"G"GBB Bdd| dee "Em"edB| "Em"e2e "C"efg| "Bm"fed "Em"edB:|
+
+%%newpage
+%%scale 0.8
+
+
+X: 31
+T:The Rambling Pitchfork
+N: page 10
+N: matches 220
+N: heptatonic
+R:Jig
+M:6/8
+L:1/8
+K:D
+"D"F3 AFF|dFF  AFD|"G"GFG "A" ABc|"Bm"ded "A7"cAG|\
+"D"F2F AFF|dFF AFD|"G"G3 BGB|"A"AFD "D" D3:|
+"D"d2e fed|"A"ecA AFA|"D"dcd "Bm" efg|"F#m"f/g/af "A7"gfe|\
+"D"d2e fed|"A"ecA "F#m"AGF|"Em"G3 "G" BGB|"A"AFD "D" D3:|
+
+
+X: 32
+T:A Health to the Ladies
+T:Sweet Biddy Daly
+N: page 10
+N: hexatonic
+R:jig
+H:Also played in G, #135
+M:6/8
+K:A
+f|:"A"ecA "D"BAF|"A"AFE EFA|"E7"Bdc BAB|cBB B2f|"A"ecA "D" BAF|"A"AFE EFA|
+"E7"Bdc BAB|1 "A" cAA A2f:|2 "A" cAA A2B|:\
+"A"cee "D"dff|"A"cee ecA|"A"cee "D" dff|
+"A"ecA "E7"B2A|"A"cee "D"dff|"A"cee ecA|"E7"Bdc BAB|1 "A" cAA A2B:|2 "A" cAA A2||
+
+
+X: 33
+T:Rock Valley Jig
+N: page 10
+N: heptatonic
+M:6/8
+L:1/8
+C:John Burt
+R:Jig
+K:C
+((3G,/2A,/2B,/2)|"C"C2E GFE|"G7"D2E F2A|GAG GBd|"C"cBc AGE|\
+"C"C2E GFE|"G7"D2E F2A|GAG GBd|"C"c3 c2::
+g|"C"gag gag|e2c "F"cBA|"C"G2c cBc|"G7"ed^c d2g|\
+"C"gag gag|e2c "F"cBA|"G7"GAc Bcd|"C"c3 c2:|]
+
+
+X: 34
+T:Atholl Highlanders
+N: page 11
+N: hexatonic
+R: Jig
+S:Kevin Briggs, via EF
+M:6/8
+K:A
+|:c/2d/2|"A"e3 ecA|"A"ecA "E7"Bcd|"A"e3 ecA|"D"Bcd "E7"cBA|\
+"A"e3 ecA|"A"ecA "E7"Bcd|"A"e/2a3/2e "D"fed|"E7"cdB "A"A2:|
+|:e|"A"Ace Ace|"D"Adf Adf|"A"Ace Ace|"Bm"Bcd "E7"c2B|\
+"A"Ace Ace|"D"Adf Adf|"A"e/2a3/2e "D"fed|"E7"cdB "A"A2:|
+|:e|"A"aee edc|"A"aee edc|"A"aee edc|"D"Bcd "E7"cBA|\
+"A"aee edc|
+"A"aee edc|"A"aee fed|"E7"cdB "A"A2::\
+A/2B/2|"A"cAc cAc|"D"dBd dBd|
+"A"cAc cAc|"G"B=GB BGB|\
+"A"cAc cAc|"E7"dBd dBd|"A"e/2a3/2e "D"fed|"E7"cdB "A"A2:|
+
+
+X: 35
+T:The Kid on the Mountain
+% Nottingham Music Database
+N: page 11
+N: hexatonic
+N: matches 179
+R: Slip Jig
+S:Bothy Boys
+M:9/8
+K:Emin
+|:"Em"~E3 FEF ~G3|"Em"~E3 c2A BGE|"Em"EDE "D"FEF "G"G2A|\
+"D"BAG FAG FED:|
+|:"G"BGB "D"AFA "G"G2D|"G"GAB dge "D"dBA|"G"BGB "D"AFA "G"G2A|\
+"D"BAG FAG FED:|
+|:"Em"egg eBB e2f|"Em"~g3 efg "D"afd|"Em"egg eBB ega|\
+"D"bag fag fed:|
+|:"Em"eBB e2f ~g3|"Em"eBB efg "D"afd|"Em"eBB e2f g2a|"D"bag fag fed:|
+|:"D"edB dBA "G"G2D|"G"GAB dge dBd|"G"edB "D"dBA "G"G2A|\
+"D"BAG FAG FED:|
+
+
+X: 36
+T: The Butterfly
+N: page 12
+N: heptatonic
+N: matches 178
+O: (Tommy Potts)
+R: Slip Jig
+N: Commonly ends with the first bar as a coda.
+N: Although this tune is often attributed to Tommy Potts, he wrote at most the first part.
+N: The other parts are variants of the old tunes Barney's Goat and Skin the Peeler.
+D: Bothy Band: 1975
+M: 9/8
+L: 1/8
+K: Bmin
+|: "Em"B2E G2E "Bm"F3 | "Em"B2E G2E "Bm"FED | "Em"B2E G2E "Bm"F3 |\
+ "G"B2d d2B "D"AFD :: "Em"B2=c e2f g3 |"G" B2d "Em"g2e "G"dBA |
+ "Em"B2=c e2f g2a |b2a g2e "G"dBA :: "Em"B2B B2A G2A |\
+ B3 BAB "G"dBA | "Em"~B3 B2A G2A | "G"B2d "Em"g2e "G"dBA :|
+
+
+X: 37
+T:The Snowy Path
+N: page 12
+N: heptatonic
+M:9/8
+L:1/8
+C:Mark Kelly
+R:Slip Jig
+D:Altan: The Red Crow
+K:D
+"D"F2A B2F A2F|"G"G2B d2e dBG|"D"F2A B2F A2F|1 "A"E2D E2F GFE:|2 "A"E2D E2F "G"GAB|:
+"A"c3 c2e d2c|"G"B2G B2c d2e|[1"D"f3 f2e d2B|A2G F2G A2B:|\
+|[2"D"d2A B2F A2F|"A"E2D E2F GFE|
+
+
+
+X: 38
+T:Drops of Brandy (Braonta Brannda)
+N: page 12
+N: heptatonic
+N: matches 244
+R: Slip Jig
+% Nottingham Music Database
+S:Trad
+M:9/8
+K:G
+|:"G"ded BGB BGB|"G"ded BGB "D7"cBA|"G"ded BGB BGB|"Am"cBc AFA "D7"cBA:|
+"G"GBd gdB gdB|GBd gdB "D7"cBA|"G"GBd gdB gdB|"Am"cBc AFA "D7"cBA|
+"G"GBd gdB gdB|GBd gdB "D7"cBA|"G"GBd gba gdB|"Am"cBc AFA "D7"cBA|
+
+%%newpage
+
+X: 39
+T:Dan O'Keefe's
+N: page 13
+N: hexatonic
+R:Slide
+H:Also played in Edor
+M:12/8
+K:Ador
+"Am"A2e "D" e2d "G"BAB d2B|"Am"A2e e2d "G" B2G GAB|"Am"A2e e2d "D" BAB "G"d3|"D"BAB "G"d2e B2A "Am"A3:|
+|:"Am"e2a a2b "Em" a2g "D"e2d|"Am"efg a2b "Em/D"a2g e2f|"G"g3 "C"gfe "G"dBA "Am"G2A|"D"BAB "G"d2e B2A "Am"A3:|
+
+
+X: 40
+T:Dingle Regatta
+N: page 13
+N: hexatonic
+N: matches 173
+S:Folk Camp, via EF
+R: Slide
+M:12/8
+K:G
+|:"G"d^cd e2d BAB d2B|"D"ABA AGA "G"B2A "D7"G2B|\
+"G"d^cd e2d "Em"BAB d2B|"D7"AGA B2A "G"G3 G3:|
+|:"D7"d2d def "G"g2g gfg|"D"a2a aga "G"b2a gfe|\
+"D"d2d def  "G"g2g gfg|"D"a2g "D7"f2e def "G"g3:|
+|:"G"gbg dgd BdB G2G|"D7"FGA DEF "G"G2B def|\
+gfg dgd BdB G2G|"D7"FGA DEF "G"G3 -G3:|
+
+
+X: 41
+T:Denis Murphy's Slide
+S:Trad, arr Phil Rowe
+R: Slide
+N: page 13
+N: hexatonic
+M:12/8
+K:Dmix
+B|"D"A2D FED F2A A2f|"G"gfe "D"f2d "G"e2d "A7"BdB|\
+"D"A2D FED F2A A2f|"A7" a2f efe "D"d3 d2::
+A|"D"d2e fef "G"gfe "D"f2f|"G"gfe "D"fed "G"e2d "A7"B2A|\
+"D"d2e fef "G"gfe "D"f2g| "A7"a2f efe "D"d3 d2:|
+
+
+X: 42
+T: Kerry Slide
+N: page 13
+N: heptatonic
+R: Slide
+M: 12/8
+L: 1/8
+K: D
+"D"dcd e2d "A"c2E EFG|"G"B2B BAG "D"F2D D2A|dcd e2d "A"c2E EFG|ABA GFE "D"D3 D3::
+F2A d3 "A"c2B G3|ABA G2E B2A "D"F3 |F2A d3 "A"c2B "G"G2F|EFG "A"ABc "D"d3 d3:|
+%%newpage
+
+
+
+
+X: 43
+T:Cuil Aodha Slide
+N: page 14
+N: heptatonic
+R:slide
+S:Mike Long
+M:12/8
+L:1/8
+K:D
+"Bm" Bcd Bcd "A" c2 A A2 d | "Bm" Bcd "A" e2 f "G" g3 gfg | "D" a2f "A" gfe "D" f2 d A2 A | "G" Bcd "A" e2 c "D" (d3 d3) :|
+"D"  a2 f "A" gfe "D" f2 d A2 A | "Bm" Bcd "A" e2 f "G" g3 gfg | "D" a2f "A" gfe "D" f2 d A2 A | "G" Bcd "A" e2 c "D" (d3 d3) :|
+
+
+%%newpage
+
+X: 44
+T:The Boys of Bluehill
+N: page 15
+N: heptatonic
+N: matches 204
+R:hornpipe
+M:4/4
+L:1/8
+K:D
+FA|"D"BAFA D2FA|"G"BA (3Bcd "A"e2de|"D"faaf "A"egfe|"D"dfed "G"B2dA| "D"BAFA DAFA|
+"G"BA (3Bcd "A"e2de|"D"faaf "A"egfe|"D"d2d2 d2:|\
+fg|"D"afdf a2gf|"G"efga b2ag|"D"faaf "A"egfe|
+"D"dfed "G"B2dA| "D"BAFA D2FA|"G" BA (3Bcd "A"e2de|"D"faaf "A"egfe|"D"d2d2 d2:|
+
+
+X: 45
+T:Harvest Home
+N: page 15
+N: heptatonic
+R:Hornpipe
+C:Kevin Briggs
+S:Nottingham Music Database
+M:4/4
+L:1/8
+K:D
+AF|"D"DAFA DAFA|"G"defe dcBA|"A7"eAfA gAfA|\
+"A7"(3efe (3dcB (3ABA (3GFE| "D"DAFA DAFA|
+"G"defe dcBA|"A7"eAfA gecA|"D"d2f2 d2:| cd|\
+"A7"eA ~A2 "D"fA ~A2|"A7"gA fA "D"fA ~A2|
+"A"eAfA gAfA| "A7" (3efe  (3dcB "G" (3ABA  (3GFE|\
+ "D"DAFA DAFA|defe dcBA| "A7"eAfA gecA|"D"d2f2 d2:|
+
+
+X: 46
+T: Staten Island Hornpipe
+N: page 15
+N: heptatonic
+S: Bernie Waugh
+R: Hornpipe
+M: 4/4
+L: 1/8
+K: D
+|:AG|\
+"D"FDFG A2 A2|dfed dcBA|"G"B2 GB "D" A2 FA|"Em"G2 E2 E2 "A7" AG| "D"FDFG A2 A2|
+ dfed dcBA|d2 d2 "A7"efge|"D"f2d2d2::fg|\
+"D"a2fa "A7"g2 eg|"D"f2 df "A7"ed A2|
+ "C"=c2c2efge|=c2 c2 efge|"D"a2fa "A7"g2eg|\
+"D"f2df "A7" ecA2|"G"d2 d2 "A7" efge|"D"f2d2d2:|
+
+%%newpage
+%%scale 0.75
+
+X: 47
+T:Brown Chest
+N: page 16
+R: Hornpipe
+N: heptatonic
+M:C|
+L:1/8
+K:D Major
+FG|"D"ABAG FAde|"Bm"fgfe dedA|"G"BcdB "D"AFDE|\
+"Em"FEED "A"E2FG| "D"ABAG FAde|
+"Bm"fgfe "D"dedA|"G"BcdB "A"ABAG|"D"F2D2 D2:: fg|\
+"D"agfd "A7"gfec|"Bm"dcde "D"fdAF|
+"G"GABG "D"FADF|"Em"EGgf "A"eAce| "D"agfd "A"gfec|\
+"Bm"dcde "D"fdAF|"G"GABG "A"FAEG|"D"F2D2 D2:|
+
+
+X: 48
+T:The Home Ruler
+N: page 16
+N: matches 208
+N: heptatonic
+R:hornpipe
+Z:Boston sessions
+M:4/4
+L:1/8
+K:D
+FE|"D"D2FA D2FA|dfed "G"BcdB|"D"A3B AFDE|"Em"FDED "A"B,DA,B,| "D"D2FA D2FA|
+dfed "G"BcdB|"D"A3B "A"AFDE|"D"F2D2 D2:| AB|"D"d3c defg|"Bm"afbf "D"afed|
+"G"efed "G/F#" BA (3Bcd|"Em"fded "A"BdAB|\
+"D"d3c defg|"Bm"afbf afed|"G"efed "Em"BA (3dcB|"A"AFEF "D"D2:|
+
+
+X: 49
+T:The Belfast Hornpipe / Sweep's Hornpipe
+N: page 16
+N: heptatonic
+R:hornpipe
+M:C|
+K:D
+ag|"D"(3faf df AdFA|DFAd f2{gf}ef|"G"gfed cAAF|"G" GABG "A" Ez ag|
+"D"(3faf df AdFA|DFAd f2{gf}ef|"G"gfed "A"cABc|"D"dfec d2::
+F2|"G"GFGA Bcde|"D"fgfe dcdB|A2f2 fef2|\
+"A"G2e2 ede2| "G"GFGA "A"Bcde|"D"fgfe dcdB|
+Afed cABc|"D"df"A"ec"D" d2:: ag|"D"(3fgf "A" (3efe "D"(3ded "A"(3cdc|\
+"G"(3BcB "A"(3ABA G2 "G"ba| "G"(3gag "D"(3fgf "A"(3efe "D"(3ded|
+"A"(3cdc "G"(3BcB "A"A2 ag| "D"(3fgf "A"(3efe "D"(3ded "A"(3cdc|\
+"G"(3BcB "A"(3ABA "G"(3GAG "D"(3FGF|"G"Efed "A"cABc|"D"dfec d2:|
+
+%%newpage
+%%scale 0.8
+
+
+X: 50
+T:Dance of the Honeybees
+N: page 17
+N: heptatonic
+R: Hornpipe
+M:C|
+L:1/8
+K:D Major
+AG|"D"F2FE DFAF|"G"G2FG E3F|GFGA B{c}ded|"A"cege cAGE|"D" F2FE DFAF|
+"G"G2FG E3F|GFGA B{c}ded|"A"cAGE "D"D2:: (3ABc|d2ad fded|BdAF DEFA|
+"G"Beed Bded|"A"cdef gece|"D" d2ad fded|"G"BdAF "D"DEFA|"G"Bdef gfed|"A"cAGE "D"D2:|
+
+
+
+
+
+X:51
+T:Red Haired Boy
+N:page 17
+N: heptatonic
+R: Reel
+% Nottingham Music Database
+S:Fiddler's Fakebook, via PR
+M:4/4
+L:1/8
+K:Amix
+AF|:"A"E2A2 ABcd|"A"efec "D"d2cd|\
+"A"edcB ABcA|"G"BAEF G3F| "A"E2A2 ABcd| efec "D"d2cd|
+"A"e2ag afed| [1"A"c2A2 A3F:| [2 c2A2A2ef|:\
+"G"gfef gfef|gfec "D"d2cd| "A"edcB ABcA|
+"G"BAEF G3F|"A"E2A2 ABcd|efec "D"d2cd|\
+"A"e2ag afed| [1c2A2A2ef :| [2c2A2A2|
+
+
+
+
+
+X: 52
+T:Clareman's Hornpipe
+N: page 17
+N: pentatonic
+S:Geraldine Cotter
+R:Hornpipe
+M:4/4
+F:http://nigelgatherer.com/books/mfi/mfabc/omaho.abc	 2012-05-18 225737 UT
+K:D
+dB|"D"AFEF D2 DE|FDFA d2 de|fedB AFDE|"G"FEED E2 dB|"D" AFEF "D"D2 DE|
+FDFA d2 de|fedB "A"AFEF|"D"D2 DE D2 :: dB|ABde f2 ef|gfed "A"e2 de|
+"D"f2 fe dBAF|"G"FEED E2 dB|"D" AFEF D2 DE|FDFA d2 de|fedB AFEF|D2 DE D2:|
+
+
+%%newpage
+
+
+X: 53
+T:Fairies' Hornpipe, The
+N: page 18
+N: heptatonic
+N: matches 287
+R:hornpipe
+H:Similar to "McNamara's", #27
+N:The ending is also played |Abcd ecAF|G2GF G2|
+M:C|
+K:G
+BA|"G"G2GA BGcB|"D"AGAB "G" G2Bc|dgfg "Em"edcB|"Am"cedB "D7"A2Bc| "G"dggf "C"g2fe|
+"Bm"dedc "Em"B2AG|"Am"ABcA "D7"dcAF|"G"G2"Cm"GF "G"G2::Bc|"G"dggf "C" g2fe|"Bm"dedc "Em"B2AG|
+"Am"ABcd edcB|"D"Ad"A"d^c "D7"d2B=c| "G"dggf "Cm"g2fe|"Bm"dedc "E7"B2AG|"Am"ABcA "D7" dcAF|"G"G2GF G2:|
+
+
+X: 54
+T:Chief O'Neill's
+T:Flowers of Adrigole
+N: page 18
+N: heptatonic
+R:hornpipe
+N:1st bar of 2nd part also played |=FEFG AGAB|. Also played with ^F in
+N:this bar.
+D:Paddy Glackin: In Full Spate
+M:C|
+L:1/8
+K:Dmix
+de|"D"fefg afge|fded dcAG|FD ~D2 FGAB|"C"cAdc A2de| "D"fefg afge|
+fded dcAG|FEFD "Em"GBAG|"D"F2D2 D2::DE|"F"=F2FE FGAB|cAdB cAGB|
+"D"Adde fded|"A7"^cAdc A2de| "D"f2fg afge|fded dcAG|F2FD "Em"GBAG|"D"F2D2 D2:|
+
+
+X: 55
+T:Bonaparte's March / Crossing the Rhine
+N:Bonaparte Crossing the Rhine
+N:Napoleon Crossing the Rhine
+N:Listowel
+N: page 18
+N: hexatonic
+R:hornpipe
+H:See also #95
+M:C|
+K:Amin
+EG|"Am"A2A>B A>GE>D|"C"c>de>c "G"d2e>g|"Am"a>ge>d c>AG>E|"C"G>E c>E "Em"G2E>G| "Am"A2A>B A>GE>D|
+"C"c>de>c "G"d2e>g|"Am"a>ge>d "Em"c>AG>E|"Am"A2A>A A2:: eg|"Am"a>ge>d "C"c>de>^f|"D"g>ea>^f "G"g2e>g|
+"Am"a>ge>d c>AG>E|"C"G>Ec>E "Em"G2E>G|"Am"c>AB>G A>GE>D|"C"c>de>c "G"d2e>g|"Am"a>ge>d "Em"c>AG>E|"Am"A2A2 A2:|
+
+%%newpage
+
+X:56
+T:Rights of Man
+N:page 19
+N: hexatonic
+N: matches 203
+R: Hornpipe
+% Nottingham Music Database
+S:Fiddler's Fakebook, via PR
+M:4/4
+L:1/8
+K:Emin
+GA|(3"Em"BcB (3ABA (3GAG (3FGF|EFGA B2ef|\
+gfed edBd|cBAG "Am"A2GA|\
+(3"Em"BcB (3ABA (3GAG (3FGF|
+EFGA B2ef|gfed Bg fg|e2E2 E2::\
+ga|"Em"bgbg efga|babg egfe|\
+"D"d^cde fefg|
+afdf a2gf| "Em"edef gfga|\
+"D"(3bag (3agf "Em"gfef|\
+gfed Bg fg|"Em"e2E2 E2:|
+
+
+
+X: 57
+T:Off to California
+N: page 19
+N: hexatonic
+R:Hornpipe
+C:Lesley Dolman
+S:Nottingham Music Database
+M:4/4
+L:1/8
+K:G
+(3DEF|"G"GFGB "D"AGED|"G"GBdg "C"e2 (3def|"G"gfgd "Em"edBG|"D"ABAG"Em"E2 (3DEF| "G"GFGB "D"AGED|
+"G"GBdg "C"e2"D" (3def|"G"gfgd "Em"edBG|"D" (3ABA EF"G"G2:: d|"Em"gfeg "D"fedf|"Em"edef edB2|"Em" (3def gd "C"edBG|
+"D"ABAG "Em"E2 (3DEF|"Em"GFGB "D"AGED|"G"GBdg "C"e2 (3def|"G"gfgd "Em"edBG|"D7" (3ABA EF"G"G3:|
+
+
+X:58
+T:Flowers of Edinburgh
+N:page 19
+N: heptatonic
+R: Reel
+S:Athole p 144, via EF
+M:4/4
+L:1/8
+K:G
+GE|"G"D2 DE G2 GA|BGBd cBAG|\
+"D"FGFE DEFG|AFdF E2GE|"G"D2 DE G2 GA|BGBd efge|
+ "D"dcBA GFGA| [1"G"B2G2 G2:| [2 "G"B2G2G2ef|:\
+"G"g2gf gbag|"Bm"f2fe fagf|"Em"edef gfed|
+ B2e2 efge|"G"dBGB d2d2|"C"edef gage|\
+"D"dcBA GFGA| [1"G"B2G2 G2 ef:| [2"G"B2G2 G4|
+
+
+
+
+
+X: 59
+T: The Musical Priest
+T: The Broom of the Cowden Knowes
+N: page 20
+N: matches 1146
+N: hexatonic
+R: reel
+M: C|
+L: 1/8
+K: Bmin
+|: BA \
+| "Bm"FB BA B2Bd | "A"cBAf ecBA | "Bm"FBBA BABd | "A"cBAc "Bm"B2 :|
+|: Bc \
+| "D"d2dc dfed | (3cBA eA fAeA | "Bm"dcBc defb | "A"afec "Bm"B2 :|
+|: Bc \
+| "Bm"dB (3BBB bafb | "A"afec ABce | "Bm"dB (3BBB bafb | "A"afec "Bm"B2:|
+
+
+X: 60
+T:High Level Bridge
+N:page 20
+N: heptatonic
+M:4/4
+L:1/8
+R:Hornpipe
+K:G
+BA|"G"GB DG B,DGB|dgBd GBAG|"D7"Ac FA DFAc|ed^cd ed =cA| "G"GB DG B,DGB|
+ dgBd GBAG|"C"EFGA Bc^cd|"D7"ed cA "G"G2::\
+K:D
+AG|"D"FdAd FdAd|FD FA dAFA|
+"G"BdGd BdGd|BG Bd gdBd|"A7"ceAe ceAe|cA ce gece|"D"dc df "A7"egce|dcde d2:|
+
+
+X: 61
+T:Humors of Tulla, The
+N:page 20
+N: heptatonic
+N: matches 264
+R:Reel
+S:Bruce's 250
+M:C|
+K:D
+"D"d2Ad "G"BdAB|"D"d2fd "G"edBc|"D"d2Ad "G"BdAd|(3Bcd ef g2fe|"D" d2Ad "G"BdAB|
+"D"d2fd "G"edBc|"D"d2Ad "G"BdAd|(3Bcd ef g2fg||"D" a~f3 d~f3|a~f3 "A"gee2|"D"a~f3 dfed|
+"G"(3Bcd ef g2fg|"D" a~f3 d~f3|a~f3 "A"gee2|"D"a~f3 dfed|"G"(3Bcd ef g4||
+
+
+
+
+
+X: 62
+T:Whiskey Before Breakfast
+N: page 21
+N: heptatonic
+S:Norman Blake, sessions (WM August 1997)
+B:Fiddler's Fakebook
+M:2/4
+L:1/16
+R:Reel
+K:D
+Q:1/4=60
+E4D2|:"D"D2FD A2AA|ABAG F2DF|"G"GABG "D"FFAF|"A"EDEF EGFE|"D"D2FD A2AA|
+"D"ABAG F2DF|"G"GABG "D"FFAF|[1"A"EDEF "D"D2FE:|[2 "A"EDEF "D"D2z2|:"D"d3d {e}d2Bc|"D"dBAG {G}F2D2|
+"Em"e3e {f}e2ef|"A"gfed c2Ac|"D"defd "A"ce2e|"G"ABAG "D"F2DF|"G"GABG "D"FFAF|"A"EDEF "D"D2z2:|
+
+
+
+X: 63
+T:Pigeon on the Gate, The
+N:page 21
+N: heptatonic
+M:2/4
+L:1/16
+C:Trad.
+S:SRSNH 8.2
+R:Reel
+K:Amix
+Q:1/4=60
+|:af|"A"eA A/2A/2A ABcd|eA A/2A/2A a2af|eA A/2A/2A ABcd|"G"ef=ge "D"d2cd|"A" eA A/2A/2A ABcd|
+EA A/2A/2A "D"a2af|"A"eA A/2A/2A ABcd|efge "D"d2::cd|"A"eaaf "D"gfed|"A"eaaf "G"g2fg|
+"A"eaaf "G"gfed|"A"efge "D"d2cd|"A"eaaf "G"gfed|"A"eaaf "G"g2fg|afge "D"fdec|"G"dB B/2B/2B g2:|
+
+
+
+
+
+X: 64
+T:Caribou Reel
+N:page 21
+N: heptatonic
+C:Andy De Jarlis
+R: Reel
+M:2/4
+L:1/16
+K:Emin
+Q:1/4=60
+B2|"Em"Be2e efed|Be2e efed|"D"Bd2d dedc|"Em"BGBc dedc|
+"Em"Be2e efed|Bdef g2(3efg|"Am"afge fde^c|"D"dBAF "Em"E2:|
+|:Bc|"Em"B2E2 "Am"EFGA|"Em"B2E2 "Am"EGFE|"D"D3D D2DD|A,D2D D2Bc|
+"Em"B2E2 EFGA|BGBd e4|efed "D"B^cdB|AGFD "Em"E4:|
+
+
+
+
+
+X: 65
+T:Merry Blacksmith
+N:page 22
+N: hexatonic
+N: matches 182
+R: Reel
+M:4/4
+L:1/8
+K:D
+AB|"D"d2dA BAFA|ABdA BAFA|\
+ABde fded|"Em"Beed "D"egfe| d2dA BAFA|
+"D"A2FA BAFA| ABde fedB|AFEF D2:|\
+fg|"D"a2ag ~f3e|dedA BAFA|
+ABde f2ed| "Em"Beed "D"egfe|\
+abag fgfe|"D"d3A BAFA|\
+ABde "A7"fedB|"D"dFEF D2:|
+
+
+X:66
+T:The Maid Behind The Bar
+R: Reel
+N:page 22
+N: heptatonic
+N: matches 180
+% Nottingham Music Database
+S:Fiddler's Fakebook, via PR
+M:4/4
+L:1/8
+K:D
+"D"FAAB AFED|FAAB ABde|\
+"Bm"fBBA Bcde|"D"f2af "A7"efdB| "D"~A3B AFED|
+"D"FAAB ABde| "Bm"fBBA BcdB|"A7"AFEF "D"D2z2::\
+"D"faa2 fdde|fdad bdd2|
+"Em"gfga beef|"A7"g{f}ebe gee2|\
+"D" faaf bfaf|defd efde|\
+"Bm"fBBA BcdB|"A7"AFEF "D"D2z2:|
+
+
+
+X: 67
+T:The Wise Maid
+T:Doherty's
+N:page 22
+N:matches 195
+N: heptatonic
+R:Reel
+C:Johnny Doherty
+M:C|
+L:1/8
+K:D
+|:"D" ~F3G "Bm" FEDE|"D"FAAB "A"AFED|"G"d2 "D"(3efg fdec|\
+"Bm"dBAF "Em"BE~E2| "D" ~F3G "Bm"FEDE|"D"FAAB "A"AFED|
+"D"d2 (3efg "Bm"fdec|"G"dBAG "D"FD~D2:: "D" dzAG  FDFA|\
+dfaf "A7"gfeg|"D"fAdf "A"eAce|
+"Bm"dfed "A"cA~A2| "Em"BDGB "D"ADFA|dfaf "A7"gfed|\
+"G"(3Bcd ce dBAG|"A"FAEA "D" D3z:|
+
+
+X: 68
+T: St. Anne's Reel
+N: page 23
+N: heptatonic
+N: matches 185
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: D
+|:e2|\
+"D"f2 fg "A7"fedB|"D"A2 FA A2 FA|"Em"B2 GB B2 GB|"D"ABAG FAde|"D"f2fg "A7"fedB|
+"D"(3ABA FA DAFA|"Em"BGBd "A"cAce|"G"d2 f2 "D"d2:|ag|"D"fdfa fdfa|"G"aggf "Em"g2 gf|"A7"edcB ABce|
+"E7"baa^g "A7"a2 a=g|"D"fdfa "Bm" fdfa|"G"aggf g2 gf|"Em"edcB "A"Aceg|"G"fdec "D"d2:|
+
+
+X: 69
+T:The Cup of Tea                                                                
+R: Reel
+N: page 23
+N: heptatonic
+M:C                                                                             
+L:1/8                                                                           
+K:D                                                                             
+"G"BAGF "Em"GEEF |GEBE GEEA|"G"BAGF "Em"GEEG|"D"FDAG FDDA|
+ "G"BAGF "Em" GEEF |GEBE GEEA |"G"B2BA GABc|dBAG "D"FD "D" D2 ::
+ "D"d2 (3efg fdec|d2 (3efg "Bm"fB B2| "D"d2 (3efg fdec|"G"dBAG "D"FD D2|
+d2 eg fdec|dfaf "G"g2 fg|"D"af (3gfe fdec|"G"dBAG "D"FA D2 ::
+"D"FAdA FABA|FAdA "Em"FE E2|"D"FAdA "Bm"FABc|"G"dBAG "D"FD D2|
+FAdA FABA|FAde "Em"fe eg|"D"fdec dBAF|"G"GBAG "D"FD D2 :|
+
+
+X: 70
+T:Silver Spear, The
+N: page 24
+N: heptatonic
+N: matches 1164
+M:C|
+E:7
+Z:Boston
+R:reel
+K:Amix
+"D"FA ~A2 BAFA|dfed "Bm"Bcd2|"D"FA ~A2 BAFA|dfed "Bm"B2 A2| "D"FA ~A2 BAFA|
+dfed "Bm"Bcdf|"Em"~g3 e "D"~f3 e|dfed "Bm"B2 A2::\
+"D"faaf bfaf|"Em"gfed "Bm"Bcde|
+"D"faaf bfaf| "Em"gfed "Bm"B2 A2| "D"faaf bfaf|"Em"gfed "Bm"Bcde|\
+"Em"~g3 e"D"~f3 e|dfed "Bm"B2 A2:|
+
+
+X: 71
+T: The Wind That Shakes the Barley
+N: page 24
+N: heptatonic
+N: matches 251
+O: Trad
+R: reel
+M: 4/4
+L: 1/8
+K: D
+[| "D"A2AB AFED | "Bm"B2BA BcdB | "D"~A3A AFED |\
+ "Em"gfed "Bm"BcdB |  "D"A3B AFED |
+ "Bm"DBBA BcdB | "D"~A3B AFED | "Em"gfed "Bm"Bcde ||\
+ "Bm"~f3d "G"~g3a | "Bm"~f3d Bcde | f2df "G"gefg |
+ "D"afed "Bm"Bcde | |  "D"~f3d "G" ~g3e | "Bm"~f3d Bcd2 |\
+defg "G"afba | "D"afed "Bm"BcdB |]
+
+
+X: 72
+T: Salamanca Reel
+N: page 24
+N: heptatonic
+N: match 260
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: D
+|:dB|\
+"D"AD (3FED AD (3FED|Adcd "Bm"fedc|"Em"BE ~E2 BE ~E2|\
+Beed "A7"cdeg| "Bm"fB ~B2 fB ~B2|
+"G"fgfe "D"dfag|"Bm" fd ec "G"dABG|"A7"FAEA "D"D2::\
+fg| "D"afdf "Em"bgeg|"Bm"fdcd "G"BAFG|
+"D"Addc "Bm"defg|"Em"(3aba gb "A"a2fg|\
+"D"~a3f "Em"~g3e|"Bm" ~f3e "D" dfag|\
+"Bm"fdec "G"dBAG|"A"FAEA "D"D2:|
+
+
+X: 73
+T: Cooley's Reel
+N: page 25
+N: heptatonic
+N: matches 187
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: Edor
+|:D|\
+"Em"EBBA B2EB|B2AB dBAG|"D"(3FED AD BDAG|(3FED FA dAFD| "Em"EBBA B2EB|
+B2AB defg| "D"afec dBAF|"Bm"DEFD "Em"E3:: g/f/| "Em"eB ~B2 efgf|eB ~B2 gedB|
+"D" A2 FA DAFB|~D2FA "Bm"B^cdf| "Em"eB ~B2 efgf|"C"eB ~B2 defg|\
+"Am" afec dBAF|"Bm"DEFD "Em"E3:|
+
+
+X: 74
+T:Drowsy Maggie
+R: Reel
+N: page 25
+N: heptatonic
+M:4/4
+L:1/8
+K:Edor
+|:"Em"~E2BE dEBE|~E2BE "D"AFDF|"Em"~E2BE dEBE|"Bm"BABc "D"dAFD|"Em"~E2BE dEBE|
+~E2BG "D"AFDF|"Em"E2BE dEBE|"Bm"BABc "D"dAFA||"D"d2fd "A"c2ec|"D"defg "A7"afge|"D"d2fd "A"c2ec|
+"G"BABc "D"dAFA| d2fd "A"c2ec|"G"defg afge|"D"afge fdec|"G"BABc "D"dAFD:|
+
+
+X: 75
+T: High Road to Linton
+R: Reel
+N: page 25
+N: heptatonic
+M: 4/4
+L: 1/8
+K: Amix
+|: "A"ceef a2ae | "G"f2fe "D"a2ae | "A"cefe a2ae | "D"faec "E"B2"A"A2 :|
+|: "A"ceeg "D"fddf | "A"ecce "E"fBB2 |"A"ceeg "D"fddf |"A"ecac "G"B2"A"A2 :|
+|: "A"a2a2 efa2 | efae faef | a2a2 efae | "D"faec "E"B2"A"A2 :|
+|: "A"c2ec "D"defd | "A"c2ec "G"BcdB | "A"c2ec "D"def^g | "A"afec "G"B2"A"A2 :|
+
+
+X: 76
+T:The Banshee / Monahan's Reel
+N: page 26
+N: heptatonic
+N: matches 1147
+M:C|
+L:1/8
+A:Ireland
+R:reel
+B:Fiddler's Fakebook
+Z:WM Nov 1996
+K:D
+"G" G2 GD "C" EDEG|"D"AGAB "G" d2 Bd|"C"eged "G" BAGA|"Em"BAGE "D"EDDE|"G"G2 GD "C" EDEG|
+"D" AGAB "G" d2 Bd|"C"eged "G"BAGA|"Em" BAGE "D"ED D2::"Am"eaag "C"eggf|"Em"eBBA B2 Bd|eBBB "G"gBfB|
+"Em"eBBA B2 Bd|"Am"eaag "C"eggf|"Em"eBBA B2 Bd|"C"eged "G"BAGA|"Em"BAGE "D"ED D2:|
+
+
+X: 77
+T:Father Kelly's
+N: page 26
+N: matches 249
+N: heptatonic
+A:Ireland
+R:reel
+M:C|
+K:G
+GA|"G"B2GB "C" AGEG|"G"DGGF GABd|"Am"c2AB cBAG|"C"EAAG "D"ABcA|"G"B2GB "C"AGEG|
+"D"DGGF "Em"GABc|"G"d2Bd gdBd| "D7"cAFA "G" G2:: Bc|"G"d2Bd gdBd|"G7"d2Bd gdBd|
+"C"e2ce agfe|"D"defg agfe| "G"d2Bd gdBd|"G7"d2Bd gdBd|"C"c2Ac "G" B2GB|"D"AGFA "G" G2:|
+
+
+X: 78
+T:Ships Are Sailing
+N: page 26
+N: heptatonic
+N: matches 192
+M:4/4
+A:Ireland
+R:Reel
+Z:Boston
+K:G
+"Em"Beed B^cdB|"D"AD (3FED AD (3FED|"Em"~E3 F GFGA|Beef gfed| Beed B^cdB|
+"D"AD (3FED AD (3FED|"Em"~E3 F GFGA|"D"Beed "Em"e2||\
+ef|"G"gfga bgeg|"D"fefg afdf|"Em"~g3a bgeg|
+"D"~f3g "Em"e2 ef| "G"gfga bgeg|"D"fefg afdf|"G"~g2 bg "D"~f2 af|"Em"edef g2||
+
+
+X: 79
+T:The Star of Munster
+N: page 27
+N: heptatonic
+N: matches 183
+M:4/4
+A:Ireland
+R:reel
+K:Ador
+ed|"Am"c2 Ac "G"BAGB|"Am"AGEF "G"GEDG|"Am"EAAG "C" ABcd|\
+"Am"eaaf "Em"gedB| "Am"c2Ac "G"BAGB|
+"Am"AGEF "Em"GEDG|"Am"EAAG "C"ABcd|"Am"ec "G"dB "Am"A2:|\
+Bd|:"Am"eaab ageg|agbg agef|"G"~g3a gfef|
+"Em"(3gfe af "G" gfed| "Am"eaab ageg|agbg agef|\
+"G"~g3e "Am"~a3g|"Em"~b3a "G"gfed:|
+
+
+X: 80
+T:The Sligo Maid
+N: page 27
+N: heptatonic
+M:C|
+L:1/8
+Z:Boston
+E:7
+R:reel
+K:AMix
+"Am"A2 BA (3Bcd ef|gedB AGEF|"G"~G2 BG dGBG|\
+DEGA "Em"BAdB| "Am"A2 BA (3Bcd ef|
+gedB AGEG|"G"B3G "Em"A2GE|"G"DEGA "Am"BA ~A2::\
+"Am"eaag a2ga|bgab gfed|"G"eggf ~g3e|
+dega bgag| "Am"eaag a2ga|bgab gfed|\
+"G"eg~g2 edBc|dBgB "Am"BA ~A2:|
+
+
+X:81
+T:The Swallow's Tail
+R: Reel
+N:page 27
+N: heptatonic
+% Nottingham Music Database
+S:via PR
+M:4/4
+L:1/8
+K:Ador
+gf|"Am"eAcA eA (3cBA|"Em"Bdef gedB| "G"G2BG dGBG|\
+"D7"Bdef "G"g2fg| "Am"eA (3dBA eAcA|\
+"Em"Bdef "G"g2fg| "Am"afge "G"dBGB|"D7"Ac"G"BG "Am"A2::
+Bd|"Am"eaag abag|"Em"edef gedB|\
+"G"G2(3BAG dGBG|"D7"Bdef "Gm"g2gf|\
+"Am"eaag "Em"abag|"Em"edef "Em"g2fg|\
+"Am"afge "G"dBGB|"D7"AcBG "Am"A2:|
+
+
+
+
+
+X: 82
+T: Castle Kelly
+S: Bernie Waugh
+N: page 28
+N: heptatonic
+R: Reel
+M: 4/4
+L: 1/8
+K: Ador
+"Am"~A2cA "F"~A2cA|"Em"GBEG G2EG|"Am"~A2cA "Em"GAcd|\
+"F"egdB cAAE| "Am"~A2cA "F" A2cA| "Em"GcEG G2EG|
+"Am"A2cA "Em"GAcd|"F"egdB cAA2||\
+ "Dm"age^c d2ed|"G"cAGE G3e| "Dm"age^c "G"d2=cd|
+"A"eaab a2ba| "Em"ged^c d2ed|"F"cAGE G2EG|"Am"A2cA "Em"GAcd|"Am"egdB cAA2|
+
+
+X:83
+T:Sally Gardens
+N:page 28
+N: hexatonic
+N: matches 181
+R: Reel
+S:via PR
+M:4/4
+L:1/8
+K:G
+"G"~G2 DG B2GB|"Em"dBeB "D"dBAB|"G"~d2Bd "C"egdB|\
+"D"AcBA "Em"GEDE|"G"~G2DG B2GB|
+"Em"dBeB "D"dBAB| "G"~d2Bd "C"egdB|"D"dBAB "G"G4::\
+"G"dggf g2dg|"Em"~g2bg aged|
+"Am"eaag a2ea| "D"~a2bg ageg| "G"dggf g2dg|"Em"~g2bg ageg|\
+"G"d2Bd "C"efge|1 "D"dBAB "G"G4:|
+
+
+X: 84
+T:Rakes of Mallow
+N: page 28
+N: heptatonic
+M:4/4
+L:1/8
+R:Polka
+N:http://celtic.stanford.edu/pub/tunes/abc.tunes/xip
+N:<cfalt@trytel.com> www.trytel.com/~cfalt/Fiddle/The_List.abc
+K:G
+ "G"G2B2 G2B2|G2B2 cBAG|"D"F2A2 F2A2|F2A2 dcBA|\
+"G"G2B2 G2B2|G2B2 d4|"C"cBAG "D7"FGAc|[1"G"B2G2 G4:|[2 "G" B2G2G2|
+|:Bd|"G"g2fe d2c2|B2c2 d4|g2fe d2c2|B2c2 "D"A4|\
+"G"g2fe d2c2|B2c2 d3B|"C"cBAG "D7"FGAc|[1"G"B2G2 G2:|[2B2G2 G4|
+
+
+
+X: 85
+T: The Maid of Feakle
+C: anon.
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) no. 775
+N: page 29
+N: hexatonic
+R: Reel
+M: C
+L: 1/8
+K: G
+Bc |"G"d2BG "C"AGEG|"G"DGBG "C"c2Bc|"G"d2BG "C"AGEG|"G"DGBG "C"A2Bc|"G"dGBG "C"AGEG|
+"G"DGBG "C"c2BA|"G"GABG "C"egge|"G"dBAB G2||GA| "G"BddB "C"c2ed|"G"BddB "C"AGED|
+"G"BddB "C"cBce|"G"dBGB "C"A>BG>A|"G"BddB "C"cecd|"G"BddB "C"AGED|"G"Bd~d2 ed (3B^cd|"C"egfa "G"g2|]
+
+
+X: 86
+T:Temperance Reel
+T:Teetotaller's Reel
+S:David Bromberg, sessions
+N: page 29
+N: heptatonic
+N: matches 1118
+M:C|
+R:reel
+K:G
+D|"G"G2GF GABc|d2ge dBAc|"Em"BE ED EFGA|\
+"D7"BGAF GFED| "G"~G3F GABc|dBge dBAc|
+"Em"BEED EFGA|"D7"BGAF "G"G3:| A|\
+"Em"Beed e3g|fgaf gfed|"D"Bdd^c d3 e|
+fgaf gfed| "Em"Beed e3g|fgaf gfed|BEED EFGA|"D7"BGAF "G"G3:|
+
+
+X: 87
+T:Miss McLeod's Reel
+T:Mrs. MacLeod of Raasay
+N: page 29
+N: heptatonic
+M:4/4
+A:Scotland
+R:reel
+Z:Ireland around the turn of the century.
+K:G
+BA|:"G"G2 BG dGBG|"Em"B2 BA BcBA|"G"G2 BG dGBG|\
+"D7"A2 AG AcBA| "G"G2 BG dGBG|
+"Em"B2 BA "Bm"~B3d|"C"efed "G"Bdef|"Em"gedB "D7"AcBA:|\
+ "G"G2 gf edeg|"Em"B2BA "D7"BcBA|
+"G"G2 gf "C"edeg|"Am"A2 AG "D7"AcBA| "G"G2 gf "C"edeg|\
+"Em"B2 BA "Bm"B3d |"Em"efed "C"Bdef|"G"gedB "D7" AcBA:|
+
+
+X: 88
+T: Angus Campbell
+T: The Laird o' Drumblair
+N: page 30
+N: heptatonic
+C: J.S.Skinner
+B: Harp & Claymore, p.93, p.94; SV p.13; Hunter #134, #224; Hebert p.8; BSFC IV-20.
+N: Skinner also published this tune as the strathspey/shottish "Laird o' Drumblair".
+R: reel
+R: 2/4
+L: 1/16
+K: A
+Q: 1/4=60
+[| E2 \
+| "A"A2cA EAce | a2ga faec | "D"d2Bd "A"c2Ac | "Bm"BFBA "E7"GEFG |  "A"A2cA EAce |
+ a2ga faec | "D"defd "A"ceaf | "E7"ecdB "A"A2 :: (3efg \
+| "A"a2ea caAa | cAce aAca |
+"Bm"ebgb ebgb| gefg agfe| | "A"a2ea caAa |\
+ cAce aecA |"D"defd "A"ceaf | "E7"ecdB "A"A2 :|
+
+
+X: 89
+T: Big John McNeil
+N: page 30
+N: heptatonic
+S: Bernie Waugh
+R: Reel
+M: 2/4
+L: 1/16
+K: A
+Q:1/4=60
+|:A2|\
+"A"A,2CE FECE|AECE FECE|A,2CE FECE|"D"FAGF "E7"EDCB,|
+"A"A,2CE FECE|AECE FECE|"D"A,CB,D CEDF|"E7"EGBd "A"cA:|
+|:cd|\
+"A"eAfA eAcd|eAfA e2 (3agf|"D7"eAfA eAce|"D7"daca "E7"B2cd|
+"A"eAfA eAcd|eAfA e2fg|agfe fece|"E7"defg "A"a2:|
+
+
+X: 90
+T:Mason's Apron
+M:C
+L:1/8
+C:Trad
+R:Reel
+K:A
+|: efg |"A" a2 A2 (3AAA F | EFAB cABc |"Bm" d2 B2(3BBB A |"Bm" GABc "E7" defg | "A"a2 A2 (3AAA F | 
+EFAB cABc |"D" dcde fgaf |"E7" edcB "A"A2 :||: ed |"A"c2ec fcec | Acec fedc |
+"Bm" d2fd gdfd |"Bm" d2fd "E7"gfed |"A"c2ec fcec | Acec fedc | "D" dcde fgaf | "E7"edcB "A"A2 :|
+
+%%newpage
+
+X: 91
+T: After the Battle of Aughrim
+N: page 31
+N: heptatonic
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: Ador
+|AG|:\
+"Am"E2A2 ABcd|e2d2 c2A2|"Em"B2G2 GFGA|\
+BGAG E2D2| "Am"E2A2 A2(3Bcd|e2ed e2ag|
+"G"e2d2 "Em"BedB|[1"Am"A4 A2 AG:|[2 "Am"A6 e2|:\
+"Am"a2ag e2(3efg|abag "A"e2(3efg|"Am"a2af "Em"g2ge|
+"G"dedB "Em"G2A2| "Am"abag e2(3efg|abag e2d2|"Em"B2e2 "G"d2B2|[1"Am"A6 e2:|[2"Am"A6|
+
+
+X: 92
+T:The Drunken Piper
+T:Highland Rory
+N: page 31
+N: hexatonic
+R: Reel
+M:C|
+L:1/8
+K:Ador
+|: "Am"~A2AB e3f | edBd e2g2 | "G"~G2GB d3e | dBGB "E7"d2e2 |\
+   "Am"~A2AB e3f | edBd e2a2 | "G"~g2eg eged |[1 "Am"B2A2 A4 :|
+[2 "Am" B2A2 A2| e2|\
+  "Am"a4 e2a2 | edef "(D)"g2a2 | "G"~G2GB d3e | dBGB "E7"d2e2 |\
+  "Am"a4 e2a2 | edef "(D)"g2a2 | "G"g2eg eged | "Am"B2A2 A2e2 ||
+   "Am"a4 e2a2 | edef "(D)"g2a2 | "G"~G2GB d3e | dBGB "E7"d2e2 |\
+   "Am"~A2AB e3f | edBd e2a2 | "G"~g2eg eged | "Am"B2A2 A4 |]
+
+
+X: 93
+T:Croppies' March
+T:Freedom for Ireland; Heather on the Hill, Lark's Neck, Ireland Forever
+N: page 31
+N: heptatonic
+M:2/4
+L:1/8
+R:polka
+K:G
+Q:1/4=60
+E|"G"D>E DB,|DE G>A|"D"Bd AB/2A/2|"C"GE EG/2E/2|\
+"G"D>E  DB,|"D7"DE "Em"G>A|"G"Bd "D"AB/2A/2| "G"G2 G:|
+G| "G"Bd dB|"C"ce ed/c/|"G"Bd "D" AB/2A/2|"Em"GE Ed|\
+"G"Bd dB|"C"ce ef|"Em"ge "D" f/e/d|"Em"e2 e|
+f| "C"ge "D" fd|"Em"e/f/e/d/ "D"B>A|"C"Bd "D"AB/2A/2|"Em"GE EG|\
+"G"D>E DB,|"D7"DE "Em"G>A|"G"Bd "D"AB/2A/2|"G"G2 G||
+
+
+X: 94
+T:Piper o'er the Meadow Straying
+N: page 32
+N: heptatonic
+R:Hornpipe
+M:C|
+K:G
+Bc|"G" d3c B2 A2|G2G2 B2G2|"C"ABcA "G"G3F|G2G2 B3A|\
+d3c B2A2|G2G2 B2G2|"C"ABcA "G"G3F|G2B2G2z2|
+"D"A3B "C"c2A2|"G"BABc "D"d2A2|"G"B/c/d3 e/f/g3|"D"f2e2 "G"d3B/c/|\
+dedc BcBA|G2 G2 B3G|"C"AecA G3F|"G"G2B2 G2|
+
+
+
+
+
+X: 95
+T:Madame Bonaparte
+N: page 32
+N: heptatonic
+M:4/4
+L:1/8
+R:Hornpipe
+K:G
+dc|"G"B2BA BdBG|"C"c2{d}cB "Am"cecA|"G"GA (3Bcd "Em"gfge|\
+"D7"d2df dcBA| "G"B2BA BdBG|
+"C"cBcd "Em"ef (3gfe|"G"dBGB "D7"cAFA|"G"G2{A}GF G2::\
+"G"(3DEF|GA (3Bcd "Em"{ga}gfge|
+"D7"d2de dcBA|"G"GA (3Bcd "Em"{ga}gfge|\
+"D7"(3ded ^ce d2d=c| "G"BdBG (3Bcd BG|"Am"cecA cecA|
+"G"BdBG (3Bcd BG|"D7"FAFD FAFD| "G"BdBG BdBG|\
+"C"{cd}cBcd ef (3gfe|"G"dBGB "D7"cAFA|"G"G2GF G2:|
+
+
+X: 96
+T:O'Neill's Cavalcade 
+N: page 32
+N: hexatonic
+R: March
+M:2/4
+L:1/16
+K:Emin
+Q:1/4=60
+A\
+| "Em"G2g2 "D"f2a2 | "Em"e2g2 gfed |\
+"G"B2g2 "Bm"f2a2 | "Em"e2g2 gfed |\
+"Em"B2g2 "D"f2a2 | "Em"e2g2 gfed |
+"G"B2g2 "Bm" f2a2|"Em"e2g2 gfed| "Em"{^d}e2>e2 "Bm"fe=dB |\
+ "Em"{^d}e2>e2 "Bm"fe=dB |\
+"Em"e2de "Bm"fedB | "Em"e2de "Bm"fedB |\
+"Am"A2AB "G"G2GB |
+"Am"A2e2 edBG |\
+"Am"A2AB "G"G2FB | "Am"A2e2 edBG |\
+"Am"A2A/B/A "G"G2B2| "Am"A2e2 edBG|\
+"Am"A2A/B/A "G"G2B2| "Am"A2e2 edB2|
+
+
+X: 97
+T:Burning of the Piper's Hut, The
+N: page 33
+N: hexatonic
+R: Reel
+S:ALP Scots Music Group, Edinburgh
+M:4/4
+L:1/8
+K:Bmin
+F2 |"Bm" Bcde f4     | {g}fe f<a f2 ed |"A" c2 A2 e2 A2  | cdef e2 dc |
+   "Bm"  Bcde f4     | {g}fe f<a f2 ed |"A" c2 A2 "F#m"f2 ed |"Bm" {d}c2 B2  B2    ::
+f2 |"Bm" Bcde f>B B<B | a>B B<B f2 ed |"A" c2 A2 e2 A2  | cdef e2dc |
+    "Bm" Bcde f>B B/B/B| a>B (3BBB f2 ed |"A" {AB}c2 A2 "F#m"f2 ed | "Bm"c2 {dc}B2 B2 :|
+
+
+X: 98
+T:Brian Boru's March
+N: page 33
+N: hexatonic
+M:6/8
+R:March
+K:Bmin
+f|:"Bm"d>cB B2f|d>cB B2e|"A"c>BA A2e|c>BA A2f|
+"Bm"d>cB B2f|d>cB B2B|B>de f2e|[1dcB B2f:|[2dcB B2z|:
+"D"Ade f2e|f2e f2e|"A"ABc e2c|e2c e2c|\
+"Bm"B>de f2e|f2e f2e|B>de f2e|dcB B2z::
+dcB b2b|dcB b2b|"A"cBA a2a|cBA a2a|\
+"Bm"dcB b2b|dcB b2b|Bde f2e|dcB B2z:|
+
+
+X: 99
+T: The Irish Rover
+N: page 33
+N: heptatonic
+N: matches 413
+R: march
+M: 4/4
+L: 1/8
+K: D
+ FE\
+|: "D"D2 FG  A2 de | f2 ed  "G"d2 cB | "D"A2 BG  F2 GF | "A7"E6 AF | "D"D2 FG  A2 de |
+ f2 ed  "G"d2 cB | "D"A2 BG  F2 GF | D2 D2 D2||A2|\
+ "D" d3e f2d2|"A7"e3c A4|
+"D"d3e f2d2|"A7" e3c AGFE|\
+ "D" D2 FG A2 de|f2 AF "G" G2 FE|"D" D2 FA d2 f2|"A7" e4 "D" d2|
+
+
+X: 100
+T:The King of the Fairies
+N: page 34
+N: heptatonic
+% Nottingham Music Database
+S:Fiddler's Fakebook, via PR
+R: Hornpipe
+M:4/4
+L:1/8
+K:Emin
+B,|"Em"EDEF GFGA|B2 BA GFGA|B2 E2 EFGE|"D"FGFE D2B,2|"Em"EDEF GFGA|
+"Em"BAGB "D" d2 dc|"Em"B2 E2 "D"GFED|"Em"E6-E:|d|"Em"e2e2 Bdef|gagf e3f|"Em"e2B2 BABc|
+"D"dedc Bc (3dcB|"Em"e2B2 Bdef|gagf efed|"Em"Bdeg "D"fedf|"Em"e6 ef|"G"g3e "D"f3d|"G"edB^c "D" d3e|
+"D"dBAF "G"GAB^c|"D"dBAF GFED|"Em"B,2 E2 EFGA|B2 e2 edef|"Em"e2 B2 "D"BAGF|"Em"E6|
+
+
+
+X: 101
+T:Soldier's Joy
+N: page 34
+N: heptatonic
+M:4/4
+L:1/8
+R:hornpipe
+N:http://home1.swipnet.se/~w-11382/hnhp0.abc
+N:<cfalt@trytel.com> www.trytel.com/~cfalt/Fiddle/The_List.abc
+K:D
+dB|"D"AFDF AFDF|A2d2 "G"d2cB|"D"AFDF AFDF|\
+"A7"G2E2 E2A2| "D"AFDF AFDF|A2d2 d2de|
+"D"fafd "A7"egec|"D"d2 d2 d2:: de|\
+"D"f2fe "Bm"fagf|"Em"edcd "A7"efge|"D"f2fe "Bm"fagf|
+"E7"edcB A2de| "D"f2fd "Bm"fagf|"Em"edcd "A7"egfe|"D"fafd "A7"egec|"D"d2 d2 d2:|
+
+
+X: 102
+T:Holland Is A Fine Place
+N: page 34
+N: heptatonic
+M:4/4
+L:1/8
+Q:80
+C:Traditional
+R:Slow March
+B:RWF 28
+K:Ador
+cB|:"D"A2 {B}A2"G" B2 d2|"C"edef "G"{a}g2 ag|\
+"Em"e2 dB "Am"A2 AB|"G"{GA}G6 cB| "D"A4 "G"B2 d2|
+"C"edef "G"{a}g2 ba|\
+"Em"gedB "Am"A2 A2|"D"{B}A6 (3def|\
+"G"gdBd ef g2|"D"{b}a3 f "G"g2 ag|
+"Em"{eg}e2 dB "Am" A2 AB|"G"{GA}G6 cB|\
+"D"A2 {B}A2 "G"B2 d2|"C"edef "G"g2 ag|\
+"Em"e2 dB "Am"A2AG|"D"A6:|
+
+
+X: 103
+T: Ale is Dear
+T: Maighstir Ord
+N: page 35
+N: hexatonic
+R: Reel
+N: Fiddlers  Five  CD 7, as trad, follows Spootiskerry, Scots Guards #341, Logan's p.33
+M: 4/4
+L: 1/8
+K: BDor
+|: "Bm"{e}~f2ef B2fe | "A"faea cAec | "Bm"~f2ef B2fe | "F#m"faec "Bm"B4 :|
+|| "Bm"{A}~B2Bc d2cB | "A"A2AB cABc | "G"{A}~B2Bc d2cB | "F#m"f2{a}ec "Bm"B4 ||
+|| "Bm"{A}~B2Bc d2cB | "A"A2AB cABc | "D"~d2 fd "A"~c2 ec | "F#m"f2{a}ec "Bm"B4 |]
+
+
+X: 104
+T:The Peverill Lasses
+N: page 35
+N: heptatonic
+M:4/4
+L:1/8
+C:Jean Duval
+R:reel
+K:Bmin
+"Bm"F2fe dcBA|"G"G2BG DGBG|"Bm"F2fe dcBA|"A"Acec aecA|
+"Bm"F2fe dcBA|"G"G2BG DGBG|"Bm"F2fe dcBA|"A"Ac Bd cedc|:
+"Bm"d2 dc defd|"Em"e2 ed egfe|"Bm"dAFA DAFA|"Em"GFEF GABc|
+"Bm"d2 dc defd|"Em"e2 ed efga|"Bm"bfde "G"fdGB|"A"decA "Bm"B4::
+"Bm"FBdB FBdB|"G"GBdB GBdB|"Bm"FBdB FBdB|"A"AcBd cedB|
+[1"Bm"FBdB FBdB|"G"GBdB GBdf|"Bm"bfde fdGB|"A"decA "Bm"B4:|
+[2"Bm"FdBF dFBd|"G"GdBG dGBd|"Bm"bfde fdGB|"A"decA "Bm"B4||
+
+
+
+
+X: 105
+T:March of the Kings of Laoise : Mairseail Ri Laoise (Slow March)
+N: page 36
+N: heptatonic
+R:March
+O:Ireland
+M:6/8
+C:Rory o'Moore
+K:D
+"D" A2 {BA}FA2D|A2 {BA}FA2D|"G"B2G "D"A2F|"Em"G2F "A"E2 {FE}D|"D"A2 {BA}FA2D|"D"A2 {BA}FA2D|
+"G"B2d "D"A2F|"Em"G2F"A"E2{FE}D|"Bm"F>ED "G"G>AB|"A"A3-AGF|"C"E>=cG E=CE|G>=cG E=CE|"D"D>ED D>ED|
+D>ED D2z::"G"B {cB}G"D"d2A|"G"B2 {cB}G "Bm" d>cB|"D"A2d A2F|A2d "D7"A2=c|"G"B2e"D"d2A|
+"Em"G>AG "A7"E2G|"D"F>ED "G"G>AB|"A"A3-AGF|"C"E>=cG E=CE|G>=cG E=CE|"D"D>ED D>ED|D>ED D2z:|
+
+
+
+X: 106
+T: Road to the Isles
+N: page 36
+N: heptatonic
+R: Strathspey
+O: Scotland
+C: Trad
+M: 4/4
+N: Often played without repeats.
+L: 1/8
+K: D
+|: A>d \
+|| "D"f4 a>f e>f | "G"d>e d>c B2 d>c |\
+ B<G B>c "D"d>e f<a | "Em"e4- "A7"e2A>d | "D"f4 a>f e>f |
+ "G"d>e d>c B2 g2 |\
+"D"f<a f>d "A7"A>c e>c | "D-G-D"d6 :|\
+|: f>g | "D"a>A ~A2 f>A ~A2 | "G"d>e d>c B2 d>c|
+B<G B>c "D"d>e f>a|"Em"e4-"A7"e2 f>g|"D"a>A ~A2 f>A ~A2|\
+d>e d>c B2 g2|"D"f<a f>d A>c e>c|"D"d6:|
+
+
+X: 107
+T:The Parting Glass
+N: page 36
+N: hexatonic
+R: Reel
+M:4/4
+L:1/8
+K:G
+BA| "G"G3E E D2 E| G2 G2 "C"A2GA|"G" B2 B2BAGA| B3D D2BA| G3E ED2E|
+ G2 G2 "C"A2GA|B2 e2dBAB| G3E E3 B|"G"dBde d3 B|dBde d3 B|"C" c2 B2 A2GA|
+ "G"B3D D2BA| G3E ED2E| G2 G2 "C"A2GA|"G" B2 e2dBAB| G3E E2||
+
+
+
+
+
+X: 108
+T: Denis Murphy's Polka
+N: page 37
+N: heptatonic
+N: matches 216
+R: polka
+C: Denis Murphy
+M: 4/4
+L: 1/8
+K: D
+|: "D"fgfe dedB | A2D2F2A2 | "G"G2E2 e3d |"A" c2B2B2A2 |\
+  "D"fgfe dedB  | A2D2F2A2 | "G"G2E2 "A"e3f |"D"e2d2 d4 ::
+  "D"A2f2 f2ef  | "G"A2g2 g2fg |"D" A2f2 fed2 | "A"efed B2AB |\
+"D"A2f2 f2ef | "G"A2g2 gfga | b2a2"A"gage | "D"e2d2d4:|
+
+
+X: 109
+T:Spanish Lady
+N: page 37
+N: heptatonic
+N: matches 213
+Z:Boston
+M:2/4
+L:1/16
+R:polka
+K:D
+AG|:"D"F2A2 A2Bc|d3c d2ef|"G"g2e2 "D" f2d2|"Em"B2A2 "A"ABAG|"D"F2A2 A2Bc|d3c d2ef|"Em"g2e2 "D"f2d2|"Em"B2A2 A4:|
+"Bm"f2a2 abaf|"E"e2d2 d2e2|"Bm"f2a2 a3f|"E"e2d2 e4|"D"f2a2 abaf|"G"e2d2  d2ef|"A7"g2e2 "D"f2d2|"G"B2A2 "A7"A4:|
+
+
+X: 110
+T:The Maids of Ardagh
+N: page 37
+N: heptatonic
+R: polka
+M:2/4
+L:1/8
+K:D
+"D"AB/A/ FA |de f2|"A7"f e/f/ gc|"D"ed BA|\
+A B/A/ FA|de f2| "A"f e/f/ gc|"D"ed d2::
+"A"e f/e/ ce|fe a2|e f/e/ ce| "A"fe c/B/ A|\
+e f/e/ ce|fe a2|"E7"e f/e/ dB|"A"BA A2:|
+
+
+X: 111
+T: Church Street Polka
+N: page 37
+N: heptatonic
+R: polka
+M: 2/4
+L: 1/16
+K: G
+Q:1/4=60
+dc|\
+"G"B2G2 D3D|"C"E2c2 c2AB|"Am"c2E2 F2E2|"D7"D2d2 dedc|"G"B2G2 D3D|"C"E2c2 c2AB|"Am"cBAG "D7"FDEF|"G"G2B2 G2:|
+Bd|\
+"G"g4 "D7"f4 | "C"c6 d2 | "Am"e4 "D"d4 | "G"B6 c2 \
+| "G"d3e d2B2 | "D7"A6 BA | "C"G3A B2c2 | "D"d2d2 e2f2 |
+"G"g4 "Bm"f4|"C"c6 d2|"Am"e4 d4|"G"B6 c2|\
+d3e d2B2|"Am" A6 BA|"C" G2g2 "D7"fgaf|g6|
+
+
+
+X: 112
+T: Ballyoran Polka #1
+N: page 38
+N: heptatonic
+R: polka
+M: 4/4
+L: 1/16
+K: G
+Q:1/4=60
+Bc|"G" d2g2 g2fe|d2B2 B2AB|"D"c2e2 e2dc|"G" B2G2 GABc|\
+d2g2 g2fe|d2B2 B2AB|"D"c2e2 e2d2|"G"G4G2::
+BA|"G"G2DG B2d2|"D"c2A2 ABAG|F2DF A2c2|"G"B2A2 "D"GcBA|\
+"G"G2DG B2c2|"D"B2A2 A3G|"D"F2e2 e3d|"G"G4G2:|
+
+
+X: 113
+T: Ballyoran Polka 2
+N: page 38
+N: heptatonic
+R: polka
+M: 2/4
+L: 1/16
+K: G
+Q:1/4=60
+|:BA|"G"G2DG B2GB|d2Bd g2B2|"D"d2c2 c2A2|"G"e2d2 BcBA|\
+"G"G2DG B2Gd|"G"d2Bd g2B2|"D" d2c2c2F2|"G"A2G2 G2::
+B2|"D" d2c2 c2A2|"G"e2d2 B2GB|"D"d2c2 c2A2|"G"e2d2 "D" BcBA|\
+"G" G2DG B2GB|d2Bd g2B2|"D"d2c2 c2F2|"G" A2G2 G2:|
+
+
+X: 114
+T:Maggie in the Woods
+N: page 38
+N: hexatonic
+N: matches 215
+M:2/4
+L:1/8
+R:Polka
+Z:As played by the CHB
+K:G
+Q:1/4=60
+B/2A/2|"G"GD GA|"Em"Be e/f/g/2e/2|"G"dB B/2A/2G/2A/2|"D"BA A/c/B/2A/2|\
+"G"GD GA|"Em"Be e/f/g/2e/2|"G"dB "D"AB/2A/2|"G"G2 G::
+d|g>f "C"ed|"D"ef "G"g>e|dB B/2A/2G/2A/2| "D"BA A>d|"G"g>f "C"ed|\
+"D"ef "G"g>e|dB "D"AB|"G"G2G:|
+
+
+X: 115
+T: The Girl I Left Behind Me
+T: Brighton Camp
+N: page 38
+N: hexatonic
+O: 1758
+R: march
+B: Karpeles & Schofield P.31(F), p.55(G)
+B: Nan Fleming-Williams and Pat Shaw "English Dance Airs" Book 3 p.5 (1968, 1984)
+N: Many versions exist from all over the British Isles. Commonly used for sword dances.
+M: 2/4
+L: 1/8
+K: G
+Q:1/4=60
+g/f/ \
+| "G"ed BA | "C"A/B/A/G/ ED | "G"GG G/A/B/c/ | "D7"d2 Bg/f/ \
+|  "G"ed BA | "C"A/B/A/G/ EG | "D7"FA DE/F/ | "G"G2 G z::
+  "G"Bd "D7"ef | "G"gd "D7"B>A | "G"Bd "Em"d/e/f/g/ | "C"g2 "D7"fg/f/ \
+|  "G"ed BA | "C"A/B/A/G/ EG | "D7"FA DE/F/ | "G"G2 G z:|
+
+
+X: 116
+T:The Ballydesmond Polkas No 2/ Maurice Manley's
+N: page 39
+N: heptatonic
+N: matches 211
+R: polka
+S:via PR
+M:2/4
+L:1/8
+K:Ador
+Q:1/4=60
+"Am"EA AB|cd eg|"G"GG/F/ GA|GE ED|"Am"EA AB|cd ef|"G"(3gfe dB|"Am"A2 A2::
+"Am"ea a>b|ag "D"ef|"G"gg/f/ ga|ge ed|"Am"ea a>b|"Am"ag "D"ef|"G" (3gfe dB|"Am"A2 A2:|
+
+
+X: 117
+T:Ballydesmond Polka \#3 
+T:Ballydesmond Polka, The
+T:Tom Billy's
+N: page 39
+N: hexatonic
+M:2/4
+L:1/16
+R:Polka
+K:Ador
+Q:1/4=60
+|:AB|"Am"c4 "G"B4|"Am"A2BA "G"G3A|B2d2e2d2|g6 z d|\
+"C"e2a2 gage|"G"d2B2 G2AB|"Am"c2e2 "G"d2B2|[1"Am"A6:|[2"Am"A8|:
+"Am"e2a2 a2ag|"G"d2g2 g4|"Am"e2a2 a2b2|"G"g6 z d|\
+"C"e2a2 gage|"G"d2B2 G2AB|"Am"c2e2 "Em"d2B2|"Am"A4 A4:|
+
+
+X: 118
+T:Tralee Gaol
+N: page 39
+N: pentatonic
+R: polka
+S:Ireland, via PR
+M:2/4
+L:1/8
+K:Emin
+Q:1/4=60
+"Em"BE EF/A/|"Em"B>A "D"FA|"Em"BE EF/E/|"Bm"D2 D/E/F/A/|\
+"Em"BE EF/A/|"Em"B>A "D"FA|"Em"BA "D"dF|"Em"FE E2::
+"Em"Be ed/e/|"Bm"f>e dB|"D" Be ed/e/|f/g/f/e/ "Bm" d2|\
+"Em"Be ed/e/|"Bm"f>e dB|"Bm"AF dF|"Em"FE E2:|
+
+
+
+X: 119
+T: White Cockade, The
+N: page 39
+N: hexatonic
+C: R-1
+C: British Isles
+M: 2/4
+L: 1/8
+R: reel
+K: G
+Q:1/4=60
+G/A/|"G"BB BA/G/|dB Bg|dB c/B/A/G/|"D"FA AG/A/|\
+"G"BB c/B/A/G/|Bd g>a|bg "C"e/f/g/e/|"G"dB B::
+B/c/|"G"dB gB|dB BB/c/|dB gf/g/|"D"aA AG/A/|\
+"G"BB c/B/A/G/|Bd g>a|bg "C"e/f/g/e/|"G"dB B:|
+
+%%scale 0.73
+
+X: 120
+T:Egan's Polka /Pegg Ryan's Polka
+N: page 40
+N: pentatonic
+M:2/4
+L:1/8
+R:Polka
+K:Dmix
+|:"D" fA BA | fA BA | d2 "C"e>f |ed "D"BA |\
+|  fA BA | fA BA | d2 "C"e>f | ed "D"d>e :|
+|: fa fe | ed BA | d2 "C"e>f | ed "D"BA |\
+| fa fe | ed BA | d2 "C"e>f | ed "D"d2 :|
+
+
+
+
+
+X: 121
+T: Oh The Breeches Full of Stitches
+N: page 40
+N: pentatonic
+C: R-126
+M: 2/4
+L: 1/16
+Z:
+R: Reel
+K: Dmix
+"G"G3A B2G2| "Am"A2G2 "D7"B2G2| "G"G3A B2G2| "Am"A2G2 "D7"E4|\
+"G"G3A B2G2| "Am"A2G2 "D7"B2d2| "G"G3A G2E2| "C"E2D2 "G"D4 ::
+"G"d3e d2B2| "D7"A2G2 A2B2| "G"d3e d2B2| "Am"A2G2 E4|\
+"G"d3e d2B2| "C"A2G2 A2B2| "G"G3A G2E2| "C"E2D2 D4 :|
+
+
+X: 122
+T:Charlie Harris' Polka
+N: page 40
+N: pentatonic
+N: matches 214
+M:2/4
+L:1/16
+Z:From the playing of Kevin Burke.  This is a polka version of 
+Z:Charlie Harris' Reel.  Madison 
+R:polka
+K:D
+d3B|"D"A2F2 D2F2|E2F2 D2F2|A2F2 A2B2|\
+"A"e4 "D"d3B|A2F2 D2F2|E2F2 D2F2|A2F2 "A"A2B2|"D"d4:|
+A2|d4 f2d2|e2f2 d2B2|A2F2 A2B2|\
+"A"e4 d2A2|[1d4 f2d2|e2f2 d2B2|A2F2 "A"A2B2|\
+"D"d6 :|[2d2f2 fefg|a2f2 f3f|"A"a2f2 e2f2|"D"d6||
+
+
+
+
+
+X: 123
+T:Kevin Burke Polka #2
+N: page 40
+N: hexatonic
+M:4/4
+L:1/8
+R:Polka
+K:Bmin
+|:"Bm"B2Bc dBBd|"A"cAAc "Bm"d/2c/2B/2A/2BF|B2Bc dBBd|"A"ef/2e/2dc "Bm"BABF:|
+|:f2df "A"eccd|ef/2e/2dc "Bm"Bcde|f2df "A"eccd|ef/2e/2dc"Bm" BAB2:|
+
+
+
+
+
+X: 124
+T:Jessica's Polka
+N: page 40
+N: pentatonic
+N: matches 290
+C:Mick Hanly
+R:polka
+H:Composed by Mick Hanly for his newborn daughter
+D:Kevin Burke: Up Close
+D:Mick Hanly: As I Went over Blackwater
+M:2/4
+L:1/8
+K:A
+"A"ef/e/ ce|fe Bc|A>B c/B/A|ec "G#dim"B2|\
+"A"ef/e/ ce|fe Bc|A>B c/B/A|FA "E"E2:|
+|:"A"F>B AF|cB A2|ef/e/ ce|ag "D"f2|\
+"A"ef/e/ ce|fe Bc|A>B c/B/A|FA "E"E2:|
+
+
+%%scale 0.70
+
+
+X:125
+T:O'Carolan's Concerto
+N:page 41
+N: heptatonic
+R: Reel
+% Nottingham Music Database
+S:O'Neil's, via EF
+M:4/4
+L:1/8
+K:D
+(3ABc|"D"d2dd "G"d2cB|"D"ABGA F2A2|\
+"A7"E2A2 "D"D2A2|"G"Bcde "A7"dcBA|"D"d2a2 fgaf|
+"A"efge "D"fgaf| "G"gabg "D"fdfa|"Em"gfed "A"dcBA|\
+"G"BdBd gBgB|"D"AdAd fAfA|
+"G"GBGB "E7"efed|"A7"c2"g"Bc "f#"A2"e"G2|\
+"D"FGAF "A7/e"EFGE|"D/f+"FGAF "G"GABG|\
+"D/a"A2d2 "A7"fedc|"D"d6:|
+(3ABc|"D"d2b2 agfe|"D"d2a2 "A"c2a2|"G"B2gB "A7"ABcd|\
+"A7"ecBA "D"d2df|"A"edcB caaa|
+"G"Bggg "D"Afff| "D"edcB "A7"caaa|"G"Bggg bgbg|\
+"D"afaf "Em"edcB|"a"cA"g"BG "f#"AF"e"GE|
+"D"DAFA DAFA|"Em"GEBE "A7"GEBE|\
+"D"FAdc BAGF|"Em"EFGA "A7"Bcde|\
+"D"A2d2 "A7"fedc|"D"d6:|
+
+
+X: 126
+T: Planxty Irwin
+N: Colonel John Irwin
+N: page 41
+N: heptatonic
+R: Waltz
+C: O'Carolan
+B: O'Neill's 677
+N: "Spirited"
+M: 3/4
+L: 1/4
+K: G
+d \
+| "G"g2f|"C"e>fg | "G"d2c|"Em"B>AG | "C"c2A|\
+"Em"B>cd | "D"F2G|   A2d | "G"g2f|"C"e>fg |
+ "G"d2c|"Em"B>AG | "C"c2A|"Em"B>cd | "D"G2F|\
+"G"G2 :: d  | "G"g2g|  g>fg | "D"a>ba| afd |
+ "Em"b2b |"A"a>bg | "D"f>ge|"D7"d>ef |\
+| "G"g2f|"C"e>fg | "G"d2c|"Em"B>AG | "C"c2A|"G"B>cd  | "D7"G2F | "G"G2 :|
+
+
+X: 127
+T:Princess Royal
+N: page 41
+N: heptatonic
+R: Morris
+C:Turlough O'Carolan
+M:C|
+L:1/4
+K:Emin
+B/A/ |"Em" GF EB/A/ | GF EB |"Am" cB Ad/c/ |"Em" B/c/B/A/ GB |\
+"Am"A/B/A/G/ "D"F/G/F/E/ | DC B,B/A/ |
+ GF/E/ G/F/E/D/ |"Em" E2E :: B | e>d ef |\
+ gG Gg | g/f/e/d/ "Am"c/B/A/G/ |"D" F/G/A/F/ DE/F/ |"Em" GF/G/ "Am"AG/A/ |
+"Em" BB e2 |"D" d2 "Am"cd/c/ |"Em" B2 AB/A/ |\
+"Am"A/G/G/F/ "Em"E/G/F/E/ | DC B,B/A/ | GF/E/ "D"G/F/E/D/ |"Em" E2 E :|
+
+%%newpage
+
+X: 128
+T:O'Carolan's Draught
+N: page 42
+N: heptatonic
+R: Reel
+M:C|
+L:1/8
+K:G
+D2|"G"GABc "D"defd|"C"g2fe "G" d2d2|"C"e2E2 "G"d2D2|\
+"Am"c2Bc "D" ABcA| "G"GABc "D"defd|"Em"gfed "A"^cbag|
+"D"gfed "A"A2^c2|"D"d6:: fg|"D"afga "G"bagf|\
+"Em"egfe "Am"edcB|"C"edef gfga| "G"bagf "C"efga|
+ "G"bBbB "D"aBaB|"Em"gBgB "Bm"fBfB|\
+"C"edef gfed|e6 f2| "Em"gfed "Am"cBAG|"C"e2d2 "G" d2D2|
+"C"c2B2 "Am" A2G2|"D"FG AF D2z2| "C"EFGE "D" FGAF|\
+"G"GABG "D"ABcA|"G"d2g2 "D" bagf|"G"g6:|]
+
+
+X: 129
+T: Planxty George Brabazon
+N: page 42
+N: heptatonic
+R: Reel
+C: Turlough O'Carolan
+M: C|
+L: 1/8
+K: G
+|:ge | "G"d2G2 cBAG | d2G2 cBAG |\
+"Am" e2A2 ABcA | e2A2 "D7"ABcA | "G"d2cB g2fe |
+ "G"d2cB cBAG | "G"BAGE "D7"DEGA | "G"B2G2 G2 :: ga |\
+ "G"b2gb "D"a2fa | "Em"g2dg edcB |
+ "Am"e2A2 ABcA | e2A2 "D7"A2ga | "G"b2gb "D"a2fa |\
+ "Em"g2dg edcB | "Am"BAGE "D7"DEGA | "G"B2G2 G2 :|
+
+
+X: 130
+T: Morgan Magan
+N: page 43
+N: heptatonic
+C: R-59
+C: Turlough O'Carolan
+M: C|
+Z:
+R: reel
+K: G
+D2| "G"D2G2 G2AB| cBAG "Em"Bcd2| "Am"e2A2 "A7"A2G2| "D7"GFEF D2EF|\
+    "G"G3A G2A2| G2FE D2G2| "D"FGA2 "A7"A2EG| "D7"F2D2 D2EF|
+    "G"GABG "D7"A2F2| "G"G6B2| "C"c3B A2Bc| "G"d4 "C"e4|\
+    "G"d2B2 cBAG| "D"AGFE D2EF| "G"GABG "D7"A2F2| "G"G6dc|]
+    "G"B2d2d2ef| g2G2 Bcd2| g2G2 Bcd2| "Am"edcB "D7"A3c|\
+    "G"BABc d2B2| "C"e2c2 "G"d2B2| "Am"cBA2 "G"d2G2| "D"F2D2 D2GF|
+    "C"E2C2 C2GD| E2C2 C2AE| "D"F2D2 D2DE| "D7"FED2 d2Bc|\
+    "G"d3B "C"edcB|"Am" cBAG "D"FGAF| "G"D2G2 "D7"BAGF| "G"G6 |]
+
+%%scale 0.8
+
+X: 131
+T:Give Me Your Hand
+N: page 43
+N: pentatonic
+R: air
+Z:Chords by Ken Laberteaux irtrad-l 2001-11-7
+M:3/4
+L:1/8
+K:G
+D2|"C"E2 G2 G2|"G"G4 D2|"C"E2 G2 G2|"G"G4 D2|"C"E2 G2 G2|\
+"G"G2 A2 B2 |"Em"B2 e2 d2|"G"B4 AG| "Am"A2 A2 ed|"G"B2 B2 dB|
+"Am"A2 AB AG|"C"E4 D2|"C"E2 G2 G2|"G"G4 D2|"C"E2 G2 G2|"G"G4 D2|\
+"C"E2 G2 G2|"G"G2 A2 B2|"D7"D2 DB AB|"G"G4 D2|"C"E2 G2 G2|
+"G"G2 A2 B2|"Em"B2 e2 d2|"G"B4 AG| "Am"A2 A2 ed|"G"B2 B2 dB|\
+"Am"A2 A2 Bd|"C"e4 dB|"G"d2 d2 e2|"Em"g4 ed|"C"e2 e2 g2|"D7"a4 ge|
+"G"g2 g2 de|"Em"g2 g2 de|"C"g2 g2 a2|"G"b6|b2 b2 b2|\
+b4 ag|"D7"ag ab ab|a4 gf| "C"e2 e2 ge|"G"d2 d2 gd|
+"Em"B2 B2 dB|"Am"A4  BA|"G"G2 G2 Bd|"F"=f4 ed| "C"e2 e2 g2|e4 dB|\
+"G"d2 d2 gd|"Em"B2 B2 dB|"Am"A3 c BA|"G"G4|]
+
+
+X: 132
+T:The South Wind
+N: page 43
+N: heptatonic
+M:3/4
+R:Air
+A:Ireland
+K:G
+c2|"G"B3 AG2|B3 cd2|"D"A4 A2|A4 c2|"G"B3 AG2|\
+"C"E3 DE2|"G"G4 G2|"G"G4::
+d2| "G"g4 g2  |g3f e2 |"D"d4 d2 |"D"d4 c2|\
+"G"B3 AG2|[1B3 cd2|"D"A4 A2|"D"A4 :|[2"D"Ac3 F2|"G"G6-|G6|
+
+
+X: 133
+T: Planxty Fanny Powers
+T: Fannuidh de Paor
+T: Mrs. Trench
+N: page 43
+N: heptatonic
+N: matches 409
+C: O'Carolan
+R: waltz
+B: O'Neill's 673
+N: "Lively"
+N: Originally a lively jig, but often played as a waltz.
+N: Mrs. Trench was Miss Fanny Powers' (or Fannuidh de Paor's) married name,
+N: so it is likely that O'Carolan got the gig to play at her wedding.
+M: 3/4
+L: 1/4
+K: G
+|: D \
+| "G"G2D|G>AB | "C"c2B|A2G | "D"F2E|D>ED | F2G|A2c |  "G"B>AG| B>cd |
+ "C"e2A| A2G | "D"F>ED| DGF | "G"G3| G2 :|\
+|: d | "G"dB/c/d| dB/c/d | G>AG| GBd | "C"ec/d/e|
+ ec/d/e | "Am"A>BA|ABc | "G"B>cd| "Em"efg | "D"fga|\
+ "G"d2c | B>AG| "D"B2A | "G"G3| G2 :|
+
+%%newpage
+%%scale 0.75
+
+X: 134
+T:Planxty Hewlett
+C:Turlough O'Carolan
+N: page 44
+N: heptatonic
+R: Waltz
+M:3/4
+L:1/8
+K:D
+"D" D2D2FG |"A7" ABc2A2 |"D" d2f2fg | fed3B |\
+A2F2F2 |"G" G2GABG |"D" AF"A7"D2D2|[1"D" D4 DD:|[2 "D" D6|
+"D" A2D2AB | A2D2AB | A2d2d2 | dcBAGF |\
+"G"G2G2GA | G2G2GA | G2GABG |"D" AFD2D2 |FEF2G2 |"A7" ABc2A2 |
+"D" fe fg ag |fe d3B | A2 ABAF |"G" G3A BG | AF D2 D2 |"D" D4 |
+
+
+X: 135
+T: Si beag, si mhor
+N: page 44
+N: hexatonic
+N: matches 1072
+R: Waltz
+C: Carolan
+M: 3/4
+L: 1/8
+K: D
+de \
+| "D"f3e d2 | d3e d2 | "G"B4 A2 | "D"F4 A2 | "G"BA Bc d2 |\
+ "A"e4 de | "D"f4 e2 | d4 f2 | "G"B4 e2 | "D"A4 d2 |
+ F4 "A"E2 | "D"D4 f2 | "G"B4 e2 | "D"A4 dc |\
+ "D"d2- "A"d4 | "D"d4 :: de |\
+ "D"f3e d2 | ed ef a2 | "G"b4 a2 | "D"f4 ed |
+ "A"e4 a2 | "D"f4 e2 | "G"d4 B2 | B4 BA |\
+| "D"F4 "A"E2 | "D"D4 f2 | "G"B4 e2 | "D"A4 a2 |\
+ "G"ba gf ed | "A"e4 dc | "G"d4 dc | "D"d6|d4 :|
+
+
+X: 136
+T:Lord Inchiquin
+N: page 44
+N: heptatonic
+R: Waltz
+M:3/4
+K:D
+A2|"D"d2 defe|d2 edcB|A2 F2 A2|f4 e2|\
+"D"d2 edcB|A2 G2 F2|"G"G2 BAGF|"A7"E4 ag|
+"D"f3 e d2|"G"d2 c2 B2|"D"A2 F2 A2|f4 e2|\
+d2 edcB|A d3 F2|"A7"E3F D2|"D"D4 ::
+A2 ||"A"ABcd e2| e2 d2 e2|"D"f2 d2 f2|"A"e4 fe|\
+"D"defg a2|a2 b2 g2|f3 d f2|
+"A"e4 fe|"D"defg a2|a2 b2 g2|"A"f3 g e2|"D"d4 f2|\
+"Em"gf e2 e2|"E7"e2 f2 d2|c3 d B2|"A7"A4 ag|
+"D"f3 e d2|"G"d2 c2 B2|"D"A2 F2 A2|"G"g4 fe|\
+"D"d2 edcB|A d3 F2|"A7"E3F D2|"D"D4 :|
+
+%%newpage
+%%scale 0.8
+
+
+X: 137
+T:Charlie Lennon's Mazurka
+N: page 45
+N: heptatonic
+R:Mazurka
+B:Sullivan's Session Tunes Book 2
+M:3/4
+L:1/8
+K:G
+DG|"G"B2BA GB|"D"d2d2 AB|"C"cBce dc|"G"Bd g2 DG|\
+B2BA GB|"D"d4 AB|"C"cBcA FA|"G"G4:|
+gf|"Em"e2 cg fe|"D"d2 d2 AB|"C"cBce dc|"G"Bd g2 gf|\
+"Em"e2 eg fe|"D"d4 AB|"C"cBcA FA|"G"G4:|]
+
+
+X: 138
+T:Sonny's Mazurka
+N: page 45
+N: heptatonic
+R:mazurka
+L:1/8
+M:3/4
+K:D
+DF|"D"A2 AG FA|d2 dA BA|"G"G2 GB AG|"Em"FG EF DF|\
+"D"A2 AG FA|d2 dA BA|"G"G2 Gg fe|"D"d4::
+Ad|"D"f2fa "G"gf|"A"e2 eg "D"fe|d2 df ed|"A"cd "Bm"Bc "D" Ad|\
+"D"f2 fa "G" gf|"A"e2 eg "D" fe|d2 df "A"ec|"D"d4:|
+
+
+X: 139
+T: Arran Boat
+N: page 45
+N: heptatonic
+R: waltz
+M: 3/4
+L: 1/8
+K: Edor
+  "Em"E3 F E2|"D"B3 c d2|"Em"A3 F D2|"D" A3 F "Em" D2|\
+ "Em"E3 F E2|"D"B3 c d2|"Em"F3 E D2|"Em"E6:|\
+ "Em"e3 f e2|g3 f e2|"G"d3 B G2|"D"A3 F D2|
+ "Em"e3 f e2|g3 f e2|"G"d B3 d2|"C"e6|\
+ "Em"e3 f e2|g3 f e2|"G"d3 B G2|"D"A3 F D2|\
+ "Em"E3 F E2|B3 c d2|"D"F3 E D2|"Em"E6||
+
+
+X: 140
+T:Star Of The County Down, The
+N: page 45
+N: pentatonic
+N: matches 335
+R:March
+C:Trad.
+O:Irish
+M:4/4
+L:1/8
+K:Bmin
+FA|"Bm"B2 B2 B2 AB|"D"d2 d2 "A"e2 de|"Bm"f2 ed B2 AF|"A"A6 FA|"Bm"B2 B2 B2 "A"AB|"D"d2 d2 "A"e2 de|"Bm"f2 ed "F#"B2 B2|"Bm"B6 |
+ef| "D"a2 f2 f2 ed|"A"e2 e2 e2 de|"Bm"f2 ed B2 AF|"A"A6 FA|"G"B2 B2 B2 AB|"D"d2 d2 "A"e2 de|"Bm"f2 ed "A"B2 B2|"Bm"B6|
+fg| "D"abag f2 ed|"A"e2e2 fede|"Bm"f2ed BAF2|"A" A6 FA|\
+"Bm"B2B2 B2AB|"D"d2d2 "A"e2de|"Bm"f2ed "G"B2 B2|"Bm"B6|
+
+%%newpage
+
+X: 141
+T:Three Sea Captains
+N: page 46
+N: heptatonic
+N: matches 291
+R: Jig
+M:6/8
+L:1/8
+K:G
+D|"G"G2G BGB|"D"c2A F2D|"G"G2G BGB|d2B GAB|\
+"Am"cec "D"A2c|"G"B/c/dB G2B|"Am"A2B c2B|ABG FED|
+"G"G2G BGB|"D"c2A F2D|"G"G2G BGB|d2B GAB|\
+"Am"cec "D"A2c|"G"BdB G2F|"C"EcB "D"AGF|"G"G3 G2:|
+d|"G"g2g dcB|"D7"ABc def|"G"g2g "Am"dBd|"D"ecA A2f|\
+"G"g2a bge|"D"f2g afd|
+"G"e2fg2f| "D"ed^c d3| "Am"=cAc dcB|"G"BAB dBG|\
+"Am"A2B c2B|ABG "D"FED| "G"G2G BGB|
+"D"c2A F2D|"G"G2G BGB|d2B GAB|\
+"Am"cec A2c|"G"B/c/dB G2F|"Am"EcB "D"AGF|"G"G3 G2|
+
+
+X: 142
+T:Niel Gow's Lament For The Death Of His Second Wife
+N:Niel Gow's Lament For His Second Wife
+N: page 46
+N: hexatonic
+M:6/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/8
+R:jig
+K:Dmaj
+Q:1/4=60
+D/B,/|"D"A,>B,D "Bm"D>ED|"Em"E>FA "G"{A}B2{c}d|"D"A>FD "Em"E>DE|"Bm"{DE}F>DB, "G"B,2D/B,/|
+"D"A,>B,D "Bm"D>ED|"Em"EFA "G"{c}d2c/B/|"D"A>FD "G"{=C}B,2 A,|"G"B,<DD "D"D3:||
+(3A/B/c/|"D"d>fd "A7"ecA|"G"B/A/B/c/d "D"B/A/G/ F/E/D/|"Em"E>DE "D"{DE}FED|"Bm"{DE}F>DB, "G"B,2 (3A/B/c/|
+"D"d>fd "A7"ecA|"G"B/A/B/c/ d "D"B/A/G/ F/E/D/|"Em"E>DE "Bm"{DE}F>DB,|"D"A,<DD "D"D2(3A/B/c/|
+"D"d>fd "A7"ecA|"G"B/A/B/c/ d "D"B/A/G/ F/E/D/|"D"F/D/ A/F/ d/A/ "Bm"B/A/G/ F/E/D/|"Em"FEE "A7"E2D/B,/|
+"D"A,>B,D "Bm"D>ED|"Em"EFA "G"Hd2c/B/|"D"A>FD "G"{=C}B,2A,|"G"B,<DD "D"D2|]
+
+%%newpage
+%%scale 0.75
+
+X: 143
+T: Crossing to Ireland
+N: page 47
+N: heptatonic
+R: waltz
+M: 3/4
+L: 1/8
+K: Emin
+EF \
+|: "Em"G2 E2 ED | B,2 E3  F | G2 EF G2 |     B3 BAG \
+|  "D"F2 D2 D2 | A,2 D2 D2 | F2 D2 D2 | "Bm"A3 AGF 
+| "Em"G2 E2 ED | B,2 E3  F | G2 EF G2 |     B4 A2 \
+|  "G"G3 AB^c | "D"d2 ^c2 B2 | "B7"A2 G2 F2 |[1 "Em"E4 EF:|[2"Em" E3 eef|
+| "Em"g2 e2 e2 | B2 e3 B | G2 E2 E2 | E3 bag \
+|  "D"f2 d2 d2 | A2 d3 A | F2 D2 D2 | D3 agf\ 
+| "Em"g2 e2 e2 | B2 e3 B | G2 E2 g2 |
+ "Bm"f4 e2 |  "G"G3   AB^c | "D"d2 ^c2 B2 | "B7"A2 G2 F2 |\
+ "Em"E4 ef | "Em"g2 e2 e2 | B2 e2 e2 | E2 G2 B2 | ef gb ag \
+|  "D"f2 d2 d2 | A2 d3 A |
+ D2 F2 A2 | "Bm"de fg af | "Em"g3  f e2 | "B7"f3 e ^d2 |\
+ "Em"e3 d B2 | "D"A3 G F2 |  "G"G3   AB^c |\
+ "D"d2 ^c2 B2 | "B7"A2 G2 F2 | "Em"E6 |]
+
+
+X: 144
+T: The Mist Covered Mountain (Air)
+N: page 47
+N: hexatonic
+R: waltz
+D: De Danaan ________
+M: 3/4
+L: 1/8
+K: Ador
+"Am" A6 | A6 |"Em"e3d e2|e3d B2|\
+"G"G6|G4 A2|"Em"B3 AB2|"Am"A3 G E2|
+c6|"G" d6|"Em"e3f g2|B3A G2|\
+"Am"A3Be2|"G"d2zcB2|"Am"A6|A6::
+"Am"e6|e6|"G"d3e g2|"Em"e3d B2|\
+"G"G4 G2|d4 B2|"Am"e4 e2|"G"d3c B2|
+"Am"A6|c6|"G"d3e g2|"Em"B3A G2|\
+"Am"A3Be2|"G"d2z cB2|"Am"A6|A6:|
+
+
+
+X: 145
+T:Skye Boat Song, The
+N: page 47
+N: hexatonic
+R: Waltz
+S:Childhood
+M:3/4
+L:1/4
+K:G
+"D"D>ED |"G" G3  |"Am" A>BA |"D" d3  |"G" B>AB |[1 "Em"E2E |\
+"D" D3  | D3  :|[2 "Em"E2F |"G" G3-  | G3   |:
+"Bm"B>GB | B3  |"Am" A>EA | A3  |"G" G>EG | G>AG |"Em" E3-  | E3   :|
+
+%%newpage
+
+X: 146
+T:Ashokan Farewell
+N:(Ashokan is the name of a town now under the Ashokan Resevoir)
+N: page 48
+N: heptatonic
+C:Jay Unger, 1982
+N:Written at the conclusion of the 1982 Ashokan Weekend
+N:when Jay was feeling a bit down.
+R: Waltz
+M:3/4
+L:1/8
+K:D
+|Ac\
+|"D" d3c BA |"D/F#" F4 EF |"G" G3F ED |"Em" B,2 D3B, |\
+"D" A,2 D2 F2 |"Bm7" A2 d2 f2 |"Em7" f3g f2 |"A" e4 Ac |
+"D" d3c BA |"D/F#" F4 EF |"G" G3F ED |"Em7" B,2 D3B, |\
+"D" A,2 D2 F2 | A2 d2 f2 |"A7" A2 c2 e2 |"D" d4 FG |
+A3F D2 |"D/F#" d4 A2 |"G" B3c d2 |"D" AF3 E2 |\
+ F3E D2 |"Bm" B,4 G,2 |"A7" A,6 |\
+"A/G" A4 FE |"D/F#" D2 F2 A2 |"C" =c6 |
+"G" B3c d2 |"D" A2F2 D2 |A,2 D2 F2 | A2 d2 F2 |"A7" E3D C2 |"D" D6 ||
+
+
+X: 147
+T:My Cape Breton Home
+N: page 48
+N: heptatonic
+M:3/4
+L:1/8
+C:Jerry Holland
+R:Waltz
+K:G
+g2|"G"g3 g fg|"D"a2 f2 d2|"C"c3 c Bc|"G"d2 B2 G2|\
+"G"g3 g fg|"D"a2 f2 d2| "Am7"c3 c Bc|"D"d3 f2 [Bg]|
+"G"[B3g3] g fg|"D"a2 f2 d2|"C"c3 c Bc|"G"d2 B2 G2|\
+"Am"E c3 cB|"D"A3 G F2|"G"G6|G4- G|
+D|"G"D3 G B2|"C"c3 c Bc|"G"d3 B G2| "Am"A2 G2 "D7" E2|\
+"G"D3 G B2|"C"c3 c Bc|"G"d g3 gf|"D7"d2 c2 A2|
+"G"D3 G B2|"C"c3 c Bc|"G"d3 B G2|"Am"A2 G2 E2|\
+"G"D g3 fg|"Am"d2 c2 "D7" A2|"G "G6|G4-G||
+
+
+X: 148
+T: Margaret's Waltz
+N: page 48
+N: heptatonic
+C: Pat Shaw
+N: Composed for Margaret Grant when she was retiring from the EFDSS.
+R: waltz
+M: 3/4
+L: 1/8
+K: A
+c2 \
+| "A"E3 FAB | "F#m"c4 c2 | "D"BA F2 A2 | "E7"B4 c2 \
+| "A"E3 FAB | "F#m"c3 d e2 | "E7"c4 B2 | "A"A4 :|
+cd \
+| "E"e3 fge | "F#m"a4 a2 | "D"fe d2 f2 | "E7"e3 dcB \
+| "F#m"A3 Bcd | "C#m"e4 c2 | "D"BA F2 A2 | "E7"B4  cd 
+| "A"e3 fge | "F#m"a3g f2 |"Bm"e2d2c2|"E7"B4 c2|\
+"A"E3 FAB|"F#m"c3d e2|"E7"c4B2|A4|
+
+%%newpage
+
+X: 149
+T: Sheguiandah Bay
+N: page 49
+N: heptatonic
+R: Waltz
+C: Don Pettigrew
+D: from Kinnon Beaton "Saturday Night Lively"
+R: Waltz
+M: 3/4
+K: D
+L: 1/4
+(3A/B/c/ |:\
+"D"d>A F | "D7"F>E D | "G"B,>A, G, | "D" A,2 D/E/ |\
+"Bm"F>E D | "D"{Bc}d>A F | "Em"E2 E/F/ | "A7"E2 (3A/B/c/ |
+"D"d>A F | "D7"F>E D | "G"B,>A, G, | "D" A,2 D/E/ |\
+"Bm"F d F | "A"E>F E | "D"D2 D/E/ |[1 "D" D2 (3A/B/c/ :|[2D2 F/G/|:
+ "D"A>d f | "D7"a>f d | "G"d>B G | "D"A2 F/G/ |\
+"Bm"A>d f | "D"a>f d | "Em"e2 e/f/  | "A7"e2F/G/ |
+"D"A>d f  | "D7"a> f d | "G"d>B G | "D"A2 d/e/ |\
+"Bm"f a  f | "A7" g>e c | "D"d2 d/e/ |[1 "D"d2F/G/ :|[2"D"d3|
+
+
+X: 150
+T:The Road to Ballymac
+N: page 49
+N: heptatonic
+M:2/2
+L:1/8
+R:Reel
+K:G
+E| "G"DGG2 BAGA|Bdd2 e2de|gdd2 "Em"egdg|\
+"G"gedB "Em"ABGE| "G"DGG2 BAGA|
+Bdd2 e2de|gdd2 "Em"egdB| "Am"cAFA "G"G3::A|\
+"G"Bdd2 edBd|"Em"egg2 "D"a2ga|
+"G"bgag "Em"egdg|"G"gedB "Em"ABGA| "G"Bdd2 edBd|\
+"Em"egg2 "D"a2ga|"G"bgag "Em"egdB| "Am"cAFA "G"G3:|
+
+
+X: 151
+T:Sunset
+N: page 49
+N: heptatonic
+R: Reel
+M:C
+L:1/8
+K:Dmix
+ed|^cFF2 Bcdc|BGBd e2ed|cdeg d2Ad|\
+dfed ^cded| ^cFF2 Bcdc|BGBd e2ed|
+cdeg fde^c|dfe^c d2:| ag|fdfg a2gf|\
+ecef g3a|fggf gfe^c|dfed ^cded|
+^cFF2 Bcdc|BGBd e2ed|cdeg fde^c|\
+dfe^c d2ag| =fdfg a2gf|ece=f g3a|
+fggf gfe^c|dfed ^cded| ^cFF2 Bcdc|\
+BGBd e2ed|cdeg fde^c|dfe^c d2|]
+
+%%newpage
+
+X: 152
+T:Da Slockit Light
+N: page 50
+N: heptatonic
+N: matches 345
+C:Tom Anderson
+O:Shetland
+M:4/4
+L:1/8
+R:Air
+K:D
+FE|"D"D3 F A2 d2|"D"fedc d2 A2|"G"B2 d2 "D/F#"A2 d2|"G"BAGF "A"EGFE|\
+"D"D3 F A2 d2|"D"fedc "Bm"d2 A2| "G"B2 G2 "A"AGFE|"D" D6:|
+|g2|"D"f2 a2 "A"e3c|"Bm"d3 e "A"dcBA|"D"f2 a2 "E"e2 ^g2|\
+"A"a6 g2| "D"f2 a2 "A"e3c|"G"d3 e "D/F#"dcBA|"G"B2 G2 "A"AGFE|"D"D4-D3g|
+"D"f2 a2 "A" e3c|"Bm"d3 e "G"dc "D/F#"BA| "G"B2 d2 A2 d2|\
+"G"BAGF "A"EGFE|"D"D3 F A2 d2|"A"fedc "Bm"d2A2|\
+"G"B2 G2 "A"AGFE|"D" D6||
+
+
+X: 153
+T:Smith o' Couster's Fancy
+N: page 50
+N: heptatonic
+M:4/4
+L:1/8
+C:Tom Anderson, 1962
+K:D
+A|"D"d2 (fd) "A"fece|"D"dfed "A"cAA=c|\
+"G"BGGB "D"AFFA|"Em"GBed "A"cAAc|
+"D"d2 (fd) "A"fece|"D"dfed "A"cAA=c|\
+"G"BGGB "D"AFFA|"Em"Bg"A"ec "D"fd d:|
+g|"D"fdad "A"ecac|"D"dfed "A"cAA=c| "G"BGGB "D"AFFA|\
+"Em"GBed "A"cAAg| "D"fdad "A"ecac|
+"D"dfed "A"cAA=c| "G"BGGB "D"AFFA|"Em"Bg"A"ec "D"fddg|\
+"D"fdad "A"ecac|"D"dfed "A"cAA=c| "G"BGGB "D"AFFA|
+"Em"GBed "A"cAAc| "D"d2 (fd) "A"fece|"D"dfed "A"cAA=c|\
+"G"BGGB "D"AFFA|"G"Bg"A"ec "D"fd d2||
+
+
+X: 154
+T: The Coolin 
+N: O'Farrell's Pocket Companion v.2 (Sky ed. p.73-4)
+N: "Irish" % "Coolin" <- "Cuilfhionn" = fair-haired (boy)
+N: page 50
+N: heptatonic
+M: 3/4
+L: 1/8
+R: slow air
+K: G
+de/f/|"G"g2g2 a>f|g>d B2 GB/d/|g>f ga/b/ a>g|\
+ga/g/ f2 g>f|"C"e3 f/g/ a/g/f/e/|
+"G"d2 Bd gd|"C"f/e/d/c/ "G"BG A>G|G4:: d>c|\
+B>A G>A B>^c|"D"d d/^c/ defd|
+"G"g>f ga/b/ a>g|ga/g/ f2 g>f|"C"e3 f/g/ a/g/f/e/|\
+"G"d>c Bd gd|"C"f/e/f/g/ B>B A>G|"G"G4:|
+
+
+
+
+
+
+X: 155
+T:Lark in the Morning 
+N: page 51
+N: hexatonic
+M:6/8
+L:1/8
+R:Jig
+K:D
+dB|:"D"AFA AFA|"G"BGB BdB|"D"AFA AFA|fed "G"BdB|
+"D" AFA AFA|"G"BGB BAB|"D"def afe|fed "G"BdB ::
+"D"def a2a|baf afe|def "G"g2e|"D"fed "G"BAB|\
+"D"def ~a3 |"D" baf a2f |"G" ~g3 faf |"G" edB BAB ::
+"D".d2f fef|fef fef|.d2f fef|"G"edB BAB|\
+"D".d2f fef|fef fed |"G"~g3 "D"faf |"G" edB "D"BAF ::
+"D"Add fdd|"A"ede "G"fdB|"D"Add fdd|"G"edB BAF|\
+"D"Add fdd|"A"ede "D"fed |"G" ~g3 faf | edB "D"BAF :|
+
+
+
+
+
+X: 156
+T:Donnybrook Fair
+N: page 51
+N: hexatonic
+M:6/8
+L:1/8
+R:Jig
+K:G
+D | "G"~G3 "D"AGA | "Em"Bee "D7"dBA |  "G"BAB "Em"GAB |"Am"AGE "D"GED \
+  | "G"~G3 "D"AGA | "Em"Bee "D7"dBA |  "G"BAB     GAB | "D"AGF "G"G2 :|
+f |"Em"gfe "D"fed |  "C"ege  "D"dBA | "Em"Bee  "D"fed |"Em"Bee    e2f \
+  |"Em"~g3 "D"fed |  "C"ege "D7"dBA |  "G"BAB     GAB | "D"AGF "G"G2f |]
+   "Em"gfe "D"fed |  "C"ege  "D"dBA | "Em"Bee  "D"fed |"Em"Bee "C"e2f \
+  | "G"~g3 "D"aga |  "C"bge "D7"dBA |  "G"BAB     GAB |"D7"AGF "G"G2 |]
+
+
+X: 157
+T: Cliffs of Moher
+N: page 51
+N: heptatonic
+R: jig
+M: 6/8
+K: Ador
+"Am"eaa bag| (4efaf "G"ged| "Am"c2A BAG| "Em"EFG ABc|\
+"Am"eaa bag| (4efaf "G"ged| "Am"cAA BAG| "Em"EFG "Am"A3 :|
+"Am"efe dBA| efe dBA|  "G"G2d dBA| GAB dBd|\
+"Am"efe dBA| efe dBA|  "G"GAB dBG| "Em"EFG "Am"A3| 
+~e3 dBA|~e3 dBA|"G"~G3 dBA|GAB dBd|\
+"Am"efe dee|cee Bee|"G"EFG BAG|EDB, "Am" A,3|

@@ -1,0 +1,258 @@
+%
+% Header copied from Ottawa Celtic Jam Book CCJ Addendum 
+%
+
+%%pageheight  11.00in
+%%pagewidth    8.50in
+%%leftmargin   0.35in
+%%rightmargin  0.35in
+%%topmargin    0.35in
+%%botmargin    0.25in
+%%staffwidth   7.80in
+
+
+
+%%withxrefs false  % print the X: number in the title
+
+%%gchordfont Helvetica 12
+%%titlefont Times-Roman 14
+%%subtitlefont Times-Roman 12
+%%titlecaps
+%%titlespace 12
+%%topspace   0
+
+%%headerfont Helvetica-Bold 10
+%%header Carp Celtic Jam Tune Book Volume V
+%%%footerfont Helvetica 10
+%%%footer CCJ Addendum October 2015
+
+%make the notes a bit smaller
+%%scale 0.8
+%%splittune false %tune cannot flow across page breaks
+
+%%vskip 3in
+
+%%textfont Helvetica 20
+%%textspace 20
+
+%%center 
+%%center Carp Celtic Jam Addendum II
+%%center (aka Volume V)
+%%textfont Helvetica 12
+%%center Version 1.5 17-Aug-2016
+%%vskip 2cm
+%%center As of October 2015 and after 11 years of jamming, the original addendum of the Carp Celtic Jam Tune Book 
+%%center has reached 125 pages and 242 tunes. Carp Celtic Jam Addendum II is introduced to make it easier to 
+%%center manage/update the addendum as participants introduce new tunes. Fittingly the original CCJ Addendum
+%%center closes off with the CCJ going off the air tune of "Smile the While - 'Til we Meet Again"
+%%center CCJ Addedum II is Volume V of the Carp Celtic Jam Tune Book. 
+%%vskip 8cm
+%%center The CCJ Tune Book can be downloaded from:
+%%center i.  Carp Celtic Jam Facebook Group page
+%%center ii. http://www3.sympatico.ca/hhtuner/carp/
+%%vskip 1cm
+%%center Disclaimer
+%%center This package of tunes was created for informal, jamming purposes only and is not to be sold.
+%%center Some of these tunes are copyrighted, but may not indicate the composer's name.
+%%center The fact that a tune appears without a composer name does not imply that it is in the
+%%center public domain. Therefore, if you intend to perform, record or publish any of these tunes,
+%%center it is your responsibility to acquire the necessary permissions, if applicable.
+%%newpage
+%%vskip 14cm
+%%textfont Helvetica 18
+%%center This page is intentionally almost blank.
+%%textfont Helvetica 12
+%%%EPS index1.eps
+%%leftmargin  0.35in
+%%rightmargin 0.35in
+
+%%stretchstaff yes
+%%stretchlast yes
+
+%%header  $P 
+%%newpage 225
+
+X:1
+T: Johnny Muise's Reel
+R: reel
+C: Jerry Holland
+M: 4/4
+L: 1/8
+K: Amaj
+af|:"A"ec c/c/c (Bc)AB|{B}c2(Bc) "D"BAFB|"A"AE E/E/E "F#m"ABcA|"Bm"dfaf "E7"edcd|
+"A"ec c/c/c (Bc)AB|{B}c2(Bc) "D"BAFB|"A"AE E/E/E "F#m"ABcA|"E7"BABc "A"A4:|
+cd|:"A"ea a/a/a "A7"~a2ga|"D"(ba)ga fedf|"A"ec c/c/c "F#m"acec|"Bm"fedc "A7"Bcdf|
+"A"ea a/a/a "A7"~a2ga|"D"(ba)ga fedf|"A"ec c/c/c "F#m"acec|"E7"BdcB "A"A4:|
+
+
+X: 2
+T:Silver and Gold
+S:Ken McDouall, via EF
+M:4/4
+L:1/4
+K:D
+fg |"D"a2 fd|"D"A2 df|"Em"ag2f|"Em"g2 ef|"A7"g2 ec|"A7"A2 ce|
+"D"ba -"A7"a^g|"D"a2 "A7"fg|"D"a2 fd|"D"A2 df|"G"ag2f|"Em"g2 ef|"A7"g2 ec|
+"A7"A2 ce|"D"d3/2e/2 "A7"dc|"D"d2 "G"cB|"D"Af Af|"D"A/2ff/2 ff|"Em"fe2^d|
+"Em"e2 EF|"A7"Ge Ge|"A7"G/2ee/2 ee|"D"ed -"A7"dc|"D"d2 "A7"FG|"D"Af Af|
+"D7"A/2ff/2 ff|"G"ag2e|"Em"B2 cd|"A7"fe2c|"A7"A2 ce|"D"d3/2e/2 "A7"dc|"D"d2 ||
+
+
+X: 3
+T:Reavy's Hornpipe
+C:Ed Reavy (1897 - 1988)
+Z: Appris d'Olivier Rozent en 2008, transcrit par JMC
+M:4/4
+L:1/8
+R:Hornpipe
+K:G
+B>c|:(3dcB g>d B>d c>B | A>g f>a g>f g>e | d>^c e>d =c>Bc>A | 
+G>B A>G (3FED (3CB,A, | G,>B, D>G B>G D>B, | C2 E>G c2 d>c | 
+(3BdB G>B (3ABA F>A| [1G2 G>F G2 B>c :| [2G>g f>a g>f g>a ]||: b>g d>g b>g d>g | 
+a>f d>f a>f d>f | (3gag (3fgf e2 d>B | G>B A>G (3FED (3CB,A, | G,>B, D>G B>G D>B, | 
+C2 E>G c2 d>c | (3BdB G>B (3ABA F>A | [1G>g f>a g>f g>a :| [2 G2 G>F G4||
+
+X: 4
+T:Good Natured Man, The
+T: (some chords may be incorrect)
+R:Hornpipe
+C:Trad.
+O:Ireland
+M:4/4
+L:1/8
+K:G
+f|:"G"g2bg d2gd|"G"BcdB G2AB|"C"cded "Am"cBAG|"D7"FGEF D3 f|
+"G"g2bg degd|"G"BcdB GBAB|"C"cded "D7"cBAF| [1"G"A2GF G3 f:| [2 A2GF GABc ||
+|:"G"d2dB g2gf|"Am"e2ec a2ag|"G" f2 fa g2 ga |"D7"fgaf "G"dfef|"A7"g2 bg "D7"degd|
+"G"BcdB GBAB|"G"cded cBAF| [1"C"A2GF "D7"GABc:|[2"G"A2GF G4||
+
+X:5
+T:Adele's Reel
+M:4/4
+L:1/8
+R:Reel
+K:F
+|: FA~AA (cA)FA | G3 A B(G_EG) | FA~AA (cA)FA | GBcd _ecBG | 
+FA~AA (cA)FA | G3 B _e(dcB) | Ac~cc (dc)Ac | [1 (BG)EG F3 E :| [2 BGEG F2 B2 ||
+|: cffe f(dcd) | _e3 d c(BAB) | cffe f(dcd) | _ecBG F3 B | c(fga) b(agf) | 
+_eBG_E B,2 (A,B,) | CFFG (AB)cA | [1 (BG)EG F3 B :| [2 BGEG F4 ||
+
+X: 6
+T:Maple Sugar
+R:Reel
+C:Ward Allen
+P:ABACABACA-FINE (with Vln1 & Vln2 harmony)
+M:2/4
+L:1/8
+K:A
+A cd||"A   PART A"e2e>f|ed cB|c2c>d|c/B/A dc|"E7"cB Bc|
+d>c cB/c/|"A"dc cB|c/B/A cd|e2e2|e2 e>c|dc c/B/A|
+cc d>c|"E7"cB Bc|d2c>B|1,2"A"BA AG| A2||3"A FINE"B(A A/)[ce]/[df]/[gB]/|([a2c2]([a2c2])|[a2c2])z2 ||
+"PART B"CD||:"A"E2 E>F|FC FA|c2 c>B|AE FE|
+"E"B2 B>c|"E7"BG FG|1"A"A2 GF|EC DA:|2A2 A>B|A2 cd||
+K:E
+"PART C" GA||:"E"B2B>c|BG Be|g2g>f|eB cB|"B7"f2 f>g|
+fd cd|1"E"e>e dc|BG Ac:|2"E DC al FINE"e2 e>f|e=d cd||
+
+
+X: 7
+T:Fiddle Bill
+T:Canada's Fiddling Day Two Step
+R: Two step
+C: Kelli Trottier
+M:4/4
+L:1/4
+K:G
+"G"d2 "Em"g3/g/ | "Am"ec "D"AF | "G"G2 ("C"G3/A/) |: "G"GDGA |"G" B2 B A/B/| cBAG | "C"Ac (E2 | 
+"Am"E) (A2G) | "D" F3/G/ FE | "D7"DcDc | "G"B3/c/dB | "D7"ADdc | "G" B2BA/B/ | cBAG | 
+"C"Ac(E2 | "Am"E)(A2G) | "D"F3/G/FE | "D7"DcEF | "G"G2 (G3/F/) | GBdg | "D"f2 (f3/g/) | 
+fdef | "C" gfed | "G"B2 (AB) | "C"c3/B/ce | "G" d3/^c/dg | "Am"f3/g/ag | "D"fdeg | 
+f2 (f3/g/) | fdef | "C"gfed | "G"B2 (AG) | "C"EcEc | "D"BAEF | "G"G2 (G3/A/):|
+[2"G Last Time"G2G2 | "G"d2 "Em"g3/g/ | "C"ec"Am"BA | "D"d2 "D7"f2 | "G"g4]
+
+
+X: 8
+T:Golden Slippers
+M:2/4
+L:1/16
+R:2nd Change
+K:D
+|:de||"D"f2f2 (fe)de|"D"f2f2 "A7"f2de|"D"f2d2 g2f2|"A7"(f2e2) e2cd|
+"A7"e2e2 (ed)cd|"A7"e2e2 e2cd|"A7"e2g2 f2e2|1"D"e2d2 d2:|2"D"e2d2 d4||
+|:"D"A6d2|"D7"(f2e2) (d2=c2)|"G"B6d2|(g2f2)(e2d2)|"A7"c2>B2 c2d2|
+[1e4c4|"D"d2>c2 d2e2|f2d2 B2_B2:|2(e4g4)|"A7"f2>g2 f2e2|"D"d6 z2||
+
+
+X: 9
+T: In Memory of Herbie MacLeod
+C: Jerry Holland
+R: waltz or lament
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+F: http://www.jerryholland.com/tunes/herbiemacleod.jpg
+M: 3/4
+L: 1/8
+K: A
+|:E AB| "A"c4 (dc) | "E"{A}B3 (TB A)B | "A7"c a3 ((3gag) | "D"f3 Tf ec \
+| "A"{cd}e2 A2 B2 | "F#m"c e3 ((3cec) | "Bm"B6 | "E7"TB3 E AB |
+| "A"c4 (dc) | "E"{A}B3 (TB A)B | "A7"c a3 ((3gag) | "D"f3 Tf ec \
+| "A"{cd}e2 A2 (Bc) | "E"(B c2) Tc (BA) | "A"{FG}A4- "(D)"A2- | "A"A4 :|
+| ag | "D"f4 ed | "D"f a3 ((3faf) | "A"e4 ((3edc) | "A"Tc4 AB \
+| "A"c4 BA | "F#m"c a3 ((3cec) | "Bm"B6 | "E"B4 ag |
+| "D"f4 ed | "D"f a3 ((3faf) | "A"e4 ((3edc) | "A"Tc4 AB \
+| "F#m"c a3 c2 | "E"(B c3) B2 | "A"A4- "(D)"A2- | "A"A4 ag |
+|"D"f4 ed | "D"f a3 ((3faf) | "A"e4 ((3edc) | "A"Tc4 AB \
+| "A"c4 BA | "F#m"c a3 ((3cec) | "Bm"B6 | "E"B3 E AB |
+| "A"c4 (dc) | "E"{A}B3 (TB A)B | "A7"c a3 ((3gag) | "D"f3 Tf ec \
+| "A"{cd}e2 A2 (Bc) | "E"(B c2) Tc (BA) | "A"{FG}A4- "(D)"A2- | "A"A3 |]
+
+
+X: 10
+T:Earl's Chair, The
+R:Reel
+C:Trad. O'Neill's 1850
+O:Ireland
+M:4/4
+L:1/8
+K:D
+|:"Bm"B2 !trill!B3 AFA|!turn!B3 d BAFB|"D"AF !turn!F2 DF !turn!F2|AddB ADFA|
+"Bm"!turn!B2!trill!B2 BAFA|!turn!B2 dB BAFB|"D"AFAB defd|"Em"!trill!edef "D"d3 z:|
+|:"Em"e2ef "Bm"d2d!trill!f|"Em"edef "Bm"dB A2|"Em"!trill!edef "D"!turn!d3e|"Bm"!trill!fedB "D"ADFA|
+"Em"!trill!e2 df "Bm"eB !turn!B2|"Em"gB !turn!B2 "D"defg|"Bm"afbf "D"afeg|"Bm"!trill!fedB "D"ADFA:|
+
+
+X: 11
+T: Father John Angus Rankin's March
+C: Jerry Holland
+R: barndance
+M: 4/4
+L: 1/8
+K: Amaj
+|: AB |"F#m"c2 e2 e2 de |"E" f2 e2 e2 AB |"F#m" c2 e2 "A"ecAB |"E" c2 B2 B2 AB |
+"F#m"c2 e2 e2 de | "E"f2 e2 e2 Ac | "A"def>d  "F#m"e>cd>B | "F#m"c2 A2 "A"A2 :|
+|: fg |"A"a2 A2 fedc | "E"f2 e2 e2 fg | "A"a2 A2 fedc | "E"c2 B2 "F#m"B2 |
+[1 fg | "A"a2 A2 fedc | "E"f2 e2 e2 Ac | "A"def>d "F#m"e>cd>B | "F#m"c2 A2 "A"A2 :|
+[2 AB | "A"cAcd e2 ce | "E"fdfg a3 e | "A"def>d "F#m"e>cd>B | "F#m"c2 A2 "A"A2 |]
+
+
+X: 12
+T:Tam Lin
+T:The howling wind
+R:Reel
+S:1 Session in Sligo 1991
+Z:1 Transcription:?, Chords:Mike Long
+S:2 Paddy O'Brien Tune Collection
+S:2 ricke~11.abc
+Z:2 Transcription:?, Chords:Mike Long
+S:3 King Street Session Tunebook
+M:C|
+L:1/8
+K:F
+|:G,|"Dm"A,2DA, FA,DA,|"Bb"B,2DB, FB,DB,|"C"C2EC GCEC|"Bb"FEDC "C"A,DDC|
+"Dm"A,2DA, FA,DA,|"Bb"B,2DB, FB,DB,|"C"C2EC GCEC|[1 "Dm"FEDC A,DD:|[2 "Dm"FEDC A,DD2 :|
+|:"Dm"dA~A2 FADA|dA~A2 FADA|"C"cG~G2 EG~G2|"Am"cG~G2 cdec|
+"Dm"dA~A2 FADA|"(F)"dA~A2 FADA,|"Bb"B,2B,A, B,CDE|[1 "C"FDEC A,D D2:|[2 "C"FDEC "(Dm)"A,DDG,|]
+
+
+
+
+
