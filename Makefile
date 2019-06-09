@@ -22,7 +22,7 @@ PDFLATEX := pdflatex
 all: $(PUBLISHED_FILES)
 
 # Printable version (cover page, tunes, index)
-$(PUBLISH_DIR)/$(CCJTB)-printable.pdf: $(SRC_DIR)/cover-page.pdf $(OUTPUT_DIR)/$(CCJTB).pdf $(OUTPUT_DIR)/index.pdf
+$(PUBLISH_DIR)/$(CCJTB)-printable.pdf: $(SRC_DIR)/cover-page.pdf $(OUTPUT_DIR)/blank.pdf $(OUTPUT_DIR)/$(CCJTB).pdf $(OUTPUT_DIR)/index.pdf
 	@mkdir -p $(PUBLISH_DIR)
 	@$(PDFTK) $^ cat output $@
 	@echo "Printer-friendly tunebook at $@"
@@ -46,6 +46,10 @@ $(OUTPUT_DIR)/$(CCJTB).ps: $(SRC_DIR)/$(CCJTB).abc
 	@$(ABCM2PS) -q -O $@ $<
 	@#Fix title in postscript file
 	@sed -i 's/src\/carp-celtic-jam-tunebook.abc/Carp Celtic Jam Tune Book/' $@
+
+# Rule to build a "blank" page from source
+$(OUTPUT_DIR)/blank.pdf: $(SRC_DIR)/blank.tex
+	@$(PDFLATEX) --interaction=batchmode -output-directory $(OUTPUT_DIR) $< > /dev/null
 
 # Rule to build a nicely formatted, and up-to-date index file
 # from the source abc file.
