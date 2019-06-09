@@ -3,14 +3,13 @@
 # - A version suitable for printing.  This version includes a title page.
 # - A version suitable for viewing on a computer or tablet.
 
-CCJTB := carp-celtic-jam-tunebook
-
-PUBLISHED_FILES = $(PUBLISH_DIR)/$(CCJTB)-printable.pdf $(PUBLISH_DIR)/$(CCJTB)-tablet.pdf
+PUBLISHED_FILES = $(PUB)/$(CCJTB)-printable.pdf $(PUB)/$(CCJTB)-tablet.pdf
+CCJTB = carp-celtic-jam-tunebook
 
 # File locations
-SRC_DIR := ./src
-OUTPUT_DIR := ./output
-PUBLISH_DIR := ./publish
+SRC := ./src
+OUT := ./output
+PUB := ./publish
 
 # Tools - All of these must be installed and in the path of the environment when invoking make.
 ABCM2PS := abcm2ps
@@ -22,45 +21,49 @@ PDFLATEX := pdflatex
 all: $(PUBLISHED_FILES)
 
 # Printable version (cover page, tunes, index)
-$(PUBLISH_DIR)/$(CCJTB)-printable.pdf: $(SRC_DIR)/cover-page.pdf $(OUTPUT_DIR)/blank.pdf $(OUTPUT_DIR)/$(CCJTB).pdf $(OUTPUT_DIR)/index.pdf
-	@mkdir -p $(PUBLISH_DIR)
+$(PUB)/$(CCJTB)-printable.pdf: $(SRC)/cover-page.pdf $(OUT)/blank.pdf $(OUT)/$(CCJTB).pdf $(OUT)/index.pdf | $(PUB)
 	@$(PDFTK) $^ cat output $@
 	@echo "Printer-friendly tunebook at $@"
 
 # Tablet-friendly version (tunes and index)
-$(PUBLISH_DIR)/$(CCJTB)-tablet.pdf: $(OUTPUT_DIR)/$(CCJTB).pdf $(OUTPUT_DIR)/index.pdf
-	@mkdir -p $(PUBLISH_DIR)
+$(PUB)/$(CCJTB)-tablet.pdf: $(OUT)/$(CCJTB).pdf $(OUT)/index.pdf | $(PUB)
 	@$(PDFTK) $^ cat output $@
 	@echo "Tablet-friendly tunebook at $@"
 
 # Rule to convert postscript to pdf
-$(OUTPUT_DIR)/$(CCJTB).pdf: $(OUTPUT_DIR)/$(CCJTB).ps
+$(OUT)/$(CCJTB).pdf: $(OUT)/$(CCJTB).ps | $(OUT)
 	@echo "Converting $(notdir $<) to pdf"
 	@$(PS2PDF) $< $@
 	@$(PDFTK) $@ dump_data | grep NumberOfPages
 
 # Rule to convert abc to postscript
-$(OUTPUT_DIR)/$(CCJTB).ps: $(SRC_DIR)/$(CCJTB).abc
-	@mkdir -p $(OUTPUT_DIR)
+$(OUT)/$(CCJTB).ps: $(SRC)/$(CCJTB).abc | $(OUT)
 	@echo "Translating $(notdir $<) to postscript"
 	@$(ABCM2PS) -q -O $@ $<
 	@#Fix title in postscript file
 	@sed -i 's/src\/carp-celtic-jam-tunebook.abc/Carp Celtic Jam Tune Book/' $@
 
 # Rule to build a "blank" page from source
-$(OUTPUT_DIR)/blank.pdf: $(SRC_DIR)/blank.tex
-	@$(PDFLATEX) --interaction=batchmode -output-directory $(OUTPUT_DIR) $< > /dev/null
+$(OUT)/blank.pdf: $(SRC)/blank.tex | $(OUT)
+	@$(PDFLATEX) --interaction=batchmode -output-directory $(OUT) $< > /dev/null
 
 # Rule to build a nicely formatted, and up-to-date index file
 # from the source abc file.
-$(OUTPUT_DIR)/index.pdf: $(SRC_DIR)/$(CCJTB).abc tools/abcindex.py
+$(OUT)/index.pdf: $(SRC)/$(CCJTB).abc tools/abcindex.py | $(OUT)
 	@echo "Extracting tune index information from $(notdir $<)"
-	@./tools/abcindex.py $< > $(OUTPUT_DIR)/index.tex
+	@./tools/abcindex.py $< > $(OUT)/index.tex
 	@echo "Creating pdf of tune index"
-	@$(PDFLATEX) --interaction=batchmode $(OUTPUT_DIR)/index.tex > /dev/null
+	@$(PDFLATEX) --interaction=batchmode $(OUT)/index.tex > /dev/null
 	@rm -f index.log index.aux
 	@mv -f index.pdf $@
 
 # Rule to clean everything
+.PHONY: clean
 clean:
-	@rm -rf $(OUTPUT_DIR) $(PUBLISH_DIR)
+	@rm -rf $(OUT) $(PUB)
+
+$(OUT):
+	@mkdir -p $(OUT)
+
+$(PUB):
+	@mkdir -p $(PUB)
