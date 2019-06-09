@@ -46,20 +46,36 @@ me an opportunity to become more familiar with the music.
 Seymour Shlien (seymour.shlien@crc.ca)
 
 ----------------------
-%Carp Celtic Jam Note
-%There is a change in two tunes (Swallowtail & Tam Lin) between the original OSCJ Volume 1 (circa 2004) and the July 2013 version.
-%CCJ has revised the 2013 version to revert The Swallowtail on Page 5 to the version in the circa 2004 book.
-%See also CCJ Tune Book Change Log on http://www3.sympatico.ca/hhtuner/carp/
-%R. Anderson, Carp (rdacan@gmail.com)
-%
-
 %%pageheight  11.00in
 %%pagewidth    8.50in
 %%leftmargin   0.35in
 %%rightmargin  0.35in
 %%topmargin    0.35in
 %%botmargin    0.25in
-%%staffwidth   7.80in
+
+
+%%vskip 5in
+%%textfont Helvetica-Bold 24
+%%textspace 20
+%%center Ottawa Celtic Slow Jam Tune Book - Volume I
+%%center (adapted by the Carp Celtic Jam)
+%%textfont Helvetica 12
+%%vskip 12cm
+%%center This tune book can be downloaded from the Carp Celtic Jam website:
+%%center https://carpcelticjam.wixsite.com/carpjam
+%%vskip 1cm
+%%textfont Helvetica-Bold 12
+%%center Disclaimer
+%%textfont Helvetica 12
+%%center This package of tunes was created for informal, jamming purposes only and is not to be sold.
+%%center Some of these tunes are copyrighted, but may not indicate the composer's name.
+%%center The fact that a tune appears without a composer name does not imply that it is in the
+%%center public domain. Therefore, if you intend to perform, record or publish any of these tunes,
+%%center it is your responsibility to acquire the necessary permissions, if applicable.
+
+
+
+
 
 %%gchordfont Helvetica 12
 %%titlefont Times-Roman 14
@@ -73,13 +89,14 @@ Seymour Shlien (seymour.shlien@crc.ca)
 %%textspace 20
 %%textfont Helvetica 12
 
+%%staffwidth   7.80in
 %%stretchstaff yes
 %%printtempo 0  % ignore tempo markings
 
-%%dateformat "%B %e, %Y"
-%%header "Carp Celtic Jam Tune Book	$P	$D"
 %%newpage 1
 
+%%dateformat "%B %e, %Y"
+%%header "Carp Celtic Jam Tune Book	$P	$D"
 
 X: 1
 T: The Kesh Jig
@@ -2853,6 +2870,33 @@ K: Ador
 "Am"efe dee|cee Bee|"G"EFG BAG|EDB, "Am" A,3|
 
 %%newpage
+%%header
+
+%%vskip 5in
+%%textfont Helvetica-Bold 24
+%%textspace 20
+%%center Ottawa Celtic Slow Jam Tune Book - Volume II
+%%center (adapted by the Carp Celtic Jam)
+%%textfont Helvetica 12
+%%vskip 12cm
+%%center This tune book can be downloaded from the Carp Celtic Jam website:
+%%center https://carpcelticjam.wixsite.com/carpjam
+%%vskip 1cm
+%%textfont Helvetica-Bold 12
+%%center Disclaimer
+%%textfont Helvetica 12
+%%center This package of tunes was created for informal, jamming purposes only and is not to be sold.
+%%center Some of these tunes are copyrighted, but may not indicate the composer's name.
+%%center The fact that a tune appears without a composer name does not imply that it is in the
+%%center public domain. Therefore, if you intend to perform, record or publish any of these tunes,
+%%center it is your responsibility to acquire the necessary permissions, if applicable.
+
+%%newpage
+
+%%center This page intentionally blank to preserve page layout when printed
+
+%%newpage 52
+%%header "Carp Celtic Jam Tune Book	$P	$D"
 %%scale 0.65
 
 X: 158
@@ -3917,11 +3961,38 @@ Q:1/4=60
 B|"D"A2f2 fef2|A2g2 gfg2|A2f2 fef2|"G7"efed B2A2 |"D"A2f2 fef2|A2g2 g3a|"G7"b2a2 g2c2|"D"e2d2 d3:|
 
 %%newpage
+%%header
 
-%%center This page intentionally blank to maintain legacy page numbering
+%%vskip 5in
+%%textfont Helvetica-Bold 24
+%%textspace 20
+%%center Ottawa Celtic Slow Jam Tune Book - Volume III
+%%center (adapted by the Carp Celtic Jam)
+%%textfont Helvetica 12
+%%vskip 12cm
+%%center This tune book can be downloaded from the Carp Celtic Jam website:
+%%center https://carpcelticjam.wixsite.com/carpjam
+%%vskip 1cm
+%%textfont Helvetica-Bold 12
+%%center Disclaimer
+%%textfont Helvetica 12
+%%center This package of tunes was created for informal, jamming purposes only and is not to be sold.
+%%center Some of these tunes are copyrighted, but may not indicate the composer's name.
+%%center The fact that a tune appears without a composer name does not imply that it is in the
+%%center public domain. Therefore, if you intend to perform, record or publish any of these tunes,
+%%center it is your responsibility to acquire the necessary permissions, if applicable.
 
 %%newpage
 
+%%center This page intentionally blank to preserve page layout when printed
+
+%%newpage
+
+%%center This page intentionally blank to maintain legacy page numbering
+
+%%newpage 73
+
+%%header "Carp Celtic Jam Tune Book	$P	$D"
 %%scale 0.65
 
 X: 217
@@ -5544,7 +5615,34 @@ A|"D"d2b2 agfe|d2a2 c2g2|"G"B2e2 "A7"ABcd|
 "D"FAdc BAGF|"Em"EFGA "A7"BcdB|"D"A2 "A7"d2 fedc|"D"d4||
 
 %%newpage
+%%header
+
+
+%%vskip 5in
+%%textfont Helvetica-Bold 24
+%%textspace 20
+%%center Addendum
+%%center for the
+%%center Carp Celtic Jam
+%%center (aka Volume IV)
+%%textfont Helvetica 12
+%%vskip 12cm
+%%center This tune book can be downloaded from the Carp Celtic Jam website:
+%%center https://carpcelticjam.wixsite.com/carpjam
+%%vskip 1cm
+%%textfont Helvetica-Bold 12
+%%center Disclaimer
+%%textfont Helvetica 12
+%%center This package of tunes was created for informal, jamming purposes only and is not to be sold.
+%%center Some of these tunes are copyrighted, but may not indicate the composer's name.
+%%center The fact that a tune appears without a composer name does not imply that it is in the
+%%center public domain. Therefore, if you intend to perform, record or publish any of these tunes,
+%%center it is your responsibility to acquire the necessary permissions, if applicable.
+
+
+%%newpage 100
 %%scale 0.80
+%%header "Carp Celtic Jam Tune Book	$P	$D"
 
 X:302
 T:A Fig For a Kiss
@@ -9046,6 +9144,37 @@ e4 c2| A4 g2| "D"f3=f ^fe|d6| "G"d4 c2| B4 d2| "D"A4 d2|"B7" f6|
 [1 "D" d6| "A7"A3/2B1/2 c3/2d1/2 e3/2=f|]|[2((3dcd)(A2F2)|H[D6A6]|]
 
 %%newpage
+%%header
+
+%%vskip 3in
+%%textfont Helvetica-Bold 24
+%%textspace 20
+%%center Addendum II
+%%center for the
+%%center Carp Celtic Jam
+%%center (aka Volume V)
+%%textfont Helvetica 12
+%%vskip 2cm
+%%center As of October 2015 and after 11 years of jamming, the original addendum of the Carp Celtic Jam Tune Book
+%%center had reached 125 pages and 242 tunes. Carp Celtic Jam Addendum II was introduced to make it easier to
+%%center manage/update the addendum as participants introduce new tunes. Fittingly the original CCJ Addendum
+%%center closes off with the CCJ going off the air tune of "Smile the While - 'Til we Meet Again"
+%%center CCJ Addendum II is Volume V of the Carp Celtic Jam Tune Book.
+%%vskip 8cm
+%%center This tune book can be downloaded from the Carp Celtic Jam website:
+%%center https://carpcelticjam.wixsite.com/carpjam
+%%vskip 1cm
+%%textfont Helvetica-Bold 12
+%%center Disclaimer
+%%textfont Helvetica 12
+%%center This package of tunes was created for informal, jamming purposes only and is not to be sold.
+%%center Some of these tunes are copyrighted, but may not indicate the composer's name.
+%%center The fact that a tune appears without a composer name does not imply that it is in the
+%%center public domain. Therefore, if you intend to perform, record or publish any of these tunes,
+%%center it is your responsibility to acquire the necessary permissions, if applicable.
+
+%%newpage 225
+%%header "Carp Celtic Jam Tune Book	$P	$D"
 
 X:545
 T: Johnny Muise's Reel
