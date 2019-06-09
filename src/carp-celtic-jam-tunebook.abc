@@ -6164,10 +6164,10 @@ K:D major
 |: "Bm"FBdB FBdB | "G"GBdB GBdB | "A"Acec Acec | "D"fedc dcBA :|
 
 X:340
-T:Valse ‡ Donald
+T:Valse √† Donald
 M:3/4
 L:1/4
-C:Claude MÈthÈ
+C:Claude M√©th√©
 K:A
 A B|:"A"c3|c B A|"D"f2 e|"A"c3/2 A/2 B|c/2e/2-e2|"F#m"c B A|"Bm"F2 A|"E7"B3/2 A/2 B|
 "A"c3|c B A|"D"f2 e|"A"c3/2 A/2 B|c/2e/2-e2|"F#m"c B A|"D"F2 A|1"A / Fine"A3/2 A/2 B:|2"A"A a e|
@@ -7494,7 +7494,7 @@ F3 E D^D"Am"EC|"G"B,4 "D7"z1 D GA|"G"B3 B "G7"BB AG|
 %%newpage
 
 X:422
-T:Joys of Quebec
+T:Joys of Qu√©bec
 M:2/2
 L:1/8
 C:Traditional
@@ -7886,7 +7886,7 @@ AB||"A"c4 cd|"A7"e3 f g2|"D"f3 e d2|"A"c A3 AB|"A"c4 cd|"F#m"e c3 A2|
 "A"c'3 b af|e c3 Bc|"D"d3 e f2|"A"e c3 EF|"G"G3 A B2|"Em"d B3 G2|"D"A4 AB|"A"A6||
 
 X:452
-T:Drops of Brandy (Metis style)
+T:Drops of Brandy (M√©tis style)
 R: Polka
 M:2/4
 L:1/8
@@ -8199,7 +8199,7 @@ K: G
 
 X:477
 T:The Torment
-O:QuÈbec
+O:Qu√©bec
 M:6/8
 L:1/8
 C:Jean-Paul Loyer
@@ -8282,7 +8282,7 @@ M:4/4
 L:1/8
 R:reel
 K:Dmaj
-S:trad QuÈbecois from AndrÈ Brunet
+S:trad Qu√©becois from Andr√© Brunet
 Z:abc from thesession.org modified by J. Kavanagh
 P:AAABBAAACC
 |:"D" D2 FA dfed|"A" c2 Ac "G"B2GB|"D"AB AG FAdf|"A"g2 fa "G"ec "D"d2:|

@@ -121,7 +121,7 @@ def check_song_page_numbers(index_dict):
         "Ashokan Farewell": 48,
         "Ash Grove": 100,
         "Roddy McCorley": 162,
-        "Joys of Quebec": 167,
+        "Lime Hill": 167,
         "Margaret Ann Robertson": 168,
         "Memories of St. Paul Island": 169,
         "Nancy March": 170,
