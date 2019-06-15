@@ -68,6 +68,7 @@ Seymour Shlien (seymour.shlien@crc.ca)
 %%textfont Helvetica-Bold 24
 %%textspace 20
 %%center Ottawa Celtic Slow Jam Tune Book - Volume I
+%%textfont Helvetica 16
 %%center (adapted by the Carp Celtic Jam)
 %%textfont Helvetica 12
 %%vskip 12cm
@@ -2886,7 +2887,8 @@ K: Ador
 %%textfont Helvetica-Bold 24
 %%textspace 20
 %%center Ottawa Celtic Slow Jam Tune Book - Volume II
-%%center (adapted by the Carp Celtic Jam)
+%%textfont Helvetica 16
+%%center (adapted by the Carp Celtic Jam, originally from John Walsh's "Session Tunes")
 %%textfont Helvetica 12
 %%vskip 12cm
 %%center This tune book can be downloaded from the Carp Celtic Jam website:
@@ -2903,7 +2905,76 @@ K: Ador
 
 %%newpage
 
-%%center This page intentionally blank to preserve page layout when printed
+%%textfont Helvetica 18
+%%center ***************** INTRODUCTION (from original volume, John Walsh, 2/4/94) ******************
+%%textoption 1
+%%begintext
+This file contains a number of well-known Irish jigs, reels,
+hornpipes, and polkas, written out in Chris Walshaw's abc notation. To
+print them out, first process the file with the program abc2mtex,
+which will convert it to a Music TeX file, and then run that file
+through Music TeX. See the abc2mtex documentation for an explanation
+of the notation. Both abc2mtex and Music TeX are available for anonymous
+ftp on the archive celtic.stanford.edu.
+
+Like any folk music, these tunes change with time. There may be
+quite different versions of some of them floating around. I have tried
+to give settings which are close to what I hear played. A few tunes
+are transcribed from particular performances, one or two others are
+taken from books--both of these are indicated on the tune notes--but the
+majority are set about as I have heard them played.
+
+Quite a lot is left to the player. The settings are basic: the only
+decorations indicated explicitly are rolls, triplets and quadruplets;
+first and second endings are only written out when they are
+substantially different. Apart from the fact that most players don't
+need to be told when and where to put in a grace note, a lot of gracings
+are done differently on different instruments: carefully-written-out
+fiddle decorations can be a distraction to someone playing the tune on a
+flute. Since the decorations are only indicated generically, not in
+detail, the tunes should be playable on any of the usual instruments.
+(Well..I have only checked them out on the whistle and pipes.) If some
+of the details of the settings turn out to be awkward on a particular
+instrument, just adapt the tune to fit--most players automatically
+modify a tune slightly in order to make it fit the fingers, or to take
+advantage of some particular effect on their instrument. (There are a
+couple of obvious cases, where, for instance, the range is beyond the
+range of the pipes, whistle, and flute. It is up to the individual to
+modify the setting--i.e. to fake it--if they want to play it.)
+
+One thing bears noting: I have written the hornpipes out in
+straight eighth notes, but they are usually played with alternating
+dotted and cut notes: i.e. what I have written as "eighth, eighth,
+eighth, eighth" is often played more like "dotted eighth, sixteenth,
+dotted eighth, sixteenth." The amount of emphasis is a matter of
+style, so some books write out the dotted notes, others don't. I opted
+for the easiest path, and wrote them out in straight eighths.
+
+Thanks to Dan Beimborn and Seamus Keleher for suggesting
+many of these tunes. (Cryptic notations such as Z:Boston just indicate
+that the tune is commonly played in sessions there.  But in fact, most of
+these tunes will be played in sessions all over.)
+
+I make apologies in advance for the typos which have surely
+escaped my proof-reading. Please let me know about any obvious errors,
+or any settings which seem too much at variance with what is played in
+your own area.
+
+When I knew the composer of a tune, I indicated it, but I only knew
+the composers of a couple of the tunes. If any others have known
+composers, I would appreciate hearing about it. As far as I know, the
+remainder of the tunes are public domain. The copyright below does not
+cover the tunes themselves, just the arrangements and the code in this
+file.
+
+Tune 35 is from Bulmer and Sharpley' book; tune 15 from Ceol
+Rince na hEireann, tune 49 from Leo Rowsome's tutor, tune 4 from
+O'Neill's. The remainder of this file is copyright by John B. Walsh,
+January, 1994. It may be freely used, copied and distributed, as long as
+this notice is included with the copy. It may not be sold, or used to
+make hard copies for sale, without express permission of the author.
+
+%%endtext
 
 %%newpage 52
 %%header "Carp Celtic Jam Tune Book	$P	$D"
@@ -3977,7 +4048,8 @@ B|"D"A2f2 fef2|A2g2 gfg2|A2f2 fef2|"G7"efed B2A2 |"D"A2f2 fef2|A2g2 g3a|"G7"b2a2
 %%textfont Helvetica-Bold 24
 %%textspace 20
 %%center Ottawa Celtic Slow Jam Tune Book - Volume III
-%%center (adapted by the Carp Celtic Jam)
+%%textfont Helvetica 16
+%%center (adapted by the Carp Celtic Jam, originally from John Walsh's "Session Tunes II")
 %%textfont Helvetica 12
 %%vskip 12cm
 %%center This tune book can be downloaded from the Carp Celtic Jam website:
@@ -3994,8 +4066,58 @@ B|"D"A2f2 fef2|A2g2 gfg2|A2f2 fef2|"G7"efed B2A2 |"D"A2f2 fef2|A2g2 g3a|"G7"b2a2
 
 %%newpage
 
-%%center This page intentionally blank to preserve page layout when printed
+%%textfont Helvetica-Bold 24
+%%center SESSION TUNES II
+%%textfont Helvetica 20
+%%center Compiled and deranged by John B. Walsh
+%%center INTRODUCTION
 
+%%textfont Helvetica 16
+%%begintext
+This file contains a number of well-known Irish jigs, reels,
+hornpipes, and polkas, written out in abc notation. All of them (with
+one or two possible exceptions that I slipped in bacause I liked them)
+are reasonably common session tunes. The notation is straightforward,
+and can be read directly with a little practice, or it can be
+converted to standard music notation with Chris Walshaw's program
+abc2mtex. The notation is explained in the documentation for the program
+abc2mtex, and can be found on the ceolas archive at celtic.stanford.edu.
+
+There may be quite different versions of some of the tunes floating
+around. A few tunes are transcribed from particular performances, but in general I have tried to give settings which are close to what I hear
+played in sessions.
+
+Quite a lot is left to the player. The settings are basic: the only
+decorations indicated explicitly are rolls, triplets and quadruplets;
+first and second endings are only written out when they are
+substantially different.
+
+There are notes on the tunes in an accompanying file,
+sessionTunesII.txt. I apologize in advance for the many typos which have
+surely escaped my proof-reading. Please let me know about any obvious
+errors in either the tunes or the notes, or any settings which seem
+too much at variance with what is played in your own area. I'd also be
+interested in any more lore about the tunes.
+
+When I knew the composer of a tune, I indicated it, but I only know
+the composers of a couple of them. If any others have known composers, I
+would appreciate hearing about it. As far as I know, all the the tunes
+are in the public domain.
+
+To print them out, first process this file with the program
+abc2mtex, which will convert it to a Music TeX file, and then run that
+file through Music TeX. See the abc2mtex documentation to see how to
+do this. Both abc2mtex and Music TeX are available for anonymous ftp
+on the ceolas archive at celtic.stanford.edu.
+
+Enjoy!
+
+John Walsh
+
+walsh@math.ubc.ca
+
+May 11, 1995
+%%endtext
 %%newpage
 
 %%center This page intentionally blank to maintain legacy page numbering
