@@ -20,9 +20,13 @@ PDFLATEX := pdflatex
 # The default rule, which builds two versions of the tunebook for publication.
 all: $(PUBLISHED_FILES)
 
-# Printable version (cover page, tunes, index)
-$(PUB)/$(CCJTB)-printable.pdf: $(SRC)/cover-page.pdf $(OUT)/blank.pdf $(OUT)/$(CCJTB).pdf $(OUT)/index.pdf | $(PUB)
-	@$(PDFTK) $^ cat output $@
+# Printable version (cover, acknowledgements, tunes, index)
+$(PUB)/$(CCJTB)-printable.pdf: $(SRC)/cover-page.pdf \
+                               $(OUT)/acknowledgements.pdf \
+                               $(OUT)/$(CCJTB).pdf \
+                               $(OUT)/index.pdf \
+                               | $(PUB)
+	@$(PDFTK) $+ cat output $@
 	@echo "Printer-friendly tunebook at $@"
 
 # Tablet-friendly version (tunes and index)
@@ -59,7 +63,7 @@ $(OUT)/$(CCJTB).ps: $(SRC)/$(CCJTB).abc | $(OUT)
 	@sed -i 's/src\/carp-celtic-jam-tunebook.abc/Carp Celtic Jam Tune Book/' $@
 
 # Rule to build a "blank" page from source
-$(OUT)/blank.pdf: $(SRC)/blank.tex | $(OUT)
+$(OUT)/acknowledgements.pdf: $(SRC)/acknowledgements.tex | $(OUT)
 	@$(PDFLATEX) --interaction=batchmode -output-directory $(OUT) $< > /dev/null
 
 # Rule to build a nicely formatted, and up-to-date index file
