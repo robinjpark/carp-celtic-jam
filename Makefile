@@ -3,7 +3,7 @@
 # - A version suitable for printing.  This version includes a title page.
 # - A version suitable for viewing on a computer or tablet.
 
-PUBLISHED_FILES = $(PUB)/$(CCJTB)-printable.pdf $(PUB)/$(CCJTB)-tablet.pdf
+PUBLISHED_FILES = $(PUB)/$(CCJTB)-printable.pdf $(PUB)/$(CCJTB)-tablet.pdf $(PUB)/change-log.docx
 CCJTB = carp-celtic-jam-tunebook
 
 # File locations
@@ -33,6 +33,9 @@ $(PUB)/$(CCJTB)-printable.pdf: $(SRC)/cover-page.pdf \
 $(PUB)/$(CCJTB)-tablet.pdf: $(OUT)/$(CCJTB)-stripped.pdf $(OUT)/index.pdf | $(PUB)
 	@$(PDFTK) $^ cat output $@
 	@echo "Tablet-friendly tunebook at $@"
+
+$(PUB)/change-log.docx: $(SRC)/change-log.docx
+	@cp $^ $@
 
 # The "stripped" version of the tunebook omits the title pages for each volume.
 # The title pages are not desirable when viewing the tunebook on a computer
