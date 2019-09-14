@@ -16,10 +16,13 @@ The following tools must be available:
 - pdflatex
 - make
 
-# Instructions
+# Instructions to Build the Tune Book
 1. Clone the repo.
 1. Run the command 'make' from the directory containing the repo.
 1. The output files suitable for publication are created in the directory 'publish'.
+
+# Instructions to Publish the Tune Book
+Copy the three files from the 'publish' directory to the Carp Celtic Jam Google Drive storage.  That will overwrite the existing published versions with the newer versions.  The links from the CCJ website will then automatically point to this newer versions.  Don't forget to update (and publish) the change log!
 
 # Disclaimer
 This package of tunes was created for informal, jamming purposes only and is not to be sold.  Some of these tunes are copyrighted, but may not indicate the composer's name.  The fact that a tune appears without a composer name does not imply that it is in the public domain. Therefore, if you intend to perform, record or publish any of these tunes, it is your responsibility to acquire the necessary permissions, if applicable.
