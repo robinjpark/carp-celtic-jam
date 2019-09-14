@@ -9,4 +9,4 @@ some title pages
 
 Note that the index is NOT here.  There is no need to manually update the index.  Building the project automatically re-generates the index from the abc source and adds it to both the printable and tablet-friendly publishable versions of the tune book.
 
-** Do not forget to update the change log when updating the abc file! **
+**Do not forget to update the change log when updating the abc file!**
