@@ -9223,14 +9223,23 @@ M:4/4
 L:1/4
 Z:http://www.numachi.com/~rickheit/dtrad/abc/FADELOVE.abc	 2002-02-26 04:57:29 UT
 K:D
-"A7"D F|:"D" A2 (A>B)|"D7" A F E D|"G" d2 d3/2 e/2| d2 c B|
-"D" A2 (A>B)| A F E D|"E7" E2 E>F|"A7" E2 "D"D F|
-"D" A2 (A>B)|"D7" A F E D|"G" d2 (d>e)| d>d c B|
-"D" A>A c d|"A7" e>e Bc|"D" d2 d>e|d2 fg|
-"D" a2 (a>b)| a f e d|"G" B2 B>c| d2 "A7"fg|
-"D" a2 (a>b)| a f e d|"E7" e2 e>f|"A7" e2 fg|
-"D" a2 (a>b)| a f e d|"G" B2 (Bc)| d>d c B|
-"D" A>A cd|"A7" e>e Bc||1"D" d2 "Fdim"d>e|"D"d2 "A7"DF:|2"D7"d2 "G"d>e|"D"d2 z2||
+"A7"D F|:"D" A2 (A>B)|"D7" A F E D|"G" d2 d3/2 e/2| d2 c B| "D" A2 (A>B)| A F E D|"E7" E2 E>F|"A7" E2 "D"D F|
+"D" A2 (A>B)|"D7" A F E D|"G" d2 (d>e)| d>d c B| "D" A>A c d|"A7" e>e Bc|"D" d2 d>e|d2 fg|
+"D" a2 (a>b)| a f e d|"G" B2 B>c| d2 "A7"fg| "D" a2 (a>b)| a f e d|"E7" e2 e>f|"A7" e2 fg|
+"D" a2 (a>b)| a f e d|"G" B2 (Bc)| d>d c B| "D" A>A cd|"A7" e>e Bc||1"D" d2 "Fdim"d>e|"D"d2 "A7"DF:|2"D7"d2 "G"d>e|"D"d2 z2||
+
+X: 541
+T:Maiden's Prayer
+C:Bob Wills
+N:circa 1935
+M:2/2
+L:1/8
+K:D
+"D" (D4 D)FAd | f8 | e3 f e2 d2 | "G" B8 | "A7" E3 ^C E2 A2 | (c6c)c | B3 c B2 A2 | "D" F6 z2 ||
+"D" D2 F2 A2 d2| f8 | e3 f e2 d2 | "G" B6 dB | "D" AFAB "G" d3 B | "D" AFAB "G" d3 B | "D" AFAB "A7" f2 e2 | "D" d6 z2 ||
+"D" D2 F2 A2 d2| f8 | e3 f e2 d2 | "G" B8 | "A7" E3 ^C E2 A2 |  (c6c)c | B3 c B2 A2 | "D" F6 z2 ||
+"D" D2 F2 A2 d2| f8 | e3 f e2 d2 | "G" B6 dB | "D" AFAB "G" d3 B | "D" AFAB "G" d3 B | "D" AFAB "A7" f2 e2 | "D" d6 z2 |]
+
 
 
 %%newpage
