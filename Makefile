@@ -50,7 +50,7 @@ $(OUT)/$(CCJTB)-stripped.pdf: $(OUT)/$(CCJTB).pdf
 	@# Page 105 is the title page for the Carp Celtic Jam Addendum
 	@# Page 231 is the title page for the Carp Celtic Jam Addendum II
 	@$(PDFTK) TB=$^ cat TB2-52 TB55-74 TB77-104 TB106-230 TB232-end output $@
-	@echo "Counting pages in the stripped version--there should be 231!"
+	@echo "Counting pages in the stripped version--there should be 232!"
 	@$(PDFTK) $@ dump_data | grep NumberOfPages
 
 # Rule to convert postscript to pdf
