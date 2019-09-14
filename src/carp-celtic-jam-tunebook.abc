@@ -9557,4 +9557,22 @@ CD || "A"  E2 A3 B | "A7" c3 c Bc | "D" d2 A3 F  | "Bm" D4 F2 |
       "A"  ea a3 A | "A7/C#" Ac c3 d | "D" df fd Bd | "Bm" F4 (3FGF |
       "E7" E2 G3 B |        g2 f2 g2 | "A" a3 g ab  | a4 |]
 
-
+%%newpage
+X: 560
+T: A Hundred Thousand Welcomes
+T: Ceud Mile Failte
+C: J. M. Mason
+R: march
+M: 4/4
+L: 1/8
+K: A
+z E | "A" A3 E c3 B | "D" A>BAG "A" F2 (CD) | E2 (A>B) "F#m" cedc | "B7" c2 B2 "E" B3 E |
+"A" A3 E c3 B | "D" A>BAF "A" E (A>G) | "D" FAdf "E" ecdB | "A" c2 "D" A2 "A" A2 :|]
+[|: (ef/2g/2) | "A" aAce a2 (a>g) | "D" fAdf "A" e2 (ed) | c>BAc "F#m" e>feA | "B7" c2 B2 "E" B2 (ef/2g/2) |
+| "A" aAce a2 (a>g) | "D" fAdf "A" e2 (A>G) | "D" FAdf "E" ecdB | "A" c2 "D" A2 "A" A2 :|]
+[|: z E | "A" C3 D E2 (c>B) | "D" A>BAG "A" F2 (C>D) | E2 (A>B) "F#m" cedc | "B7" c2 B2 "E" B3 E |
+"A" C3 D E2 (c>B) | "D" A>BAF "A" E2 (A>G) | "D" FAdf "E" ecdB | "A" c2 "D" A2 "A" A2 :|]
+[| (ef/2g/2) | "A" aAce a>bag | "D" fAdf "A" e2 (e>d) | c>BAc "F#m" efeA | "B7" c2 B2 "E" B2 (ef/2g/2) |
+"A" aAce a>bag | "D" fAdf "A" e2 (A>G) | "D" FAdf "E" ecdB | "A" c2 "D" A2 "A" A2  (ef/2g/2) |
+"A" aAce a>bag | "D" fAdf "A" e2 (e>d) | c>BAc "F#m" efeA | "B7" c2 B2 "E" B2 E2 |
+"A" C3 D E2 (c>B) | "D" A>BAF "A" E2 (A>G) | "D" FAdf "E" ecdB | "A" c2 "D" A2 "A" [A2E2] |]
