@@ -7,7 +7,7 @@ Those files can them be uploaded onto the Carp Celtic Jam's website for public
 access.
 
 # Requirements to Build Tune Book
-The build process has been tested on a Linux system running Ubuntu 18.04.2 LTS, although any Linux system should be capable of building the tune book.
+The build process assumes a Linux environment.  In theory, any Linux system should be capable of building the tune book.  In practice, good luck.
 
 The following tools must be available:
 - abcm2ps
@@ -15,6 +15,10 @@ The following tools must be available:
 - pdftk
 - pdflatex
 - make
+
+The build process was originally (circa 2019) tested on a Linux system running Ubuntu 18.04.2 LTS.  
+
+More recently (2024), it was tested on a Windows 10 PC running Ubuntu 24.04.1 LTS within WSL2.  I had to download/build/install abcm2ps from its source (https://github.com/lewdlime/abcm2ps) to get it to work.  The easier installation suggested by Ubuntu did not work.
 
 # Instructions to Build the Tune Book
 1. Clone the repo.
